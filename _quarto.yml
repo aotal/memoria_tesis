@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Soluciones de reconstrucción mediante RMN"
+  author: "Antonio Otal Palacín"
+  chapters:
+    - index.qmd
+    - introduction.qmd
+    - m&m.qmd
+    - results.qmd
+    - discusion.qmd
+    - conclusions.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

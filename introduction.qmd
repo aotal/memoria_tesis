@@ -1,0 +1,22 @@
+# Introducción
+
+## Braquiterapia
+
+## Flujo de trabajo en braquiterapia
+
+## Imagen en braquiterapia
+
+### Ultrasonidos
+
+### Tomografía computerizada
+
+### Resonancia magnética nuclear
+
+## Registro de imágenes
+
+### Registro rígido
+
+### Registro deformable
+
+## Tumores ginecológicos
+
