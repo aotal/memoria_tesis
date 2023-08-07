@@ -1,0 +1,40 @@
+### Qué es un aplicador en braquiterapia?
+
+Qué es un aplicador en braquiterapia
+Un aplicador en braquiterapia es un dispositivo utilizado para administrar radioterapia de baja distancia. Este dispositivo se coloca directamente en el área de tratamiento o cerca de ella y contiene fuentes radiactivas que emiten radiación para tratar el tejido localizado. Los aplicadores pueden ser de diferentes formas y tamaños, dependiendo de la región del cuerpo que se está tratando. Por ejemplo, en ginecología, se utilizan aplicadores en forma de anillo y ovoide para tratar el cáncer de cuello uterino o de endometrio. También hay aplicadores utilizados en casos de cáncer de mama y bronquios, entre otros. Los aplicadores pueden ser de plástico o titanio y deben cumplir con los requisitos de seguridad y regulación establecidos para su uso clínico .
+
+
+### Explicame qué son los aplicadores plásticos en braquiterapia
+Los aplicadores plásticos en braquiterapia son dispositivos utilizados en el tratamiento de cáncer y otras enfermedades que involucren la inserción de fuentes de radiación de manera temporal o permanente en el cuerpo del paciente. Estos aplicadores están hechos de plástico y se utilizan en diferentes tipos de brachyterapia, como la braquiterapia ginecológica, bronquial y de mama.
+
+En la braquiterapia ginecológica, los aplicadores plásticos se utilizan para tratar cánceres del cuello uterino y de la vagina. Se colocan dentro del cuerpo de la paciente y permiten una dosificación precisa de la radiación. Estos aplicadores pueden tener forma de anillo o de ovoides, y son compatibles con imágenes de resonancia magnética y tomografías computarizadas para una planificación precisa del tratamiento [22a].
+
+En la braquiterapia bronquial, los aplicadores plásticos son tubos estrechos y flexibles que se introducen en las vías respiratorias del paciente para tratar tumores en los pulmones. Estos aplicadores tienen un dispositivo de acoplamiento que se conecta al equipo de braquiterapia y permiten la inserción de fuentes de radiación. Los aplicadores bronquiales no son reutilizables y se utilizan para asegurar una dosis precisa de radiación en la región objetivo [22b].
+
+En la braquiterapia de mama, los aplicadores plásticos se utilizan para tratar tumores en la mama después de la cirugía conservadora de mama. Estos aplicadores pueden ser agujas rígidas o tubos flexibles y se utilizan para crear y mantener un implante regular en la cavidad donde se encontraba el tumor. Los aplicadores pueden tener diferentes diseños y pueden incluir múltiples catéteres para una dosificación precisa de la radiación. Los aplicadores plásticos en braquiterapia de mama permiten tratar la pared de la cavidad quirúrgica y evitar dosis altas en la piel del paciente [23].
+
+En resumen, los aplicadores plásticos en braquiterapia son dispositivos utilizados en diferentes tipos de tratamientos de braquiterapia, como la braquiterapia ginecológica, bronquial y de mama. Estos aplicadores permiten la inserción y colocación precisa de fuentes de radiación en el cuerpo del paciente para el tratamiento de tumores y enfermedades.
+
+### Cómo están construidos los aplicadores plásticos de braquiterapia?
+Los aplicadores plásticos de braquiterapia están construidos utilizando tubos de plástico que son compatibles con imágenes de resonancia magnética (RM) y tomografía computarizada (TC) [22a]. Estos aplicadores pueden tener forma de anillo, óvalo, recto, o cualquier otro diseño específico según la ubicación y el tipo de tumor a tratar [22a].
+
+Los aplicadores ginecológicos, por ejemplo, pueden estar equipados con tubos de fuente de plástico o titanio y tienen la opción de perforar agujeros adicionales para colocar agujas adicionales en las parametrias, lo que permite una cobertura adicional del tumor [22a]. Además, algunos de estos aplicadores pueden estar equipados con retractores específicos para proteger el recto durante el tratamiento [22a].
+
+Los aplicadores bronquiales son tubos de plástico estrechos que se introducen en un broncoscopio y se acoplan a un dispositivo de acoplamiento conectado al cargador posterior [22b][22c]. Estos aplicadores no son reutilizables y la especificación de dosis se realiza a una distancia determinada del corazón del catéter [23a].
+
+En el caso de los aplicadores de mama, se pueden utilizar agujas rígidas o tubos flexibles para crear un implante regular. Se han diseñado varios dispositivos, como plantillas con orificios previamente perforados, soportes para plantillas, "puentes" y mecanismos de compresión para ayudar en la colocación y mantenimiento del implante [23b]. Además, existe un tipo de aplicador en forma de globo llamado MammoSite Balloon, que se deja en el seno después de una cirugía de tumorectomía. Este aplicador tiene un catéter centralizado y una posición de estancia en el centro de la cavidad quirúrgica, y se utiliza para irradiar la pared de la cavidad [23b].
+
+En resumen, los aplicadores plásticos de braquiterapia están diseñados y construidos específicamente para cada aplicación clínica y pueden variar en forma, tamaño y características especiales según la ubicación y el tipo de tumor a tratar. Estos aplicadores están hechos de tubos de plástico que son compatibles con imágenes de RM y TC, y se utilizan para guiar la colocación y administración precisa de la radiación durante el tratamiento de braquiterapia.
+
+### Cómo están hechos los aplicadores metálicos compatibles con resonancia magnética nuclear?
+Los aplicadores metálicos compatibles con resonancia magnética nuclear están hechos de materiales no ferromagnéticos como cerámica, fibra de vidrio, plásticos y caucho [50]. Tienen tubos de origen de plástico o titanio para evitar distorsiones en las imágenes que podrían causar problemas en la reconstrucción [22a]. Estos aplicadores también pueden estar equipados con retenedores específicos para permitir la protección del recto durante un tratamiento de HDR en ginecología [22a]. Además, es importante destacar que los aplicadores específicos para cada sistema son necesarios ya que los conectores son específicos para cada sistema y mezclar aplicadores de diferentes fabricantes es prácticamente imposible [22b].
+
+### Qué características tienen los aplicadores que son a la vez intersticiales e intracavitarios a la vez?
+Los aplicadores que son a la vez intersticiales e intracavitarios tienen las siguientes características:
+
+Son utilizados en técnicas combinadas de braquiterapia, donde se busca aumentar la flexibilidad en la optimización de la posición de la fuente en la geometría del implante [48].
+Están fabricados con materiales como fibra de carbono o titanio [48].
+Pueden incluir escudos móviles para proteger órganos como el recto y la vejiga [48].
+El uso de imágenes de resonancia magnética (MRI) se reconoce ampliamente como una técnica que mejora la calidad de los tratamientos con estos aplicadores [48].
+La aplicación de dosis de radiación puede ser modulada espacialmente, tratando todo el órgano a una dosis requerida y administrando dosis mucho más altas a partes específicas mediante la técnica de "pintado de dosis" [48].
+

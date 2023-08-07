@@ -1,0 +1,31 @@
+### Explica la diferencia entre braquiterapia intersticial e intracavitaria
+
+La braquiterapia intersticial e intracavitaria son dos técnicas diferentes utilizadas en el tratamiento del cáncer que implican la colocación de fuentes de radiación dentro o cerca del tumor. La diferencia principal radica en la ubicación de las fuentes de radiación en relación con el tumor.
+
+La braquiterapia intersticial implica la inserción de catéteres o agujas directamente dentro del tejido cercano al tumor. Estos catéteres se colocan de manera precisa para asegurar que el volumen tumoral reciba una dosis de radiación adecuada. Esta técnica se utiliza en tumores sólidos como el cáncer de mama, donde se requiere una radiación focalizada y precisa en un área específica.
+
+[75]Por otro lado, la braquiterapia intracavitaria implica la inserción de fuentes de radiación dentro de cavidades corporales, como la vagina, el útero o el recto. Estas fuentes de radiación se colocan en dispositivos específicos diseñados para adaptarse a la cavidad y administrar la dosis de radiación necesaria al tejido circundante. Esta técnica se utiliza comúnmente en el tratamiento del cáncer de cuello uterino y otros cánceres ginecológicos.
+
+
+### Qué características tienen los aplicadores que son a la vez intersticiales e intracavitarios a la vez?
+Los aplicadores que son a la vez intersticiales e intracavitarios tienen las siguientes características:
+
+Son utilizados en técnicas combinadas de braquiterapia, donde se busca aumentar la flexibilidad en la optimización de la posición de la fuente en la geometría del implante [48].
+Están fabricados con materiales como fibra de carbono o titanio [48].
+Pueden incluir escudos móviles para proteger órganos como el recto y la vejiga [48].
+El uso de imágenes de resonancia magnética (MRI) se reconoce ampliamente como una técnica que mejora la calidad de los tratamientos con estos aplicadores [48].
+La aplicación de dosis de radiación puede ser modulada espacialmente, tratando todo el órgano a una dosis requerida y administrando dosis mucho más altas a partes específicas mediante la técnica de "pintado de dosis" [48].
+
+### Cuales son las localizaciones más frecuentes tratadas con braquiterapia intracavitaria?
+Las localizaciones más frecuentemente tratadas con braquiterapia intracavitaria incluyen el cáncer cervical, el cáncer de cabeza y cuello, y el cáncer de cavidad oral y bucal. Estas localizaciones son mencionadas en el Documento VI_Developments in Clinical Brachytherapy.pdf en los siguientes fragmentos:
+
+24.5.6 Recomendaciones de práctica clínica: Este fragmento se refiere a las recomendaciones de práctica clínica en braquiterapia intracavitaria para el tratamiento del cáncer cervical.
+[10a]- Kirisits, C., Pötter, R., Lang, S. et al. 2005. Dose and volume parameters for MRI-based treatment planning in intracavitary brachytherapy for cervical cancer. Int J Radiat Oncol Biol Phys 62:901–11. Este estudio se centra en la planificación del tratamiento con braquiterapia intracavitaria basado en imágenes de resonancia magnética para el cáncer de cuello uterino.
+
+[10b]- Kirisits, C., Lang, S., Dimopoulos, J., Berger, D., Georg, D., Pötter, R. 2006. The Vienna applicator for combined intracavitary and interstitial brachytherapy of cervical cancer: Design, application, treatment planning, and dosimetric results. Int J Radiat Oncol Biol Phys 65:624–30. Este estudio se centra en el uso del aplicador de Viena para la braquiterapia intracavitaria y braquiterapia intersticial combinada para el cáncer cervical.
+
+[10c]Por lo tanto, el cáncer cervicouterino es una de las localizaciones más frecuentemente tratadas con braquiterapia intracavitaria. Sin embargo, ten en cuenta que esta no es una lista exhaustiva y hay otras localizaciones que también pueden ser tratadas con braquiterapia intracavitaria.
+
+### Cuales son las localizaciones más frecuentes tratadas con braquiterapia intersticial?
+Las localizaciones más frecuentes tratadas con braquiterapia intersticial son el cáncer de cabeza y cuello, incluyendo carcinoma de labio, cáncer bucal y carcinoma orofaríngeo. También se utiliza en el tratamiento de enfermedades benignas como los queloides y el pterigio. [90], [91a], [91b], [94a], [94b], [112]
+
