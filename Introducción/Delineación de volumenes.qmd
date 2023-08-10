@@ -1,0 +1,48 @@
+### Wich are the volumes it is mandatory to segment? [@haie-mederRecommendationsGynaecologicalGYN2005]
+
+GTV (Gross Tumor Volume) - Volumen del tumor visible macroscópicamente. HR CTV (High Risk Clinical Target Volume) - Volumen clínico objetivo de alto riesgo. \[8a\] \[5a\] IR CTV (Intermediate Risk Clinical Target Volume) - Volumen clínico objetivo de riesgo intermedio. \[8a\] \[5a\] OAR (Organs at Risk) - Órganos en riesgo, como el recto, sigmoides, vejiga y vagina. \[6\] \[8b\] Volumen de interés de alto nivel de dosis (High Dose Volume) - Volumen que recibe una dosis alta. \[1\] \[5b\] Es importante destacar que estos volúmenes deben ser segmentados y evaluados para mejorar la planificación del tratamiento y la protección de los órganos en riesgo.
+
+### How IR CTV should be segmented after EBRT? [@haie-mederRecommendationsGynaecologicalGYN2005]
+
+Después de la radioterapia externa (EBRT), la segmentación del CTV intermedio (IR CTV) debe realizarse de la siguiente manera:
+
+En caso de remisión completa, el IR CTV incluye el CTV de alto riesgo (HR CTV) y la extensión inicial del tumor en el momento del diagnóstico, sin márgenes de seguridad adicionales.
+
+En caso de una buena remisión, el IR CTV incluye el HR CTV y la extensión inicial del tumor en el momento del diagnóstico.
+
+En caso de una mala remisión, que incluye una enfermedad residual extracervical de menos de 10 mm (por ejemplo, parametrios), se agrega un margen de seguridad de al menos 10 mm en la dirección de la posible propagación (parametrios, vagina, útero) al HR CTV.
+
+Estas recomendaciones proporcionan una guía para la segmentación del IR CTV después de la EBRT en el tratamiento del cáncer de cuello uterino.
+
+### How HR CTV should be segmented after EBRT?
+
+Después de la terapia de radiación externa (EBRT), el HR CTV debe segmentarse de acuerdo con la extensión macroscópica residual del tumor y la respuesta del paciente. En caso de buena remisión tumoral, el HR CTV debe incluir el CTV HR inicial más la extensión tumoral macroscópica en el momento del diagnóstico. En este caso, no se deben agregar márgenes de seguridad adicionales \[9\]. Sin embargo, si la remisión tumoral es pobre, es decir, si hay una residualidad de menos de 10 mm, incluyendo enfermedad residual extracervical (por ejemplo, parametria), se debe agregar un margen de seguridad mínimo de 10 mm en dirección a la propagación potencial de la enfermedad (parametria, vagina, útero) al HR CTV \[9\].
+
+### Is there differences if the OAR are segmented on MRI or CT?
+
+Sí, hay diferencias si los OAR (órganos en riesgo) se segmentan en MRI o CT. Según el documento \[8\], aunque la calidad de la discriminación de la vejiga, el recto, el sigmoides, el intestino y la vagina es básicamente similar en CT y MRI, la delineación parece ser más precisa al utilizar MRI. Además, el mismo documento menciona que la elección del sistema de imágenes 3D más adecuado para la delineación es de gran importancia, ya que las variaciones en la delineación dentro de unos pocos milímetros conducen a una variación significativa de la dosis debido a la ley del inverso del cuadrado. Por lo tanto, utilizar MRI para segmentar los OAR puede conducir a una mejor precisión en la delineación y evitar discrepancias en la dosis [@fellner2001] .
+
+### Which are the paremeters we should report?
+
+Los parámetros que se deben reportar en el tratamiento de braquiterapia basado en imágenes 3D para el cáncer de cuello uterino son los siguientes:
+
+Dosimetría: D100 y D90 para GTV y CTV HR e IR, respectivamente. También se recomienda informar la dosis en los puntos de referencia ICRU para la vejiga y el recto (D0.1cc, D1cc, D2cc) y para órganos en riesgo adicionales si se realiza la delineación de las paredes del órgano (D5cc, D10cc) \[5a\]\[9a\].
+
+Características del tratamiento: se deben describir el radionúclido, el tipo de fuente (alambre, fuente móvil), la potencia de la fuente, el tipo de aplicador, el tipo de carga (manual o a distancia) y describir las agujas intersticiales adicionales, si las hubiera \[9b\].
+
+Prescripción de la dosis: especificar la dosis prescrita y el método de especificación de la dosis \[9b\].
+
+Anatomía y Patología: describir la situación clínica completa, incluyendo información sobre anatomía y patología, dimensiones y volumen de GTV al diagnóstico y al momento de la braquiterapia, y dimensiones y volúmenes de CTV HR e IR \[9b\].
+
+Técnica de Braquiterapia: describir la técnica de braquiterapia utilizada, como el patrón de carga estándar, el método de reconstrucción del aplicador y el método de optimización, si se aplica \[9b\].
+
+Patrón de Dosis en el Tiempo: proporcionar una descripción completa del patrón de dosis en el tiempo, incluyendo dosis físicas y dosis ponderadas biológicamente (EQD2) para GTV, CTV y OAR \[9c\].
+
+Valores de Dosis: informar los valores de dosis de fracciones individuales en dosis absorbida y, opcionalmente, en forma ponderada biológicamente. Para todo el tratamiento, los valores de dosis totales deben informarse en dosis física y en dosis ponderada biológicamente (EQD2) \[9d\]\[9e\].
+
+También se recomienda proporcionar una descripción completa de la técnica de imagen seccional 3D y del procedimiento de contorneo, y mencionar si el volumen del aplicador está incluido en los parámetros evaluados \[5b\].
+
+Es importante tener en cuenta que estos parámetros deben ser clínicamente verificados y su relevancia debe ser establecida a través de estudios adicionales. Además, se pueden reportar parámetros adicionales según las tradiciones institucionales \[9f\].
+
+### What are the ICRU points? 
+Los puntos ICRU son puntos de referencia de dosis estándar que se utilizan en la braquiterapia ginecológica para correlacionar la dosis de radiación con los efectos en los tejidos normales. Estos puntos fueron propuestos en el informe 38 del ICRU (Comisión Internacional de Unidades y Medidas de Radiación) y se utilizan para la especificación de la dosis en la terapia intracavitaria en ginecología \[6\]. Los puntos ICRU incluyen el punto A y los puntos de referencia de la ICRU para la vejiga y el recto (D0.1cc, D1cc, D2cc) \[9\]. [@ICRU38]

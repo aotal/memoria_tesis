@@ -32,11 +32,25 @@ En el documento "Embrace II Protocol.pdf" se menciona en el número \[101\] que 
 
 La aplicación de la registración de imágenes en braquiterapia ginecológica se menciona en el documento [@kesslerImageRegistrationData2006]. Según el documento, la registración de imágenes se utiliza en la planificación y entrega del tratamiento de radioterapia. En específico, se menciona la registración de imágenes para la planificación de braquiterapia intracavitaria [@christensen2001]. Esta registración de imágenes ayuda en la planificación de dosis basada en imágenes y en el uso de plantillas anatómicas deformables [@christensen2001]. La registración de imágenes también se puede utilizar para mapear datos de imágenes entre diferentes estudios y fusionar datos para evaluar los cambios fisiológicos y anatómicos durante el tratamiento.
 
+La aplicación de registro de imágenes en braquiterapia ginecológica se utiliza para diversos propósitos. Algunas de las aplicaciones comunes incluyen:
+
+Reconstrucción del aplicador: El registro de imágenes se utiliza para reconstruir el aplicador utilizado en la braquiterapia ginecológica, lo que permite una planificación precisa del tratamiento \[4\].
+
+Transferencia de volumen objetivo: El registro de imágenes se utiliza para transferir los contornos del volumen objetivo desde una fracción de resonancia magnética (RM) inicial a las tomografías computarizadas (TC) utilizadas en las fracciones posteriores \[1\].
+
+Acumulación de dosis: El registro de imágenes se utiliza para acumular las dosis de radioterapia externa (EBRT) y braquiterapia (BT) en la braquiterapia ginecológica. Esto permite obtener una estimación precisa de la dosis absorbida total en el área de tratamiento \[1\].
+
+Propagación de contorno: El registro de imágenes se utiliza para propagar los contornos del volumen objetivo entre las diferentes fracciones de braquiterapia, lo que garantiza una planificación del tratamiento coherente \[1\].
+
+Es importante destacar que el registro de imágenes es especialmente desafiante en la región pélvica debido a las deformaciones complejas causadas por el encogimiento del tumor, el llenado de la vejiga y el recto, y la inserción del aplicador de braquiterapia. Además, existen limitaciones y incertidumbres asociadas al uso de algoritmos de registro de imágenes deformables en la acumulación de dosis de radioterapia externa y braquiterapia \[1\].
+
+Espero que esta información sea útil.
+
 ### Limitations of image registartion in applicator reconstruction (Comprehensive Brachy)
 
 Las limitaciones de la registración de imágenes en la reconstrucción del aplicador se deben a varios factores. En primer lugar, la calidad de las imágenes utilizadas para la registración puede influir en la precisión del proceso. Por ejemplo, en el caso de la resonancia magnética (MRI), las distorsiones de la imagen pueden afectar la exactitud de la registración [@dimopoulosRecommendationsGynaecologicalGYN2012].
 
-Además, la reconstrucción del aplicador puede presentar incertidumbres dependiendo de la modalidad de imagen utilizada y la calidad de la misma. En general, la tomografía computarizada (CT) permite una definición más precisa del canal fuente[@hellebust2007], mientras que la MRI puede estar asociada con más incertidumbres debido a los desafíos en la discriminación de los canales fuente en las imágenes de resonancia magnética [@berger2009;@deleeuw2009;@haack2008;@kirisits2005].
+Además, la reconstrucción del aplicador puede presentar incertidumbres dependiendo de la modalidad de imagen utilizada y la calidad de la misma. En general, la tomografía computarizada (CT) permite una definición más precisa del canal fuente[@hellebust2007], mientras que la MRI puede estar asociada con más incertidumbres debido a los desafíos en la discriminación de los canales fuente en las imágenes de resonancia magnética [@berger2009; @deleeuw2009; @haack2008; @kirisits2005].
 
 También es importante tener en cuenta que la registración de imágenes puede verse afectada por artefactos metálicos o de blindaje causados por los aplicadores en las imágenes. En las imágenes de resonancia magnética, los aplicadores rígidos pueden mostrar grandes vacíos debido a la ausencia de contenido de agua, lo que puede dificultar la registración precisa.
 
@@ -55,3 +69,19 @@ Distorsión geométrica: La RM también puede presentar distorsiones geométrica
 Fusiones de imágenes: Cuando se realizan fusiones de imágenes adicionales (por ejemplo, tomografía computarizada , imágenes de rayos X) para ayudar al procedimiento de reconstrucción, las imágenes utilizadas para la delineación y reconstrucción deben estar correctamente co-registradas. Las incertidumbres en la fusión de imágenes pueden ocasionar desplazamientos erróneos del aplicador y generar incertidumbres en los cálculos de dosis correspondientes.
 
 Es importante tener en cuenta que estos documentos proporcionan recomendaciones y pautas para minimizar las incertidumbres en la reconstrucción del aplicador. Sin embargo, es importante que cada departamento caracterice sus propios aplicadores como parte de su procedimiento de comisionamiento del aplicador \[6\].
+
+### Traduccción de review [@swamidasImageRegistrationContour2020]
+
+En ciertos escenarios donde la reconstrucción del aplicador no se puede realizar en el mismo conjunto de imágenes utilizado para el contorneo y cálculo de dosis, se utiliza la registro de imágenes para transferir la información del aplicador de un conjunto de imágenes a otro, por ejemplo, las imágenes de TC se utilizan para visualizar los aplicadores/agujas, mientras que la resonancia magnética (RM) o la ecografía transrectal (TRUS) se utiliza para delinear el volumen objetivo. En este tipo de escenarios, se recomienda realizar una registro rígida, con el aplicador que contiene la fuente de radiación como sistema de referencia en lugar del hueso [@hellebustRecommendationsGynaecologicalGYN2010a]. En un implante, incluso si el aplicador cambia de posición con respecto a las estructuras óseas, el volumen objetivo e incluso partes de los órganos en riesgo (OAR) se moverán junto con el aplicador.
+
+El registro entre secuencias de resonancia magnética (RM) con el mismo aplicador BT generalmente es sencillo porque el aplicador se muestra como un vacío negro en la RM en contraste con los tejidos circundantes. Sin embargo, el registro de imágenes de RM y tomografía computarizada (TC) es más desafiante porque el aplicador se ve de manera diferente en estas dos modalidades de imagen. En la TC, el canal fuente es claramente visible, mientras que el cuerpo y la superficie del aplicador pueden no contrastar con los tejidos circundantes. Los futuros sistemas de planificación con herramientas automáticas para el registro de imágenes relacionadas con el aplicador tienen el potencial de mejorar la precisión del registro. El registro entre secuencias de diferentes inserciones de aplicador puede ser difícil si la geometría del aplicador es diferente (por ejemplo, anillo diferente, angulación de tándem diferente o tamaño o separación de los ovoides diferentes).
+
+### What are the challenges and limitations of image registration in applicator reconstruction?
+
+Los desafíos y limitaciones de la registración de imágenes en la reconstrucción del aplicador son los siguientes:
+
+Deformación de la anatomía local: La presencia del aplicador y el empacamiento vaginal puede crear deformaciones significantes en la anatomía local que son difíciles de modelar. La mayoría de los algoritmos de registración de imágenes se basan en la correspondencia directa entre los píxeles de las imágenes, lo cual crea un problema cuando el aplicador está presente en un conjunto de datos y no en el otro[@rigaud2019].
+
+Correspondencia entre imágenes de CT y MRI: La registración entre imágenes de resonancia magnética (MRI) y tomografía computarizada (CT) es más desafiante debido a que el aplicador se ve diferente en estas dos modalidades de imagen. En la CT, el canal fuente es claramente visible, mientras que el cuerpo y la superficie del aplicador pueden no contrastar con el tejido circundante. Se requiere investigación adicional para mejorar la precisión de la registración en este aspecto. [@berger2009]
+
+Validación de algoritmos de registración: Los algoritmos de registración de imágenes aún no son lo suficientemente robustos para manejar la acumulación de dosis en radioterapia externa de haz (EBRT) y braquiterapia (BT). Se necesita investigación adicional en el desarrollo de algoritmos específicos para BT y en métodos de validación de registración de imágenes en BT [@amir-khalili2017].
