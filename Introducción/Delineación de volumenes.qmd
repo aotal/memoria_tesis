@@ -44,5 +44,6 @@ También se recomienda proporcionar una descripción completa de la técnica de 
 
 Es importante tener en cuenta que estos parámetros deben ser clínicamente verificados y su relevancia debe ser establecida a través de estudios adicionales. Además, se pueden reportar parámetros adicionales según las tradiciones institucionales \[9f\].
 
-### What are the ICRU points? 
+### What are the ICRU points?
+
 Los puntos ICRU son puntos de referencia de dosis estándar que se utilizan en la braquiterapia ginecológica para correlacionar la dosis de radiación con los efectos en los tejidos normales. Estos puntos fueron propuestos en el informe 38 del ICRU (Comisión Internacional de Unidades y Medidas de Radiación) y se utilizan para la especificación de la dosis en la terapia intracavitaria en ginecología \[6\]. Los puntos ICRU incluyen el punto A y los puntos de referencia de la ICRU para la vejiga y el recto (D0.1cc, D1cc, D2cc) \[9\]. [@ICRU38]

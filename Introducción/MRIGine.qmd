@@ -24,7 +24,9 @@ Además, la RMN también se utiliza para la evaluación y adaptación de la radi
 
 La braquiterapia ginecológica también se beneficia de la RMN en la delineación del objetivo. El artículo [@dimopoulos2009] compara la delineación del objetivo para la braquiterapia asistida por RMN del cáncer de cuello uterino y utiliza las recomendaciones del GYN GEC-ESTRO (Sociedad Europea de Terapia por Radiación y Oncología Ginecológica). La RMN proporciona información detallada y ayuda a definir con precisión el objetivo del tratamiento.
 
-Además de estos usos clínicos, también existe un estudio internacional llamado EMBRACE que se centra en la braquiterapia guiada por RMN en el tratamiento del cáncer de cuello uterino avanzado. El [enlace](https://www.embracestudy.dk/) proporciona más información sobre este estudio.
+Además de estos usos clínicos, también existe un estudio internacional llamado EMBRACE que se centra en la braquiterapia guiada por RMN en el tratamiento del cáncer de cuello uterino avanzado. El [enlace] proporciona más información sobre este estudio.
+
+  [enlace]: https://www.embracestudy.dk/
 
 ### What are the recommended scanning parameters for obtaining accurate MR images of cervical cancer?
 
