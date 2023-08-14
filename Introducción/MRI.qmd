@@ -1,0 +1,15 @@
+La imagen por resonancia magnética es una sofisticada técnica médica de diagnóstico por imagen. A diferencia de los rayos X, que emplean radiaciones ionizantes, la IRM utiliza potentes campos magnéticos y ondas de radiofrecuencia para generar imágenes sin exponer a los pacientes a radiaciones ionizantes.
+
+El principio de la resonancia magnética nuclear se basa en el comportamiento de los núcleos atómicos cuando se someten a un campo magnético intenso y a determinados pulsos de radiofrecuencia (RF). En concreto, los núcleos (normalmente núcleos de hidrógeno o protones) se alinean con el campo magnético externo como si fuesen pequeños imanes.
+
+Las máquinas de MRI disponen de potentes imanes que crean un campo magnético sólido y uniforme. También hay bobinas que inducen campos magnéticos adicionales con un gradiente de campo que varían a través del espacio. Estos campos son los responsables de la codificación espacial en las imágenes de RM resultantes. El flujo general de trabajo de una máquina de MRI sería:
+
+1.  **Pulso de RF y excitación:** Para generar una imagen de RM, el paciente se coloca dentro de la máquina de RM. Se envía un pulso inicial de RF, que altera temporalmente la alineación de los momentos magnéticos de los protones. Este proceso se conoce como excitación.
+
+2.  **Relajación y emisión de la señal:** Los protones vuelven a su estado alineado después de que se apague el pulso de RF. Este proceso implica la relajación T1 (relajación longitudinal) y la relajación T2 (relajación transversal). A medida que los protones se relajan, emiten señales de radiofrecuencia, que la máquina de MRI puede detectar.
+
+3.  **Detección y procesamiento de señales:** Las señales emitidas son detectadas por bobinas de radiofrecuencia situadas alrededor del cuerpo del paciente. Estas bobinas captan señales de radiofrecuencia débiles, cuya intensidad varía en función de las propiedades del tejido local. A continuación, el sistema informático de la máquina de MR procesa las señales.
+
+4.  **Codificación espacial:** Las bobinas de gradiente desempeñan un papel crucial en la codificación espacial de las señales. La máquina de MRI puede determinar el origen de la señal dentro del cuerpo aplicando campos de gradiente controlados y variables. Esta información se utiliza para crear un mapa espacial de las señales emitidas.
+
+5.  **Reconstrucción de imágenes:** Las señales recogidas se procesan matemáticamente para crear una imagen 2D o 3D. Los distintos tipos de tejidos y estructuras tienen tiempos de relajación diferentes, lo que contribuye al contraste de las imágenes finales.
