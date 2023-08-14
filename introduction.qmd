@@ -2,33 +2,39 @@
 
 ## Braquiterapia ginecológica
 
-La braquiterapia es una técnica de radioterapia en la que se colocan fuentes radiactivas cerca o directamente dentro de la zona de tratamiento. Las fuentes pueden insertarse en cavidades corporales, colocarse en la superficie del área a tratar o introducirse en los tejidos mediante técnicas intersticiales. El objetivo de la braquiterapia es garantizar la administración precisa y segura de la dosis de radiación prescrita en la zona objetivo, minimizando al mismo tiempo las dosis innecesarias en los tejidos sanos circundantes. La braquiterapia se utiliza sobre todo para tratar diversos tipos de cáncer y enfermedades benignas.
+La braquiterapia (BT) es una técnica de radioterapia en la que se colocan fuentes radiactivas cerca o directamente dentro de la zona de tratamiento. Las fuentes pueden insertarse en cavidades corporales, colocarse en la superficie del área a tratar o introducirse en los tejidos mediante técnicas intersticiales. El objetivo de la braquiterapia es garantizar la administración precisa y segura de la dosis de radiación prescrita en la zona objetivo, minimizando al mismo tiempo las dosis innecesarias en los tejidos sanos circundantes. La braquiterapia se utiliza sobre todo para tratar diversos tipos de cáncer y enfermedades benignas.
 
-El primer caso de tratamiento de tumores ginecológicos a través del uso de fuentes radiactivas del que se tiene constancia fue en 1903, cuando se utilizó el radio como modalidad de tratamiento para los cánceres ginecológicos [@goodwin1968]. Este uso temprano de la braquiterapia se produjo tras el descubrimiento de la radiactividad por Henri Becquerel. Ya entonces se toma conciencia del reto que supone el conocimiento de determinar la actividad y la disposición de la fuente. Se realizaron observaciones clínicas para investigar la eficacia de la braquiterapia y se desarrollaron normas y reglamentos para estandarizar los procedimientos de radioterapia [@adosage1934; @parker1938; @thetrea1949b]. La braquiterapia ginecológica se ha utilizado principalmente para tratar diversos cánceres ginecológicos, como el de cuello uterino, también llamado de cérvix, endometrio, vulva, vagina y ovario. La incidencia del cáncer de cérvix, por ejemplo, es alta en los países en vías de desarrollo y en partes de Asia y África [@jemal2008]. El cáncer de cuello uterino es un problema importante en todo el mundo y es el tercer cáncer más frecuente en las mujeres. La prevalencia de la infección por el virus del papiloma humano (VPH) está estrechamente relacionada con la incidencia del cáncer cervicouterino.
+El primer caso de tratamiento de tumores ginecológicos a través del uso de fuentes radiactivas del que se tiene constancia fue en 1903, cuando se utilizó el radio como modalidad de tratamiento para los tumores ginecológicos [@goodwin1968]. Este uso temprano de la braquiterapia se produjo tras el descubrimiento de la radiactividad por Henri Becquerel. Desde el primer momento se toma conciencia del reto que supone el conocimiento de determinar la actividad y la disposición de la fuente y la importancia de ambos factores. Se realizaron observaciones clínicas para investigar la eficacia de la braquiterapia y se desarrollaron normas y reglamentos para la estandarizarización los procedimientos de radioterapia [@adosage1934; @parker1938; @thetrea1949b].
 
-### Ventajas frente a EBRT
+### Tipos de tumores ginecológicos
+
+Los tumores ginecológicos son cánceres que se desarrollan en el aparato reproductor femenino. Son varios los tipos de cáncer ginecológico que pueden aparecer como el de cuello de útero, endometrio (uterino), ovario, vulva, vagina y trompas de Falopio.
+
+-   **Cáncer de cuello uterino**: También llamado de cérvix, es el cáncer ginecológico más tratado en todo el mundo. La incidencia del cáncer de cérvix, es alta en los países en vías de desarrollo y en partes de Asia y África [@jemal2008]. El cáncer de cuello uterino es un problema importante en todo el mundo y es el tercer cáncer más frecuente en mujeres. La prevalencia de la infección por el virus del papiloma humano (HPV) está estrechamente relacionada con la incidencia del cáncer cervicouterino.
+
+-   **Cáncer de endometrio (uterino)**: La braquiterapia también puede utilizarse como opción de tratamiento para el cáncer de endometrio. Puede emplearse como tratamiento primario o como terapia adyuvante tras la cirugía. El objetivo de la braquiterapia endometrial es administrar una dosis elevada de radiación al lecho tumoral y reducir el riesgo de recidiva local.
+
+-   **Cáncer de ovario**: Los cánceres de ovario se tratan principalmente con resección quirúrgica seguida de quimioterapia. En casos seleccionados, la braquiterapia se ha utilizado para tumores recurrentes en el fondo vaginal. El tratamiento con braquiterapia para el cáncer de ovario puede proporcionar un control local práctico en estas situaciones específicas.
+
+-   **Cáncer de vulva**: Los cánceres de vulva son tumores poco frecuentes que representan un pequeño porcentaje de las neoplasias ginecológicas. La braquiterapia puede considerarse en el tratamiento de los cánceres de vulva, especialmente en los casos localmente avanzados que afectan a los ganglios linfáticos inguinales. El objetivo de la terapia es administrar una alta dosis de radiación al tumor minimizando el daño a los tejidos sanos circundantes.
+
+-   **Cáncer de vagina**: Los cánceres vaginales pueden ser primarios o metastásicos de otras localizaciones ginecológicas. Cuando se producen tumores vaginales primarios, la braquiterapia es una de las opciones de tratamiento. La aplicación de la braquiterapia en el cáncer vaginal consiste en irradiar selectivamente el tumor, especialmente en el tercio superior de la vagina. La terapia puede proporcionar un control local práctico para los tumores vaginales primarios.
+
+### Ventajas de BT frente a la radioterapia de haces externos (EBRT)
 
 Por definición, la braquiterapia aporta directamente la dosis de radiación deseada al objetivo utilizando fuentes radiactivas selladas colocadas dentro o en las inmediaciones del tumor. Cabe señalar que esta definición se ha revisado ligeramente al incluir las fuentes de braquiterapia electrónicas miniaturizadas como alternativa a las fuentes radiactivas selladas.
 
-En términos generales, la braquiterapia aprovecha el hecho de que las fuentes están conectadas directamente al volumen diana y se mueven con la diana cuando la propia diana se mueve. La variación en el paciente durante el tratamiento es mínima. En comparación con las técnicas de haz externo, la otra ventaja es que el objetivo recibe una dosis suficientemente alta. Al mismo tiempo, la ley del cuadrado inverso garantiza que la dosis para el tejido normal circundante (es decir, el órgano en riesgo) se reduce considerablemente incluso en las proximidades.
+En términos generales, la braquiterapia aprovecha el hecho de que las fuentes están conectadas directamente al volumen diana y se mueven con él cuando se mueve. La variación en el paciente durante el tratamiento es mínima. En comparación con las técnicas de haz externo, la otra ventaja es que el objetivo recibe una dosis suficientemente alta. Al mismo tiempo, la ley del cuadrado inverso garantiza que la dosis para el tejido normal circundante (es decir, el órgano en riesgo) se reduce considerablemente incluso en las proximidades.
 
-El tiempo total de tratamiento para un procedimiento de braquiterapia temporal es un factor que depende en gran medida de la selección de la modalidad de tratamiento (es decir, HDR frente a LDR) o del tipo de fuente (fuentes de baja energía frente a fuentes de alta energía) que pueda proporcionar los mejores resultados clínicos y la comodidad del paciente. La mayoría de los tratamientos de braquiterapia son cortos o muy cortos en comparación con los programas empleados en la radioterapia externa.
-
-### Inconvenientes frente a EBRT
+### Inconvenientes de BT frente a EBRT
 
 Los inconvenientes de la braquiterapia comparada con la EBRT incluyen:
 
-1.   1. Procedimiento invasivo: La braquiterapia requiere la colocación de aplicadores o fuentes de radiación mediante un procedimiento invasivo, excepto en el caso de los moldes superficiales utilizados para tumores cutáneos \[4a\]. Esto puede aumentar la complejidad y el coste del procedimiento, ya que requiere algún tipo de anestesia y acceso a un quirófano.
+1.  Procedimiento invasivo: La braquiterapia requiere la colocación de aplicadores o fuentes de radiación mediante un procedimiento invasivo, excepto en el caso de los moldes superficiales utilizados para tumores cutáneos. Esto puede aumentar la complejidad y el coste del procedimiento, ya que requiere algún tipo de anestesia y acceso a un quirófano.
 
-2.  Acceso limitado: La braquiterapia está limitada por las zonas de fácil acceso para la colocación de la fuente. Los tumores superficiales y las cavidades corporales pueden tratarse fácilmente, mientras que los órganos internos, especialmente los del abdomen, presentan dificultades que aún deben superarse en la práctica rutinaria \[4a\].
+2.  Acceso limitado: La braquiterapia está limitada por las zonas de fácil acceso para la colocación de la fuente. Los tumores superficiales y las cavidades corporales pueden tratarse fácilmente, mientras que los órganos internos, especialmente los del abdomen, presentan dificultades que aún deben superarse en la práctica rutinaria.
 
-3.  Variabilidad del médico: La braquiterapia está sujeta a incertidumbres clínicas, siendo la mayor la variabilidad en el contorno de los volúmenes objetivo y los órganos en riesgo entre los clínicos. Esta variabilidad puede afectar a la precisión y eficacia del tratamiento \[4a\].
-
-4.  Retos en el control de calidad: La administración de braquiterapia requiere un estricto control de calidad que abarque toda la cadena de administración del tratamiento, incluida la calibración de la fuente, las características del cargador posterior, la obtención de imágenes y la colocación del catéter. Con altas tasas de dosis y tiempos de tratamiento cortos, hay poco margen de error durante el tratamiento, por lo que las tareas de control de calidad son exigentes y requieren mucho tiempo \[4b\].
-
-5.  Limitaciones de fracción: La braquiterapia suele implicar la administración de unas pocas fracciones, en comparación con la radioterapia externa, que suele incluir más de 30 fracciones distintas. Esto significa que los errores o complicaciones en una sola fracción de braquiterapia pueden tener implicaciones significativas para el resto del tratamiento del paciente, con menos oportunidades de que los errores se compensen a lo largo de múltiples fracciones \[15\].
-
-En general, aunque la braquiterapia ofrece ventajas como la administración precisa de la dosis, una variación mínima en el paciente y una dosis reducida en el tejido normal circundante, también presenta retos como la invasividad, el acceso limitado, la variabilidad del médico, las exigencias de control de calidad y las limitaciones de las fracciones en comparación con la radioterapia de haz externo.
+3.  Variabilidad del médico: La braquiterapia está sujeta a incertidumbres clínicas, siendo la mayor la variabilidad en el contorno de los volúmenes objetivo y los órganos en riesgo entre los clínicos. Esta variabilidad puede afectar a la precisión y eficacia del tratamiento.
 
 ### Evolución de los sistemas de implantación
 
@@ -60,80 +66,39 @@ La introducción de la imagen por resonancia magnética nuclear (MRI) en braquit
 
 A pesar de estas evidencias, se hizo patente que era necesaria una adopción más rápida de la planificación basada en MRI en la práctica de la braquiterapia ginecológica. Un estudio publicado en 2010[@viswanathan2010], descubrió que solo el 2% de los oncólogos radioterápicos utilizaban la planificación basada en MRI, mientras que la mayoría seguía prescribiendo en el punto A y registrando la dosis según las prescripciones del punto de dosis de la ICRU38 [@ICRU38].
 
+### Flujo de trabajo en braquiterapia
 
-## Flujo de trabajo en braquiterapia
+El flujo de trabajo en braquiterapia (también en el caso de la ginecológica) implica una serie de actividades realizadas secuencialmente, que conducen a una distribución de dosis aceptable alrededor de un aplicador colocado con precisión en la anatomía diana. El flujo de trabajo incluye varias etapas:
 
-El flujo de trabajo en braquiterapia implica una serie de actividades realizadas secuencialmente, que conducen a una distribución de dosis aceptable alrededor de un aplicador colocado con precisión en la anatomía diana. El flujo de trabajo incluye varias consideraciones:
+1.  **Definición de los volúmenes a irradiar:** Se trata de determinar los volúmenes dentro de los cuales se prescribe la dosis al tumor y establecer los límites de dosis a los tejidos sanos.
 
--   Definición de los volúmenes a irradiar: Se trata de determinar los volúmenes dentro de los cuales se prescribe la dosis al tumor y establecer los límites de dosis de los tejidos sanos \[14a\].
+2.  **Planificación previa al implante:** Una minuciosa planificación previa al implante es esencial para localizar el volumen diana, decidir la técnica y determinar la distribución óptima de los aplicadores.
 
--   Planificación previa al implante: Una cuidadosa planificación previa al implante es esencial para localizar el volumen diana, decidir la técnica y determinar la distribución óptima de los aplicadores \[14b\].
+3.  **Implantación:** La implantación se realiza con herramientas de imagen y navegación intra-operatoria.
 
--   Implantación: La implantación se realiza con herramientas de imagen y navegación intraoperatoria \[14c\].
+4.  **Imágenes post-implante y reconstrucción 3D:** Tras la implantación, se realizan imágenes post-implante para crear una reconstrucción 3D. Este paso implica identificar los volúmenes de interés y tener en cuenta factores como los artefactos de imagen, las distorsiones y la idoneidad del aplicador para la obtención de imágenes. Deben optimizarse la técnica de obtención de imágenes y las secuencias.
 
--   Imágenes postimplante y reconstrucción 3D: Tras la implantación, se realizan imágenes postimplante para crear una reconstrucción 3D. Este paso implica identificar los volúmenes de interés y tener en cuenta factores como los artefactos de imagen, las distorsiones y la idoneidad del aplicador para la obtención de imágenes. Deben optimizarse la técnica de obtención de imágenes y las secuencias, y debe incluirse el contraste adecuado \[14d\].
+5.  **Cálculo de la distribución de dosis:** La distribución de dosis se calcula mediante reconstrucción 3D. Es esencial tener en cuenta cualquier imperfección en el algoritmo, como los efectos de los límites del tejido, las inhomogeneidades del tejido y los efectos de los blindajes del aplicador.
 
--   Cálculo de la distribución de dosis: La distribución de dosis se calcula mediante reconstrucción 3D. Es esencial tener en cuenta cualquier imperfección en el algoritmo, como los efectos de los límites del tejido, las inhomogeneidades del tejido, los efectos de los blindajes del aplicador y el blindaje entre semillas \[14e\].
+## Imagen en braquiterapia de cérvix
 
-## Imagen en braquiterapia
+En la braquiterapia de cáncer de cérvix se utilizan diferentes tipos de modalidades de imagen 3D para guiar y planificar el tratamiento. Dichas modalidades son Ultrasonidos (US), Tomografía computarizada (CT) e Imagen por Resonancia Magnética Nuclear (MRI):
 
-En braquiterapia se utilizan diferentes tipos de modalidades de imagen para guiar y planificar el tratamiento. Algunas de las modalidades de imagen utilizadas son:
+### Ultrasonidos (US)
 
-Ultrasonidos (US): El Ultrasonido es una modalidad de imagen que utiliza ondas sonoras de alta frecuencia para crear imágenes en tiempo real del área de interés. El US se utiliza comúnmente en braquiterapia, especialmente en la implantación de semillas permanentes y en la planificación y guía de la braquiterapia prostática. El US puede proporcionar imágenes en 2D y 3D, lo que permite una visualización detallada de los tejidos y estructuras anatómicas. Además, se puede utilizar para realizar un seguimiento en tiempo real durante el procedimiento de tratamiento \[45\].
+La ecografía por ultrasonidos son una modalidad de imagen que utiliza ondas sonoras de alta frecuencia para crear imágenes en tiempo real del área de interés. La ecografía puede utilizarse en la braquiterapia cervical para guiar la inserción de los aplicadores intracavitarios y garantizar una colocación precisa. La ecografía es beneficiosa en los casos en que el canal endo-cervical está estrechado u obliterado, ya que permite una mejor visualización y evita la perforación durante el procedimiento.
 
-Resonancia Magnética Nuclear(RMN): La Resonancia Magnética es una modalidad de imagen que utiliza campos magnéticos y ondas de radio para obtener imágenes detalladas de los tejidos del cuerpo. En la braquiterapia, la MRI se utiliza para la planificación y guía del tratamiento en diferentes áreas del cuerpo, como el cerebro, el hígado y el cuello uterino. La MRI proporciona una excelente visualización de los tejidos blandos y permite una definición precisa del volumen tumoral y de los órganos de riesgo circundantes.
+Los médicos pueden navegar por el cuello uterino utilizando la guía ecográfica y colocar con precisión los aplicadores, garantizando una geometría óptima del implante. Esto es crucial, ya que se ha demostrado que los implantes técnicamente buenos se correlacionan con un mejor control local y, potencialmente, con mejores resultados de supervivencia en pacientes con cáncer de cuello uterino. Además, la ecografía puede ayudar a identificar cualquier anomalía o patología que pueda afectar al tratamiento de braquiterapia [@dimopoulos2006].
 
-Tomografía Computarizada (CT): La Tomografía Computarizada utiliza rayos X para obtener imágenes detalladas de los tejidos y estructuras internas del cuerpo en forma de secciones transversales. En braquiterapia, el CT se utiliza para la planificación y guía del tratamiento, permitiendo la visualización precisa de la anatomía y la colocación de los implantes o fuentes radiactivas. El CT proporciona información sobre la densidad de tejidos y ayuda a determinar la dosis de radiación que se entregará al tumor y a los tejidos circundantes.
+Por diversos motivos, la ecografía aún no se ha adoptado de forma generalizada para identificar estructuras como el cuello uterino y el útero en la braquiterapia ginecológica[@vandyk2021]. En primer lugar, aunque los primeros estudios sugirieron que se podían realizar mediciones mediante ecografía para guiar la planificación del cáncer de endometrio, estos protocolos no se aplicaron de forma generalizada y no han sido adoptados en el caso de cáncer de cérvix[@van2015]. En segundo lugar, el uso de la ecografía en la planificación de la braquiterapia se ha visto obstaculizado por problemas como la mala resolución de la imagen, la reproducibilidad inadecuada y la visualización sub-óptima de estructuras críticas [@St-Amant2017]. Por último, existe una curva de aprendizaje asociada a la adquisición, orientación e interpretación de imágenes, y la ecografía bidimensional sólo visualiza una vista limitada de la región de interés. Por todo ello, aunque la ecografía es una modalidad de imagen prometedora, todavía no se ha extendido como estándar de imagen .
 
-### Ultrasonidos
+### Tomografía Computarizada (CT) 
+La Tomografía Computarizada utiliza rayos X para obtener imágenes detalladas de los tejidos y estructuras internas del cuerpo en forma de secciones transversales. En braquiterapia, el CT se utiliza para la planificación y guía del tratamiento, permitiendo la visualización precisa de la anatomía y la colocación de los implantes o fuentes radiactivas. El CT proporciona información sobre la densidad de tejidos y ayuda a determinar la dosis de radiación que se entregará al tumor y a los tejidos circundantes.
 
-El uso de dispositivos de ultrasonido en braquiterapia y biopsias: Los dispositivos de ultrasonido se utilizan tanto en braquiterapia como en biopsias. En el caso de la braquiterapia, se utiliza una modalidad llamada "modo B" que muestra una representación en escala de grises de la señal de retrodispersión del ultrasonido. Este modo permite obtener información sobre la interacción del ultrasonido con los tejidos, aunque parte de la información detallada se pierde en el proceso de procesamiento de la señal\[47\]. Además, se menciona que se están investigando técnicas de ultrasonido como el Doppler y Power Doppler para la detección de cáncer, en particular en la próstata y en el seno\[48a\].
 
-Análisis de la señal de ultrasonido: Se mencionan algunos tipos de análisis de la señal de ultrasonido, como la elastografía y la detección de apoptosis celular. La elastografía mide la densidad o rigidez de los tejidos bajo deformación mecánica y ha sido utilizada con éxito en la identificación de masas cancerosas en el seno, próstata y cuello uterino. La detección de apoptosis celular se ha logrado incluso a frecuencias tan bajas como 10 MHz, lo que demuestra el potencial de extracción de información a partir del procesamiento avanzado de la señal de ultrasonido\[48b\]\[48c\].
+### Resonancia Magnética Nuclear (MRI) 
 
-Imágenes de ultrasonido y robótica: Se menciona que la ultrasonografía también se ha utilizado en combinación con tecnologías de robótica en el campo de la braquiterapia\[48d\].
-
-Física de la ultrasonografía: Se describe brevemente la física de la ultrasonografía, como el rango de frecuencias utilizadas, el uso de transductores piezoeléctricos para generar y detectar las ondas de ultrasonido, y la capacidad de los sistemas modernos de ultrasonido para emitir y recibir señales direccionadas en diferentes ángulos, lo que permite generar imágenes en 2D desde diferentes direcciones\[87\].
-
-Por lo tanto, los documentos proporcionan información sobre el uso de la ultrasonografía en braquiterapia y biopsias, técnicas de análisis de la señal de ultrasonido, combinación con tecnologías de robótica y aspectos básicos de la física de la ultrasonografía.
-
-### Tomografía computerizada
-
-Dime todo lo que sepas sobre tomografía computerizada La tomografía computarizada (TC) es una técnica de diagnóstico por imágenes que utiliza rayos X y una computadora para crear imágenes detalladas del cuerpo. La TC permite visualizar diferentes estructuras y tejidos del cuerpo en secciones transversales o en 3D. A continuación, se presentan algunos puntos importantes sobre la TC, basados en los documentos proporcionados:
-
-La TC ha evolucionado a lo largo de los años y se ha convertido en una herramienta importante en la planificación y el tratamiento de la braquiterapia \[88\]. La braquiterapia es un tratamiento de radioterapia en el que se colocan fuentes radiactivas directamente en el cuerpo, cerca del tumor.
-
-La TC proporciona una buena resolución espacial y la capacidad de discernir objetos basados en la densidad electrónica \[97a\]. Esto significa que la TC puede mostrar con claridad diferentes estructuras y tejidos, lo que la hace útil en el plan de tratamiento de braquiterapia.
-
-En la braquiterapia de cabeza y cuello, la TC es superior a la resonancia magnética (RM) para evaluar los ganglios linfáticos y visualizar estructuras óseas y tejidos blandos \[90\]. La TC también permite la reconstrucción de los catéteres utilizados en el tratamiento de braquiterapia \[90\].
-
-La fusión de imágenes es una técnica que combina la información de la TC con otros tipos de imágenes, como la RM, para obtener una visión más completa del área de tratamiento \[94\]. La TC proporciona una buena base para la fusión de imágenes debido a su resolución espacial y capacidad de discernimiento de la densidad electrónica \[97b\].
-
-Durante la planificación de la braquiterapia, la precisión de la reconstrucción de la TC puede ser verificada mediante experimentos con simuladores o phantoms \[97a\]\[97c\]. Esto es importante para garantizar que los cálculos de dosis sean precisos y que se puedan identificar los catéteres utilizados en el tratamiento.
-
-En resumen, la tomografía computarizada (TC) es una técnica de diagnóstico por imágenes que utiliza rayos X y una computadora para crear imágenes detalladas del cuerpo. La TC es útil en la planificación y el tratamiento de la braquiterapia, especialmente en la braquiterapia de cabeza y cuello. Proporciona una buena resolución espacial y la capacidad de discernir estructuras basadas en la densidad electrónica. La reconstrucción de la TC se puede verificar mediante experimentos con phantoms para garantizar la precisión de los cálculos de dosis y la identificación de los catéteres utilizados en el tratamiento.
-
-### Resonancia magnética nuclear
-
-Dime todo lo que sepas sobre Resonancia magnética nuclear La resonancia magnética nuclear (RMN) es una técnica utilizada en medicina para obtener imágenes detalladas del interior del cuerpo humano. La RMN aprovecha las propiedades magnéticas y de giro de los núcleos de los átomos para generar imágenes precisas de los tejidos y órganos.
-
-En la RMN, una máquina genera un campo magnético intenso que alinea los núcleos de hidrógeno presentes en el cuerpo. Luego, se aplica un pulso de radiofrecuencia para alterar la dirección de los núcleos de hidrógeno. Cuando se detiene el pulso de radiofrecuencia, los núcleos vuelven a su alineación original y emiten señales detectadas por antenas especiales.
-
-Estas señales se utilizan para construir imágenes detalladas de los tejidos blandos del cuerpo. La RMN puede mostrar lesiones, tumores, anomalías estructurales y problemas en los órganos internos. También se puede utilizar en la investigación científica para estudiar la función cerebral y otros procesos biológicos.
-
-La RMN utiliza diferentes secuencias de pulsos para obtener información adicional sobre los tejidos. Por ejemplo, la secuencia de pulso de T1 produce imágenes con un contraste basado en la composición de los tejidos, mientras que la secuencia de pulso de T2 muestra mejor el líquido y la inflamación en el cuerpo.
-
-Además de la obtención de imágenes, la RMN se utiliza en técnicas avanzadas como la resonancia magnética funcional (fRMN), que mide el flujo sanguíneo cerebral y se utiliza en estudios del cerebro y la actividad neuronal. También se emplea la espectroscopia de resonancia magnética nuclear (MRS) para analizar la composición química de los tejidos y detectar cambios metabólicos.
-
-En resumen, la resonancia magnética nuclear es una técnica de imagen médica que utiliza propiedades magnéticas y de giro de los núcleos de los átomos para obtener imágenes detalladas del cuerpo. Es una herramienta vital en el diagnóstico médico y la investigación científica. \[90a\], \[90b\], \[91\]
-
-Y la resonancia magnética utilizada en canceres ginecológicos? La resonancia magnética es utilizada en cánceres ginecológicos, especialmente en el cáncer cervical. Es una modalidad de imagen bien establecida para el cáncer de cuello uterino y ha demostrado ser capaz de discriminar mejor los tejidos blandos y los tumores en comparación con la tomografía computarizada (TC) \[92\]. Esto significa que la definición adecuada del volumen blanco clínico (CTV) y las estructuras anatómicas críticas se pueden lograr utilizando la resonancia magnética.
-
-Para el cáncer cervical, se han desarrollado conceptos de braquiterapia guiada por imagen (IGBT, por sus siglas en inglés) por el Grupo de Trabajo Ginecológico (GYN) GEC-ESTRO, y la resonancia magnética ponderada en T2 es la modalidad preferida \[92\]. Cada vez más centros en todo el mundo están implementando esta técnica clínicamente y se han publicado varios informes institucionales al respecto \[92\].
-
-Referencias:
-
-Documento III_Brachytherapy Threatment Planning and Imaging.pdf: \[92\]Haie-Meder, C., Pötter, R., Van Limbergen, E., Briot, E., De Brabandere, M., Dimopoulos, J., ... & Van Der Steen-Banasik, E. (2006). Recommendations from Gynaecological (GYN) GEC--ESTRO Working Group---IBCRTC about the use of MRI in brachytherapy for cervical cancer. Radiotherapy and Oncology, 79(2), 143-150.
+La Resonancia Magnética es una modalidad de imagen que utiliza campos magnéticos y ondas de radio para obtener imágenes detalladas de los tejidos del cuerpo. En la braquiterapia, la MRI se utiliza para la planificación y guía del tratamiento en diferentes áreas del cuerpo, como el cerebro, el hígado y el cuello uterino. La MRI proporciona una excelente visualización de los tejidos blandos y permite una definición precisa del volumen tumoral y de los órganos de riesgo circundantes.
 
 ## Registro de imágenes
 
@@ -152,15 +117,3 @@ Referencia: \[95\] Document III_Brachytherapy Threatment Planning and Imaging.pd
 ### Registro deformable
 
 Y sobre registro deformable? La información sobre el registro deformable se encuentra en el Documento III_Brachytherapy Treatment Planning and Imaging.pdf en el párrafo \[17\]. Se menciona que el registro deformable es una tarea complicada debido al movimiento de los órganos y la deformación del tejido debido a la inserción de los aplicadores o agujas necesarios para la braquiterapia. Actualmente, la dosis total se evalúa mediante la adición de parámetros DVH, teniendo en cuenta la diferencia en el efecto biológico debido a la tasa de dosis cuando se combina con radioterapia externa. Para obtener una estimación correcta de la dosis total, es necesario utilizar el registro de imágenes no rígido. Sin embargo, se necesita trabajar más para verificar la precisión de estos algoritmos antes de que puedan alcanzar su máximo potencial \[17\].
-
-## Tumores ginecológicos
-
-Tumores ginecológicos tratados con braquiterapia Los tumores ginecológicos, incluyendo el cáncer de cuello uterino, el cáncer de endometrio y el cáncer de vulva, son tratados con braquiterapia. La braquiterapia es una técnica de radioterapia interna que involucra la colocación de fuentes radiactivas cerca del tumor o dentro del mismo para entregar una dosis alta de radiación directamente al área afectada. La braquiterapia puede ser utilizada como tratamiento único o combinada con radioterapia externa en el manejo de estos tumores ginecológicos.
-
-El cáncer de cuello uterino es uno de los tumores ginecológicos más comunes tratados con braquiterapia. La braquiterapia puede ser utilizada como parte del tratamiento definitivo o como terapia adyuvante después de la cirugía o la radioterapia externa. La braquiterapia vaginal de alta tasa de dosis (HDR) es una opción comúnmente utilizada en el tratamiento del cáncer de cuello uterino, donde se colocan fuentes radiactivas temporales en la vagina para entregar una dosis precisa de radiación al tumor. Esta forma de braquiterapia ofrece una alta tasa de control local y menores efectos secundarios en comparación con otros enfoques de tratamiento\[48a\]\[48b\].
-
-El cáncer de endometrio, específicamente el adenocarcinoma de endometrio, también puede ser tratado con braquiterapia. En algunos casos, la braquiterapia puede ser utilizada como tratamiento definitivo en pacientes seleccionadas, especialmente aquellas con bajo riesgo de recurrencia y enfermedad confinada a la cavidad uterina. La braquiterapia de baja tasa de dosis (LDR) o la braquiterapia de alta tasa de dosis (HDR) pueden ser utilizadas, dependiendo de las características del tumor y la preferencia del médico. La braquiterapia ofrece una alta tasa de control local y menores efectos secundarios en comparación con la radioterapia externa\[48c\]\[49\].
-
-En el caso del cáncer de vulva, la braquiterapia puede ser utilizada como parte del tratamiento en pacientes seleccionadas. La braquiterapia puede ser utilizada para tratar la recurrencia local después de la cirugía o la radioterapia externa, o como tratamiento definitivo en casos seleccionados. La braquiterapia permite una alta tasa de control local y puede evitar la necesidad de exenteración pélvica en algunos casos\[48c\]\[49\].
-
-Es importante tener en cuenta que el uso de la braquiterapia en el tratamiento de tumores ginecológicos debe ser individualizado y basado en la evaluación de cada paciente por parte de un equipo multidisciplinario de expertos en oncología.
