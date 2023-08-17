@@ -1,7 +1,11 @@
 project:
   type: book
 
+number-sections: true
+number-depth: 4
+csl: medical_physics.csl
 lang: es
+link-citations: true
 
 book:
   title: "Soluciones de reconstrucción mediante RMN"
