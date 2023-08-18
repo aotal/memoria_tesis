@@ -94,11 +94,29 @@ Por diversos motivos, la ecografía aún no se ha adoptado de forma generalizada
 
 ### Tomografía Computarizada (CT)
 
-La tomografía computarizada (CT) es una técnica de imagen médica que utiliza rayos X en combinación con algoritmos informáticos para crear imágenes transversales detalladas del cuerpo. Ya se vio en el apartado @sec-introduccionimagen3D que el CT en braquiterapia ginecológica ha demostrado ventajas dosimétricas con respecto a la planificación del tratamiento basada en la radiografía convencional. Los estudios han demostrado que la planificación del tratamiento con CT 3D proporciona una estimación de la dosis tumoral más precisa que las radiografías 2D, especialmente en pacientes con tumores más avanzados. Las imágenes de CT ayudan a crear planes de tratamiento al proporcionar información detallada sobre la anatomía y las zonas que deben tratarse durante la braquiterapia.
+La tomografía computarizada es una técnica de imagen médica que utiliza rayos X en combinación con algoritmos informáticos para crear imágenes transversales detalladas del cuerpo. Ya se vio en la [sección @sec-introduccionimagen3D] que el CT en braquiterapia ginecológica ha demostrado ventajas dosimétricas con respecto a la planificación del tratamiento basada en la radiografía convencional.
+
+El CT puede utilizarse en la braquiterapia cervical para proporcionar información valiosa para la planificación del tratamiento y la optimización de la dosis a los órganos de riesgo. Su uso está muy extendido y los oncólogos radioterápicos están familiarizados con su interpretación. La TC permite delinear los órganos en riesgo (OAR) de forma comparable a la MRI[@viswanathan2007] , proporcionando información útil como la posición de la sonda intra-uterina, el grosor del tabique recto-vaginal y la relación entre la vejiga/recto-sigmoide y el aplicador. Esta información ayuda a optimizar la dosis a los OAR manteniendo al mismo tiempo la dosis a los parámetros utilizados en los informes.
+
+Sin embargo, el CT tiene limitaciones a la hora de identificar con precisión el volumen objetivo. No distingue claramente entre el cuello uterino, el útero y la vagina y proporciona una definición deficiente de la infiltración tumoral parametrial[@mitchell2006]. El contorneo puede mejorarse incorporando información de la MRI y del examen clínico para superar esta limitación. Por lo tanto, aunque el CT ayuda a proporcionar información para la planificación del tratamiento y la optimización de la dosis, puede complementarse con otras modalidades de imagen, como la MRI, para mejorar la delimitación del volumen diana.
 
 ### Resonancia Magnética Nuclear (MRI)
 
-La Resonancia Magnética es una modalidad de imagen que utiliza campos magnéticos y ondas de radio para obtener imágenes detalladas de los tejidos del cuerpo. En la braquiterapia, la MRI se utiliza para la planificación y guía del tratamiento en diferentes áreas del cuerpo, como el cerebro, el hígado y el cuello uterino. La MRI proporciona una excelente visualización de los tejidos blandos y permite una definición precisa del volumen tumoral y de los órganos de riesgo circundantes.
+La imagen por resonancia magnética es una sofisticada técnica médica de diagnóstico por imagen. A diferencia de los rayos X, que emplean radiaciones ionizantes, la IRM utiliza potentes campos magnéticos y ondas de radiofrecuencia para generar imágenes sin exponer a los pacientes a radiaciones ionizantes.
+
+El principio de la resonancia magnética nuclear se basa en el comportamiento de los núcleos atómicos cuando se someten a un campo magnético intenso y a determinados pulsos de radiofrecuencia (RF). En concreto, los núcleos (normalmente núcleos de hidrógeno o protones) se alinean con el campo magnético externo como si fuesen pequeños imanes.
+
+Las máquinas de MRI disponen de potentes imanes que crean un campo magnético sólido y uniforme. También hay bobinas que inducen campos magnéticos adicionales con un gradiente de campo que varían a través del espacio. Estos campos son los responsables de la codificación espacial en las imágenes de RM resultantes. El flujo general de trabajo de una máquina de MRI sería:
+
+1.  **Pulso de RF y excitación:** Para generar una imagen de RM, el paciente se coloca dentro de la máquina de RM. Se envía un pulso inicial de RF, que altera temporalmente la alineación de los momentos magnéticos de los protones. Este proceso se conoce como excitación.
+
+2.  **Relajación y emisión de la señal:** Los protones vuelven a su estado alineado después de que se apague el pulso de RF. Este proceso implica la relajación T1 (relajación longitudinal) y la relajación T2 (relajación transversal). A medida que los protones se relajan, emiten señales de radiofrecuencia, que la máquina de MRI puede detectar.
+
+3.  **Detección y procesamiento de señales:** Las señales emitidas son detectadas por bobinas de radiofrecuencia situadas alrededor del cuerpo del paciente. Estas bobinas captan señales de radiofrecuencia débiles, cuya intensidad varía en función de las propiedades del tejido local. A continuación, el sistema informático de la máquina de MR procesa las señales.
+
+4.  **Codificación espacial:** Las bobinas de gradiente desempeñan un papel crucial en la codificación espacial de las señales. La máquina de MRI puede determinar el origen de la señal dentro del cuerpo aplicando campos de gradiente controlados y variables. Esta información se utiliza para crear un mapa espacial de las señales emitidas.
+
+5.  **Reconstrucción de imágenes:** Las señales recogidas se procesan matemáticamente para crear una imagen 2D o 3D. Los distintos tipos de tejidos y estructuras tienen tiempos de relajación diferentes, lo que contribuye al contraste de las imágenes finales.
 
 ## Registro de imágenes
 
