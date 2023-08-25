@@ -2,7 +2,7 @@
 
 ## Braquiterapia ginecológica
 
-La braquiterapia (BT) es una técnica de radioterapia en la que se colocan fuentes radiactivas cerca o directamente dentro de la zona de tratamiento. Las fuentes pueden insertarse en cavidades corporales, colocarse en la superficie del área a tratar o introducirse en los tejidos mediante técnicas intersticiales. El objetivo de la braquiterapia es garantizar la administración precisa y segura de la dosis de radiación prescrita en la zona objetivo, minimizando al mismo tiempo las dosis innecesarias en los tejidos sanos circundantes. La braquiterapia se utiliza sobre todo para tratar diversos tipos de cáncer y enfermedades benignas.
+La braquiterapia (BT) es una técnica de radioterapia en la que se colocan fuentes radiactivas cerca o directamente dentro de la zona de tratamiento. Las fuentes pueden insertarse en cavidades corporales, colocarse en la superficie del área a tratar o introducirse en los tejidos mediante técnicas intersticiales. El objetivo de la braquiterapia es garantizar la administración precisa y segura de la dosis de radiación prescrita en la zona objetivo, minimizando al mismo tiempo las dosis innecesarias en los tejidos sanos circundantes. La braquiterapia se utiliza sobre todo para tratar diversos tipos de cáncer y ciertas enfermedades benignas, como la hiperplasia benigna de próstata.
 
 El primer caso de tratamiento de tumores ginecológicos a través del uso de fuentes radiactivas del que se tiene constancia fue en 1903, cuando se utilizó el radio como modalidad de tratamiento para los tumores ginecológicos [@goodwin1968]. Este uso temprano de la braquiterapia se produjo tras el descubrimiento de la radiactividad por Henri Becquerel. Desde el primer momento se toma conciencia del reto que supone el conocimiento de determinar la actividad y la disposición de la fuente y la importancia de ambos factores. Se realizaron observaciones clínicas para investigar la eficacia de la braquiterapia y se desarrollaron normas y reglamentos para la estandarizarización los procedimientos de radioterapia [@adosage1934; @parker1938; @thetrea1949b].
 
@@ -22,7 +22,7 @@ Los tumores ginecológicos son cánceres que se desarrollan en el aparato reprod
 
 ### Ventajas de BT frente a la radioterapia de haces externos (EBRT)
 
-Por definición, la braquiterapia aporta directamente la dosis de radiación deseada al objetivo utilizando fuentes radiactivas selladas colocadas dentro o en las inmediaciones del tumor. Cabe señalar que esta definición se ha revisado ligeramente al incluir las fuentes de braquiterapia electrónicas miniaturizadas como alternativa a las fuentes radiactivas selladas.
+Por definición, la braquiterapia aporta directamente la dosis de radiación deseada al objetivo utilizando fuentes radiactivas selladas colocadas dentro o en las inmediaciones del tumor. Cabe señalar que esta definición se ha revisado ligeramente al incluir las fuentes de braquiterapia electrónica como alternativa a las fuentes radiactivas selladas.
 
 En términos generales, la braquiterapia aprovecha el hecho de que las fuentes están conectadas directamente al volumen diana y se mueven con él cuando se mueve. La variación en el paciente durante el tratamiento es mínima. En comparación con las técnicas de haz externo, la otra ventaja es que el objetivo recibe una dosis suficientemente alta. Al mismo tiempo, la ley del cuadrado inverso garantiza que la dosis para el tejido normal circundante (es decir, el órgano en riesgo) se reduce considerablemente incluso en las proximidades.
 
@@ -117,6 +117,14 @@ Las máquinas de MRI disponen de potentes imanes que crean un campo magnético s
 4.  **Codificación espacial:** Las bobinas de gradiente desempeñan un papel crucial en la codificación espacial de las señales. La máquina de MRI puede determinar el origen de la señal dentro del cuerpo aplicando campos de gradiente controlados y variables. Esta información se utiliza para crear un mapa espacial de las señales emitidas.
 
 5.  **Reconstrucción de imágenes:** Las señales recogidas se procesan matemáticamente para crear una imagen 2D o 3D. Los distintos tipos de tejidos y estructuras tienen tiempos de relajación diferentes, lo que contribuye al contraste de las imágenes finales.
+
+La MRI es la modalidad de imagen recomendada para la braquiterapia adaptativa guiada por imagen para el tratamiento de cáncer de cérvix[@petric2014]. En primer lugar, la MRI proporciona una definición mucho mejor de los tejidos que la lograda por el CT, lo que permite una visualización y evaluación precisas del tumor y las estructuras circundantes [@haie-meder2005]. Esta mejor visualización permite una planificación personalizada del tratamiento, ya que la regresión tumoral puede evaluarse en cada fracción administrada, es decir, permite una planificación adaptativa. Además, el uso de la MRI en braquiterapia se ha asociado con un mejor control local y una menor toxicidad para el tejido sano. En cuanto a los resultados del tratamiento, se ha informado de que la braquiterapia guiada por imágenes basada en MRI mejora el control local y reduce la toxicidad tardía en mujeres con tumores grandes en comparación con modalidades anteriores de tratamiento [@addley2010].
+
+Para obtener una imagen óptima de MRI para el tratamiento, se deben cumplir unos criterios específicos. Los requisitos técnicos incluyen MRI de campo principal igual o superior a 1,5 T, bobinas de superficie pélvica y software para la adquisición, transferencia y contorneado de imágenes [@richart2018;@dimopoulos2012]. La preparación del paciente implica la inmovilización, el llenado de la vejiga y la evacuación intestina[@dimopoulos2012]. Las secuencias de RM más útiles son la T2 para visualizar la anatomía y la colocación del aplicador [@dimopoulos2012;@petric2014]. Secuencias adicionales como la T1 con contraste o la isotrópica 3D pueden proporcionar información complementaria [@richart2018].
+
+\-\-\-\--
+
+Además, un estudio en el que se utilizó un enfoque novedoso que combinaba braquiterapia intracavitaria e intersticial con planificación del tratamiento basada en MRI informó de resultados positivos en pacientes con cáncer de cuello de útero localmente avanzado, lo que respalda aún más el uso de la MRI en la braquiterapia [@dimopoulos2006]. La capacidad de la IRM para proporcionar una visualización precisa, facilitar la planificación personalizada del tratamiento y mejorar los resultados del tratamiento la convierten en la modalidad de imagen preferida en la braquiterapia cervical.
 
 ## Registro de imágenes
 
