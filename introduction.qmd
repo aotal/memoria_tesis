@@ -6,20 +6,6 @@ La braquiterapia (BT) es una técnica de radioterapia en la que se colocan fuent
 
 El primer caso de tratamiento de tumores ginecológicos a través del uso de fuentes radiactivas del que se tiene constancia fue en 1903, cuando se utilizó el radio como modalidad de tratamiento para los tumores ginecológicos [@goodwin1968]. Este uso temprano de la braquiterapia se produjo tras el descubrimiento de la radiactividad por Henri Becquerel. Desde el primer momento se toma conciencia del reto que supone el conocimiento de determinar la actividad y la disposición de la fuente y la importancia de ambos factores. Se realizaron observaciones clínicas para investigar la eficacia de la braquiterapia y se desarrollaron normas y reglamentos para la estandarizarización los procedimientos de radioterapia [@adosage1934; @parker1938; @thetrea1949b].
 
-### Tipos de tumores ginecológicos
-
-Los tumores ginecológicos son cánceres que se desarrollan en el aparato reproductor femenino. Son varios los tipos de cáncer ginecológico que pueden aparecer como el de cuello de útero, endometrio (uterino), ovario, vulva, vagina y trompas de Falopio.
-
--   **Cáncer de cuello uterino**: También llamado de cérvix, es el cáncer ginecológico más tratado en todo el mundo. La incidencia del cáncer de cérvix, es alta en los países en vías de desarrollo y en partes de Asia y África [@jemal2008]. El cáncer de cuello uterino es un problema importante en todo el mundo y es el tercer cáncer más frecuente en mujeres. La prevalencia de la infección por el virus del papiloma humano (HPV) está estrechamente relacionada con la incidencia del cáncer cervicouterino.
-
--   **Cáncer de endometrio (uterino)**: La braquiterapia también puede utilizarse como opción de tratamiento para el cáncer de endometrio. Puede emplearse como tratamiento primario o como terapia adyuvante tras la cirugía. El objetivo de la braquiterapia endometrial es administrar una dosis elevada de radiación al lecho tumoral y reducir el riesgo de recidiva local.
-
--   **Cáncer de ovario**: Los cánceres de ovario se tratan principalmente con resección quirúrgica seguida de quimioterapia. En casos seleccionados, la braquiterapia se ha utilizado para tumores recurrentes en el fondo vaginal. El tratamiento con braquiterapia para el cáncer de ovario puede proporcionar un control local práctico en estas situaciones específicas.
-
--   **Cáncer de vulva**: Los cánceres de vulva son tumores poco frecuentes que representan un pequeño porcentaje de las neoplasias ginecológicas. La braquiterapia puede considerarse en el tratamiento de los cánceres de vulva, especialmente en los casos localmente avanzados que afectan a los ganglios linfáticos inguinales. El objetivo de la terapia es administrar una alta dosis de radiación al tumor minimizando el daño a los tejidos sanos circundantes.
-
--   **Cáncer de vagina**: Los cánceres vaginales pueden ser primarios o metastásicos de otras localizaciones ginecológicas. Cuando se producen tumores vaginales primarios, la braquiterapia es una de las opciones de tratamiento. La aplicación de la braquiterapia en el cáncer vaginal consiste en irradiar selectivamente el tumor, especialmente en el tercio superior de la vagina. La terapia puede proporcionar un control local práctico para los tumores vaginales primarios.
-
 ### Ventajas de BT frente a la radioterapia de haces externos (EBRT)
 
 Por definición, la braquiterapia aporta directamente la dosis de radiación deseada al objetivo utilizando fuentes radiactivas selladas colocadas dentro o en las inmediaciones del tumor. Cabe señalar que esta definición se ha revisado ligeramente al incluir las fuentes de braquiterapia electrónica como alternativa a las fuentes radiactivas selladas.
@@ -35,6 +21,21 @@ Los inconvenientes de la braquiterapia comparada con la EBRT incluyen:
 2.  Acceso limitado: La braquiterapia está limitada por las zonas de fácil acceso para la colocación de la fuente. Los tumores superficiales y las cavidades corporales pueden tratarse fácilmente, mientras que los órganos internos, especialmente los del abdomen, presentan dificultades que aún deben superarse en la práctica rutinaria.
 
 3.  Variabilidad del médico: La braquiterapia está sujeta a incertidumbres clínicas, siendo la mayor la variabilidad en el contorno de los volúmenes objetivo y los órganos en riesgo entre los clínicos. Esta variabilidad puede afectar a la precisión y eficacia del tratamiento.
+
+### Tipos de tumores ginecológicos
+
+Los tumores ginecológicos son cánceres que se desarrollan en el aparato reproductor femenino. Son varios los tipos de cáncer ginecológico que pueden aparecer como el de cuello de útero, endometrio (uterino), ovario, vulva, vagina y trompas de Falopio.
+
+-   **Cáncer de cuello uterino**: También llamado de cérvix, es el cáncer ginecológico más tratado en todo el mundo. La incidencia del cáncer de cérvix, es alta en los países en vías de desarrollo y en partes de Asia y África [@jemal2008]. El cáncer de cuello uterino es un problema importante en todo el mundo y es el tercer cáncer más frecuente en mujeres. La prevalencia de la infección por el virus del papiloma humano (HPV) está estrechamente relacionada con la incidencia del cáncer cervicouterino. En adelante y salvo se diga lo contrario, el texto se centrará en este tipo de cáncer.
+
+-   **Cáncer de endometrio (uterino)**: La braquiterapia también puede utilizarse como opción de tratamiento para el cáncer de endometrio. Puede emplearse como tratamiento primario o como terapia adyuvante tras la cirugía. El objetivo de la braquiterapia endometrial es administrar una dosis elevada de radiación al lecho tumoral y reducir el riesgo de recidiva local.
+
+-   **Cáncer de ovario**: Los cánceres de ovario se tratan principalmente con resección quirúrgica seguida de quimioterapia. En casos seleccionados, la braquiterapia se ha utilizado para tumores recurrentes en el fondo vaginal. El tratamiento con braquiterapia para el cáncer de ovario puede proporcionar un control local práctico en estas situaciones específicas.
+
+-   **Cáncer de vulva**: Los cánceres de vulva son tumores poco frecuentes que representan un pequeño porcentaje de las neoplasias ginecológicas. La braquiterapia puede considerarse en el tratamiento de los cánceres de vulva, especialmente en los casos localmente avanzados que afectan a los ganglios linfáticos inguinales. El objetivo de la terapia es administrar una alta dosis de radiación al tumor minimizando el daño a los tejidos sanos circundantes.
+
+-   **Cáncer de vagina**: Los cánceres vaginales pueden ser primarios o metastásicos de otras localizaciones ginecológicas. Cuando se producen tumores vaginales primarios, la braquiterapia es una de las opciones de tratamiento. La aplicación de la braquiterapia en el cáncer vaginal consiste en irradiar selectivamente el tumor, especialmente en el tercio superior de la vagina. La terapia puede proporcionar un control local práctico para los tumores vaginales primarios.
+
 
 ### Evolución de los sistemas de implantación
 
@@ -65,32 +66,6 @@ Inicialmente, las imágenes de CT proporcionaron mejores cálculos de dosis dent
 La introducción de la imagen por resonancia magnética nuclear (MRI) en braquiterapia es a comienzos del siglo XXI. En 2005, el Groupe Europeen de Curietherapie y la Sociedad Europea de Radioterapia y Oncología (GEC-ESTRO) publicaron unas directrices para la planificación óptima de los volúmenes objetivo de braquiterapia guiada por MRI [@haie-mederRecommendationsGynaecologicalGYN2005]. Estas directrices destacaban la importancia de la MRI para mejorar el control local y reducir la toxicidad del tejido sano. Estudios y ensayos posteriores destacaron aún más los beneficios de la braquiterapia guiada por RM. El ensayo francés STIC de 2012 [@charra-brunaud2012] demostró que la braquiterapia tridimensional guiada por MRI, era factible y segura en la práctica rutinaria, con un mejor control local y una menor toxicidad en comparación con la 2D. El American Brachytherapy Task Group informó en 2017 [@mayadev2017] de que la braquiterapia guiada por MRI era más eficaz y segura que las prescripciones de dosis tradicionales de punto A \[4\]
 
 A pesar de estas evidencias, se hizo patente que era necesaria una adopción más rápida de la planificación basada en MRI en la práctica de la braquiterapia ginecológica. Un estudio publicado en 2010[@viswanathan2010], descubrió que solo el 2% de los oncólogos radioterápicos utilizaban la planificación basada en MRI, mientras que la mayoría seguía prescribiendo en el punto A y registrando la dosis según las prescripciones del punto de dosis de la ICRU38 [@ICRU38].
-
-### Flujo de trabajo en braquiterapia
-
-El flujo de trabajo en braquiterapia (también en el caso de la ginecológica) implica una serie de actividades realizadas secuencialmente, que conducen a una distribución de dosis aceptable alrededor de un aplicador colocado con precisión en la anatomía diana. El flujo de trabajo incluye varias etapas:
-
-1.  **Definición de los volúmenes a irradiar:** Se trata de determinar los volúmenes dentro de los cuales se prescribe la dosis al tumor y establecer los límites de dosis a los tejidos sanos.
-
-2.  **Planificación previa al implante:** Una minuciosa planificación previa al implante es esencial para localizar el volumen diana, decidir la técnica y determinar la distribución óptima de los aplicadores.
-
-3.  **Implantación:** La implantación se realiza con herramientas de imagen y navegación intra-operatoria.
-
-4.  **Imágenes post-implante y reconstrucción 3D:** Tras la implantación, se realizan imágenes post-implante para crear una reconstrucción 3D. Este paso implica identificar los volúmenes de interés y tener en cuenta factores como los artefactos de imagen, las distorsiones y la idoneidad del aplicador para la obtención de imágenes. Deben optimizarse la técnica de obtención de imágenes y las secuencias.
-
-5.  **Cálculo de la distribución de dosis:** La distribución de dosis se calcula mediante reconstrucción 3D. Es esencial tener en cuenta cualquier imperfección en el algoritmo, como los efectos de los límites del tejido, las inhomogeneidades del tejido y los efectos de los blindajes del aplicador.
-
-### Braquiterapia intracavitaria e intersticial
-
-Existen dos modalidades principales de braquiterapia para el cáncer de cuello de útero: la braquiterapia intracavitaria y una combinación de braquiterapia intracavitaria e intersticial.
-
-La braquiterapia intracavitaria implica el uso de un aplicador intracavitario, como un tándem y ovoides o cilindros vaginales, para colocar la fuente de radiación dentro de la cavidad corporal, concretamente el útero o la vagina . Esta técnica se utiliza habitualmente y se ha demostrado que proporciona un control local eficaz para los cánceres de cuello uterino en estadio temprano[@murofushi2020]. La braquiterapia intracavitaria administra radiación al tumor y a los tejidos circundantes dentro de la cavidad corporal, dirigiéndose al tumor primario y a las zonas adyacentes con riesgo de diseminación tumoral[@aggarwal2018]. Es una técnica relativamente sencilla y menos invasiva en comparación con la braquiterapia intersticial .
-
-Por otro lado, una combinación de braquiterapia intracavitaria e intersticial implica el uso tanto de aplicadores intracavitarios como de agujas intersticiales . En este enfoque, el aplicador intracavitario se utiliza para administrar la radiación al tumor dentro de la cavidad corporal, mientras que las agujas intersticiales se insertan en el tejido que rodea el cuello uterino para administrar la radiación directamente al tumor y a los tejidos circundantes. Esta técnica combinada permite una focalización más precisa del tumor y proporciona una mejor cobertura de los tumores más grandes o complejos[@fabian2019]. A menudo se utiliza en casos en los que la braquiterapia intracavitaria por sí sola puede no proporcionar dosis de radiación adecuadas a todo el tumor[@murofushi2020].
-
-Las ventajas de la braquiterapia intracavitaria incluyen su simplicidad, facilidad de uso y menor invasividad en comparación con una combinación de braquiterapia intracavitaria e intersticial . La braquiterapia intracavitaria se puede realizar utilizando aplicadores estándar, como tándem y ovoides o cilindros vaginales, que están fácilmente disponibles y se utilizan habitualmente en la práctica clínica[@aggarwal2018]. Requiere la inserción de menos agujas o catéteres en el tejido, lo que reduce la complejidad del procedimiento y el potencial de complicaciones . La braquiterapia intracavitaria también permite preservar relativamente los tejidos circundantes, como la vejiga y el recto, debido a la proximidad de la fuente de radiación al tumor.
-
-Sin embargo, la braquiterapia intracavitaria puede tener algunas limitaciones en comparación con una combinación de braquiterapia intracavitaria e intersticial . Una posible desventaja es la capacidad limitada de administrar radiación a todo el volumen tumoral, especialmente en casos con tumores voluminosos o extensos[@ohkubo2013]. La braquiterapia intracavitaria por sí sola puede no proporcionar dosis de radiación adecuadas a todo el tumor, lo que da lugar a un control tumoral subóptimo[@murofushi2020]. En estos casos, una combinación de braquiterapia intracavitaria e intersticial permite una mejor cobertura del tumor y una mejor distribución de la dosis[@tan2015]. Además, la braquiterapia intersticial se puede utilizar para tratar zonas específicas del tumor o zonas con menor respuesta a la radiación, lo que proporciona un enfoque de tratamiento más adaptado y personalizado[@fabian2019].
 
 ## Imagen en braquiterapia de cérvix
 
@@ -162,20 +137,63 @@ No obstante, aunque utilizar una MR de 3T en lugar de una de 1,5T ofrece ventaja
 
 Otro inconveniente es el mayor coste de utilizar una MR de 3T en comparación con una de 1,5T. Los costes de adquisición y mantenimiento de un sistema de RM 3T son más elevados, lo que puede limitar su disponibilidad y accesibilidad en determinados entornos sanitarios.
 
-## Registro de imágenes
+### Registro de imágenes
 
-Qué sabes sobre registro de imágenes? El registro de imágenes es un proceso que consiste en combinar diferentes series de imágenes adquiridas en momentos diferentes para evaluar el tratamiento total entregado al paciente. Este proceso implica la registración geométrica de los datos de cada serie en un sistema de coordenadas común, lo cual se conoce como registro de imágenes. Para combinar los datos complementarios de cada estudio se utiliza la fusión de imágenes. La fusión de imágenes puede basarse en modelos de transformación, métricas para medir la similitud entre las imágenes y optimizadores para alinear los datos de las imágenes \[94\]\[95a\]\[95b\]\[95c\]\[95d\]\[95e\]\[95f\].
+El registro de imágenes consiste en alinear y superponer imágenes adquiridas por separado para crear una imagen fusionada que combine la información de ambas. Esta fusión permite combinar la información suministrada por cada uno de los grupos de imágenes iniciales. El registro más habitual que se realiza en la braquiterapia de cervix es entre CT y MRI. 
 
-Por ejemplo, en bractoterapia, donde se utiliza la radioterapia interna con fuentes radioactivas cercanas o dentro del tumor, la fusión de imágenes es importante para obtener información complementaria en la delimitación de volúmenes objetivo y órganos de riesgo. Las imágenes pueden ser adquiridas mediante diferentes modalidades, y la información de ambas modalidades se combina para aprovechar el potencial de cada una de ellas \[94\]. Además, la calidad del registro de las imágenes es evaluada visualmente en 3D, y la evaluación es más compleja que la elección del plano de referencia en los implantes guiados por ecografía transrectal. La existencia de deformaciones o cambios anatómicos entre las adquisiciones de datos hace que la evaluación de incertidumbres en la fusión de imágenes no sea fácil. La evaluación utilizando un fantoma o comparando los resultados de fusiones de datos de pacientes reales pueden ayudar a analizar las incertidumbres en la fusión de imágenes \[99a\]\[99b\].
+Existen dos tipos principales de registro de imágenes: registro rígido y registro deformable. El registro rígido consiste en alinear las imágenes aplicando transformaciones de traslación, rotación y escalado. Asume que las estructuras anatómicas de las imágenes mantienen su forma y tamaño. El registro rígido se basa en la suposición de que las posiciones relativas de las estructuras permanecen constantes entre las imágenes de CT y MR.
 
-En resumen, el registro de imágenes implica combinar diferentes series de imágenes en un sistema de coordenadas común para evaluar el tratamiento total entregado al paciente. La fusión de las imágenes adquiridas en diferentes momentos y modalidades es una parte importante del proceso de registro de imágenes en bractoterapia \[94\]\[95a\]\[99a\]\[99b\]. \### Registro rígido
+El registro deformable, por otro lado, permite transformaciones más complejas al tener en cuenta las deformaciones locales y los cambios de forma entre las imágenes. Tiene en cuenta la naturaleza no lineal y no rígida de las estructuras anatómicas. Los algoritmos de registro deformable utilizan modelos matemáticos para estimar el campo de deformación que mejor alinea las imágenes.
 
-Háblame sobre registro rígido El término "registro rígido" se menciona en el Documento III_Brachytherapy Threatment Planning and Imaging.pdf en el \[95\]. En ese párrafo se menciona que cuando la posición y orientación de la anatomía se define en un sistema rígido (como el cerebro), se puede utilizar un modelo de transformación simple de rotación y traslación. Esto significa que se puede realizar una transformación lineal para mapear puntos de cada conjunto de datos especificando tres ángulos de rotación y tres traslaciones en las direcciones x, y y z. Se menciona que incluso si no es posible lograr una alineación aceptable de la anatomía completa utilizando una transformación rígida o afín, se podría asumir un movimiento rígido local en algunos subvolúmenes. Por ejemplo, la próstata puede considerarse rígida incluso si se mueve en relación con la anatomía ósea en la pelvis.
+Aunque el registro de imágenes entre CT y MR es esencial para la reconstrucción del aplicador, no está exento de desafíos e incertidumbres. Uno de los problemas es la diferencia en los protocolos de adquisición de imágenes entre TC y RM, que puede dar lugar a variaciones en la calidad, la resolución y el contraste de las imágenes. Estas diferencias pueden introducir incertidumbres en el proceso de registro y afectar a la precisión de los aplicadores reconstruidos (Viswanathan et al., 2012).
 
-En resumen, el registro rígido se refiere a una técnica de alineación de imágenes médicas en la cual se utiliza un modelo de transformación lineal para mapear puntos de distintos conjuntos de datos y lograr una alineación adecuada de la anatomía.
+Otro reto es la presencia de artefactos metálicos en las imágenes de TC, especialmente cuando se utilizan aplicadores de braquiterapia metálicos. Estos artefactos pueden distorsionar las imágenes de TC y dificultar el proceso de registro. Se pueden emplear técnicas especializadas, como algoritmos de reducción de artefactos metálicos, para mitigar estos artefactos y mejorar la precisión del registro (Zhang et al., 2021).
 
-Referencia: \[95\] Document III_Brachytherapy Threatment Planning and Imaging.pdf \[Enlace\]\[95\]
+Además, el registro manual de imágenes introduce la posibilidad de error humano y subjetividad. La exactitud del registro depende de la pericia y precisión del operador a la hora de identificar los puntos o regiones correspondientes en las imágenes de TC y RM. Los métodos de registro automatizados o semiautomatizados, como los basados en el aprendizaje profundo, han demostrado ser prometedores para mejorar la precisión y la eficiencia del proceso de registro (Li & Wei, 2023).
 
-### Registro deformable
+## Flujo de trabajo en braquiterapia de cérvix
 
-Y sobre registro deformable? La información sobre el registro deformable se encuentra en el Documento III_Brachytherapy Treatment Planning and Imaging.pdf en el párrafo \[17\]. Se menciona que el registro deformable es una tarea complicada debido al movimiento de los órganos y la deformación del tejido debido a la inserción de los aplicadores o agujas necesarios para la braquiterapia. Actualmente, la dosis total se evalúa mediante la adición de parámetros DVH, teniendo en cuenta la diferencia en el efecto biológico debido a la tasa de dosis cuando se combina con radioterapia externa. Para obtener una estimación correcta de la dosis total, es necesario utilizar el registro de imágenes no rígido. Sin embargo, se necesita trabajar más para verificar la precisión de estos algoritmos antes de que puedan alcanzar su máximo potencial \[17\].
+El flujo de trabajo en braquiterapia (también en el caso de la ginecológica) implica una serie de actividades realizadas secuencialmente, que conducen a una distribución de dosis aceptable alrededor de un aplicador colocado con precisión en la anatomía diana. El flujo de trabajo incluye varias etapas:
+
+1.  **Definición de los volúmenes a irradiar:** Se trata de determinar los volúmenes dentro de los cuales se prescribe la dosis al tumor y establecer los límites de dosis a los tejidos sanos.
+
+2.  **Planificación previa al implante:** Una minuciosa planificación previa al implante es esencial para localizar el volumen diana, decidir la técnica y determinar la distribución óptima de los aplicadores.
+
+3.  **Implantación:** La implantación se realiza con herramientas de imagen y navegación intra-operatoria.
+
+4.  **Imágenes post-implante y reconstrucción 3D:** Tras la implantación, se realizan imágenes post-implante para crear una reconstrucción 3D. Este paso implica identificar los volúmenes de interés y tener en cuenta factores como los artefactos de imagen, las distorsiones y la idoneidad del aplicador para la obtención de imágenes. Deben optimizarse la técnica de obtención de imágenes y las secuencias.
+
+5.  **Cálculo de la distribución de dosis:** La distribución de dosis se calcula mediante reconstrucción 3D. Es esencial tener en cuenta cualquier imperfección en el algoritmo, como los efectos de los límites del tejido, las inhomogeneidades del tejido y los efectos de los blindajes del aplicador.
+
+**Alternativa**
+
+El flujo de trabajo para un implante en el tratamiento del cáncer de cuello uterino mediante radioterapia, concretamente combinando radioterapia externa con braquiterapia, puede esquematizarse del siguiente modo:
+
+1.  Diagnóstico y estadificación: El paso inicial del flujo de trabajo es el diagnóstico y la estadificación del cáncer de cuello uterino. Esto implica una evaluación exhaustiva de la historia clínica del paciente, un examen físico y pruebas de imagen como la tomografía computarizada (TC) o la resonancia magnética (RM).
+
+2. Planificación del tratamiento: Una vez completados el diagnóstico y la estadificación, el siguiente paso es la planificación del tratamiento. Esto implica determinar la dosis de radiación y la técnica adecuadas para el paciente. En el caso del cáncer de cuello uterino, se suele utilizar una combinación de radioterapia externa y braquiterapia. Las imágenes de TC son necesarias para la planificación de la dosis en braquiterapia, ya que proporcionan información sobre la densidad tisular.
+
+3. Selección y reconstrucción del aplicador: La selección de los aplicadores adecuados es crucial para un tratamiento de braquiterapia eficaz. La elección de los aplicadores depende de factores como el tamaño del tumor, la ubicación y la distribución de dosis deseada. En el caso del cáncer de cuello uterino, pueden considerarse implantes que integren componentes intracavitarios e intersticiales. La resonancia magnética (RM) se utiliza para reconstruir los aplicadores y garantizar una colocación precisa.
+
+4. Colocación del implante: Una vez reconstruidos los aplicadores, se insertan en el cuello uterino de la paciente. La técnica específica para la colocación del implante puede variar en función del tipo de aplicador utilizado. Por ejemplo, los aplicadores intracavitarios pueden insertarse en la cavidad vaginal, mientras que los aplicadores intersticiales pueden colocarse directamente en el tumor o en los tejidos circundantes.
+
+5. Radioterapia: Una vez insertados los aplicadores, la paciente se somete a radioterapia. Esto suele implicar una combinación de radioterapia externa y braquiterapia. La radioterapia externa administra radiación al tumor desde fuera del cuerpo, mientras que la braquiterapia administra radiación directamente al tumor utilizando los aplicadores implantados.
+
+6. Evaluación dosimétrica: A lo largo del proceso de tratamiento, se realiza una evaluación dosimétrica para garantizar que la dosis de radiación se administra de forma precisa y eficaz. Esto implica evaluar la distribución de la dosis en la zona objetivo y evaluar la dosis a los tejidos sanos circundantes. La evaluación dosimétrica ayuda a optimizar el plan de tratamiento y a garantizar que se consiga el efecto terapéutico deseado minimizando los efectos secundarios.
+
+7. Seguimiento y monitorización: Tras la finalización de la radioterapia, se vigila estrechamente al paciente para detectar cualquier signo de recurrencia o complicación. Se realizan visitas periódicas de seguimiento y pruebas de imagen para evaluar la respuesta al tratamiento y los resultados a largo plazo.
+
+
+
+
+### Braquiterapia intracavitaria e intersticial
+
+Existen dos modalidades principales de braquiterapia para el cáncer de cuello de útero: la braquiterapia intracavitaria y una combinación de braquiterapia intracavitaria e intersticial.
+
+La braquiterapia intracavitaria implica el uso de un aplicador intracavitario, como un tándem y ovoides o cilindros vaginales, para colocar la fuente de radiación dentro de la cavidad corporal, concretamente el útero o la vagina . Esta técnica se utiliza habitualmente y se ha demostrado que proporciona un control local eficaz para los cánceres de cuello uterino en estadio temprano[@murofushi2020]. La braquiterapia intracavitaria administra radiación al tumor y a los tejidos circundantes dentro de la cavidad corporal, dirigiéndose al tumor primario y a las zonas adyacentes con riesgo de diseminación tumoral[@aggarwal2018]. Es una técnica relativamente sencilla y menos invasiva en comparación con la braquiterapia intersticial .
+
+Por otro lado, una combinación de braquiterapia intracavitaria e intersticial implica el uso tanto de aplicadores intracavitarios como de agujas intersticiales . En este enfoque, el aplicador intracavitario se utiliza para administrar la radiación al tumor dentro de la cavidad corporal, mientras que las agujas intersticiales se insertan en el tejido que rodea el cuello uterino para administrar la radiación directamente al tumor y a los tejidos circundantes. Esta técnica combinada permite una focalización más precisa del tumor y proporciona una mejor cobertura de los tumores más grandes o complejos[@fabian2019]. A menudo se utiliza en casos en los que la braquiterapia intracavitaria por sí sola puede no proporcionar dosis de radiación adecuadas a todo el tumor[@murofushi2020].
+
+Las ventajas de la braquiterapia intracavitaria incluyen su simplicidad, facilidad de uso y menor invasividad en comparación con una combinación de braquiterapia intracavitaria e intersticial . La braquiterapia intracavitaria se puede realizar utilizando aplicadores estándar, como tándem y ovoides o cilindros vaginales, que están fácilmente disponibles y se utilizan habitualmente en la práctica clínica[@aggarwal2018]. Requiere la inserción de menos agujas o catéteres en el tejido, lo que reduce la complejidad del procedimiento y el potencial de complicaciones . La braquiterapia intracavitaria también permite preservar relativamente los tejidos circundantes, como la vejiga y el recto, debido a la proximidad de la fuente de radiación al tumor.
+
+Sin embargo, la braquiterapia intracavitaria puede tener algunas limitaciones en comparación con una combinación de braquiterapia intracavitaria e intersticial . Una posible desventaja es la capacidad limitada de administrar radiación a todo el volumen tumoral, especialmente en casos con tumores voluminosos o extensos[@ohkubo2013]. La braquiterapia intracavitaria por sí sola puede no proporcionar dosis de radiación adecuadas a todo el tumor, lo que da lugar a un control tumoral subóptimo[@murofushi2020]. En estos casos, una combinación de braquiterapia intracavitaria e intersticial permite una mejor cobertura del tumor y una mejor distribución de la dosis[@tan2015]. Además, la braquiterapia intersticial se puede utilizar para tratar zonas específicas del tumor o zonas con menor respuesta a la radiación, lo que proporciona un enfoque de tratamiento más adaptado y personalizado[@fabian2019].
