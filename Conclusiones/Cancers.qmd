@@ -1,0 +1,4 @@
+This review has been performed by radiation oncologists and medical physicists with extensive clinical experience in MRI-based cervix HDR brachytherapy treatments with an interstitial component, representing the Spanish centres performing the largest number of implants. The main goal being reviewing the different methodologies used by all commercially available TPSs to solve the main planning issues for such a technique. Some desirable or convenient practical aspects to be implemented in commercial TPSs are outlined from the perspective of both radiation oncologists and medical physicists. This study also highlights the absence of some useful tools that would notably improve the planning of MR-based cervix brachytherapy with an interstitial component.
+
+
+

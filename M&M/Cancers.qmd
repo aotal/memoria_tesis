@@ -1,0 +1,95 @@
+The authors of this review are radiation oncologists and medical physicists with extensive experience in MRI-based cervix HDR brachytherapy treatments with an interstitial component, representing the Spanish centres with the largest number of implants performed. The three TPSs analysed were Brachyvision v16.0 from Varian (Varian Medical Systems, Palo Alto, CA, USA), Oncentra v4.6.2 from Elekta (Elekta AB, Stockholm, Sweden), and Sagiplan v2.2 from BEBIG (Eckert & Ziegler BEBIG GmbH, Berlin, Germany). Most of the authors are users of Oncentra Brachy, with just one user of Brachyvision; there are no Sagiplan users.
+
+The reviews of the TPSs were doneb ased on the authors' clinical experience and interactive demos providedb y the software manufacturers. In these demos, the TPS version tested was the latest one commercially available, including also all the new tools currently developed tob e included in future releases. After an introduction to most of the utilities and tools of the planning systems, the specialist from the vendor company (henceforth named specialist) was asked to answer some of the issues that are routinely faced in a clinical environment and that willb eb riefly describedb elow. In order to follow a systematic approach on the evaluation of each TPS capabilities, demos were carriedb ased on the questionnaire summarized in Table 1. Specialists were also asked about external software and devices commercially available or under development that could shed some light on these problems.
+
+| Question | Description                                                                                       |
+|-------------------------------|----------------------------------------|
+| Q1       | Tools for commissioning and QA.                                                                   |
+| Q2       | Image registration and utilities to optimize information from previous treatments data.           |
+| Q3       | MRI contouring. Removing the endocavitary component.                                              |
+| Q4       | Catheter reconstruction. Endocavitary component library.                                          |
+| Q5       | Needle reconstruction. Interstitial component.                                                    |
+| Q6       | Interpolated images.                                                                              |
+| Q7       | Use of EQD2 in the optimization process.                                                          |
+| Q8       | EQD2 combination with externa lbeam radiation therapy. (EBRT). Optimal and mandatory constrains.  |
+| Q9       | Dwell times locking.                                                                              |
+| Q10      | Optimization methods. Implementation of D90 and D2cc.                                             |
+| Q11      | DVH resolution.                                                                                   |
+| Q12      | D2cc location.                                                                                    |
+| Q13      | Model-based dose calculation algorithms (MBDCA).                                                   |
+
+: The rationale underlying each question is discused below
+
+\
+The work plan has been complemented by a review of the literature on this specific topic. The bibliography review methodology was based on a keyword search in the PubMed database of publications from the last ten years. Such keywords include MRI, cervical cancer, HDR brachytherapy, catheter reconstruction, dose accumulation, etc. On the other hand, more specific keywords, such as deep learning, electromagnetic tracking, auto-segmentation, and synthetic-CT, were also included. The study aims to highlight the general shortcomings of the TPSs and the possible improvements that could be made to them in the opinion of a group of experienced users. However, it is not the authors\' intention to make comparisons between them, much less to recommend a ranking.
+
+### Q1—Tools for Commissioning and QA
+
+Aside from the verification of the applicator’s geometry, the medical physicist must check the TPS calculation of the dose (based on TG43 and also TG186 when possible), the applicator’s geometry within the digital libraries, and all the tools involved in a treatment planning. Digital libraries reproduce the geometry of the applicators. However, the real path of the source could differ from the symmetric axis of the applicator, which is usually the path introduced by the manufacturer in the corresponding libraries [12]. This effect appears predominantly on curved applicators (e.g., ring). Medical physicists
+
+should analyse the possible discrepancies during the commissioning period and correct the source path introduced in the digital libraries when the TPS allows it. MBDCAs should be also commissioned. The AAPM/ESTRO/ABG working group on MBDCA in brachytherapy (WG-DCAB) has developed and validated using several test cases for clinical users to perform a standardized commissioning process, including a generic GYN shielded applicator. These tests have been implemented in the two TPSs that include this possibility and shared via the Joint AAPM/IROC-Houston Brachytherapy Source Registry [28]. Vendor-specific manuals have also been shared to guide the physicists.
+
+TPSs should be compatible with these generic models and facilitate the MBDCA commissioning by implementing the tools necessary to perform an in-depth comparison of the 3D dose distributions. Finally, TPSs must easily perform the quality control tests suggested in the guidelines [29–31].
+
+### Q2—Image Registration and Utilities to Optimize Informationf rom Previous Implants
+
+GYN IGABT image registration would be a fundamental tool to use in different phases of the planning process, such as in applicator reconstruction, volumes definition or propagation, dose accumulation in multifraction BT, or dose accumulation of EBRT + BT.
+
+In the case of applicator reconstruction or when transferring the target volume contours of a first MRI implant to the scans used for a second implant, for images with the applicator in place, a rigid registration of the applicator is recommended [21,32]. Rigid registration can also be used when a CT study is performed prior to the administration of the second fractions of each implant, allowing verification of the position and geometry of the OARs at the time of administration of these fractions. This will offer the possibility to rectify the dosimetry if necessary.
+
+If the brachytherapy treatment consists of more than one implant, it would be very useful to include the dose distributions of previous implants in the optimization.
+
+Since the brachytherapy applicator completely deforms the anatomy compared to the EBRT images, rigid registration has been questioned as a valuable method. Deformable registration could, in principle, combine the dose from each tissue voxel in the EBRT fractions with the corresponding one for each BT fraction.
+
+### Q3-MRI contouring. Removing the endocavitary component
+
+A significant issue for cervix segmentation is the presence of the applicator. Such an applicator causes deformation of the surrounding tissues, hindering the correct segmentation [33]. Additionally, the high dose gradient in the vicinity of the applicator may impact the accuracy of the surrounding tissues’ DVH dosimetric parameters [34,35]. These issues will increase the dose uncertainty. Therefore, it is necessary to develop techniques to remove the applicator from the image, not only for accurate tumour segmentation but also for a more accurate DVH evaluation.
+
+
+### Q4-Catheter reconstruction. Endocavitary component library
+
+Determining the source path and the most distal dwell position, together with the matching of the anatomical geometries, are the catheter reconstruction objectives [13]. The CT dummy design that allows a direct reconstruction (DR) of the brachytherapy source channels is straightforward, and all vendors include them in their product catalogues. By contrast, applicator reconstruction is more challenging when MRI is used and even more so in T2-weighted sequences. The materials visible in MRI are usually liquids, and this limits the construction diameter of the dummy. Some solutions, however, are available for the endocavitary part [36].
+
+An alternative to this modality of reconstruction is the use of applicator libraries containing accurate 3D models. The corresponding applicator can be selected and then displaced and rotated until it matches the image using reference points located both in the image and the model. Thereby, the source path and the most distal dwell position are clearly defined. This method is only valid for rigid applicators and, therefore, excludes the interstitial part.
+
+
+### Q5-Needle reconstruction. Interstitial component
+
+As discussed in Q4, the use of applicator libraries is only helpful in the case of rigid applicators and therefore the use of applicator libraries is, in principle, not possible for the interstitial part. Thus, direct reconstruction is the only way to make such reconstruction. In contrast to the case of needles on CT images, identifying needle trajectories and needle tips is still an open issue in MRI.
+
+### Q6-Interpolated images
+
+In the case of the DR modality, the determination of the most distal dwell position involves an extra challenge due to the finite slice thickness. Even though a slice thickness lower or equal to 3 mm is suitable for MRI images, the acquisition protocols of a given institution may not offer such a possibility while still needing to achieve millimetric precision on the reconstruction. This precision goal is especially important for the tip position. A possible solution is to add reconstructed images between two slice thicknesses, thus reducing the uncertainty.
+
+### Q7-Use of EQD2 in the optimization process
+
+Objective and tolerance doses on locally advanced cervix cancer are expressed in EQD2 and not in physical dose units. This accounts for the fact that two treatment modalities with different fractionations and biological effectiveness are intended to be combined (EBRT + BT).
+
+Independently of the method, optimization is based on an iterative process in which the medical physicist and radiation oncologist verifies whether all objective and tolerance doses (in EQD2) are fulfilled. At the time of publishing this review, these iterations are done using an external spreadsheet.
+
+### Q8-EQD2 combination with externa lbeam radiation therapy. (EBRT). Optimal and mandatory constrains
+
+As previously mentioned, the most used parameter for combining theb iological effect of EBRT and BT fractions is EQD2. Therefore, mandatory and optimal constraints shouldb e expressed using that quantity. If TPSs can combine the doses of the different fractions in an agile way, an excess or lack of dose canb e detected in the EBRT phase and compensated during the BT phase. In addition, for the definition of the intermediate-risk clinical target volume (CTV-IR), it is necessary to transfer the pre-EBRT GTV to the MRI of the BT treatment (ICRU 89) [21].
+
+### Q9-Dwell times locking
+
+The most recent protocols (EMBRACE II and ICRU 89) suggest de-escalating vaginal doses (vaginal TRAK representing less than 30% of total) and controlling the contribution from the interstitial component (less than 20–30%) [21,25]. This question was intended to identify the tools that the TPSs have in order to facilitate the control of the contribution of the different components. As an example, dwell-time locking allowsb locking a particular component (orj ust several needles), so it cannotb e modifiedb y the inverse optimization algorithm, manual optimization, or renormalization tools. As a result, the intracavitary and interstitial components couldb e graphically optimized separately.
+
+
+### Q10-Optimization methods. Implementation of D90 and D2cc
+
+Once the catheters are reconstructed, the dwell times must be chosen to fulfil the prescribed dose to the target volumes. To this end, several optimization methods have been used. This question was included to get details on the different optimization methods available for each TPS and their limitations. Specifically, the specialists were questioned about the inclusion of inverse-optimization algorithms and the possibility to aim the optimization towards the dosimetric metrics suggested to be reported (D 90 , D 2cc , etc.). Moreover, the capability of the optimizers to control the dwell time gradient/homogeneity and the weight of each component (intracavitary or interstitial) was also assessed.
+
+
+### Q11-DVH resolution
+
+Following the advice of ICRU 89, the EMBRACE group decided to abandon the dose reportb ased on minimum (D100) and maximum doses. Instead, more robust dosimetric metrics were gathered: D98, D90, D2cc, and D0.1cc, among others. The control of the DVH resolution limitations is extremely important in the case of the OAR for which D2cc and D0.1cc are suggested tob e reported. This question was aimed to identify the strategies of the different TPSs tob e able to identify the doses deposited for volumes up to 0.1 cm.
+
+### Q12-D2cc location
+
+A D 2cc value above a certain threshold is the cause of toxicities in OARs. The ratio between the D 2cc and ICRU bladder point dose is correlated with the development of urinary morbidity [37,38]. Mazeron et al. also found an increased likelihood of rectal bleeding when the rectal D 2cc was greater than 70 Gy. If the position of D 2cc is known, it would be possible to take this information into account during the optimization process (i.e., manual fine tuning).
+
+
+### Q13-Model-based dose calculation algorithms (MBDCA)
+
+Introduction of MBDCAs capable of accounting for tissue and applicator heterogeneities inb rachytherapy hasb een a major development inb rachytherapy treatment planning in recent years. Their emergence and the protocols for early adopters was addressedb y AAPM, ESTRO, ABS, and ABG Task-Group 186 (TG186) [39]. TG186 emphasizes that although prescriptionsb ased on the TG-43 dose calculation formalism must remain in effect, they shouldb e compared against MBDCA planning systems to understand its possible shortcomings and limitations. For this reason, the availability of MBDCAs was checked for each TPS.
