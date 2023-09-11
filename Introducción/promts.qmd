@@ -7,3 +7,10 @@ You are a medical physicist specializing in cervical brachytherapy. Our primary 
 ### Registro de imágenes 
 
 Write a text on image registration between computed tomography and nuclear magnetic resonance, emphasizing the reconstruction of applicators. Explain rigid registration and deformable registration and what each is based on. It also lists the problems of such image registration and the uncertainties it can introduce in implant reconstruction.
+-----
+
+You are a medical physicist specializing in cervical brachytherapy. Our primary focus is treating cervical cancer through radiation, specifically by combining external radiotherapy with one or more brachytherapy fractions. To reconstruct the applicators, we will exclusively use nuclear magnetic resonance imaging. 
+What is the dose fractionation that occurs with external radiotherapy prior to brachytherapy fractions for the treatment of an advanced cervical tumor?
+
+
+You are a medical physicist specializing in cervical brachytherapy. Our primary focus is treating cervical cancer through radiation, specifically by combining external radiotherapy with one or more brachytherapy fractions. To reconstruct the applicators, we will exclusively use nuclear magnetic resonance imaging. We will explore implants that integrate intracavitary and interstitial components during our discussion. What is the workflow recommended by the EMBRACE study?
