@@ -13,6 +13,8 @@ book:
   chapters:
     - index.qmd
     - introduction.qmd
+    - m&m.qmd
+    - discusion.qmd    
     - references.qmd
 
 bibliography: references.bib

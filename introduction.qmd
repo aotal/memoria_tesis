@@ -306,7 +306,7 @@ La determinación precisa de la posición de la punta es crucial para la planifi
 
 También la determinación de la posición de la punta en la reconstrucción de aplicadores puede verse afectada por el espesor de corte de las imágenes de resonancia magnética. Un espesor de corte más pequeño, normalmente alrededor de 3-4 mm, puede provocar incertidumbres al determinar el extremo de la punta de los canales de la fuente. Esta inexactitud se puede reducir mediante el uso de secuencias de imágenes adicionales, como parasagital o 3D, pero la adición de nuevas secuencias introduce nuevos focos de incertidumbre.
 
-### Bibliotecas de aplicadores
+### Bibliotecas de aplicadores {#sec-bibapp}
 
 Otro enfoque para la reconstrucción del aplicador es el uso de bibliotecas de aplicadores. Las bibliotecas de aplicadores son un concepto utilizado en el proceso de reconstrucción de la geometría del aplicador en la planificación del tratamiento de braquiterapia basada en imágenes 3D. Consisten en modelos 3D precisos y predefinidos de diferentes tipos de aplicadores utilizados en procedimientos de braquiterapia. Estas bibliotecas se utilizan para importar la configuración del aplicador al sistema de planificación del tratamiento (TPS) y hacerla coincidir con la señal producida por el aplicador en las imágenes de resonancia magnética[@hellebust2010].
 
