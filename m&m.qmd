@@ -20,7 +20,7 @@ In this case, we started from a model provided by Elekta without the interstitia
 
 Once we had the output points, the next step was to create a file corresponding to each needle. A 3D model of each needle was created with FreeCAD (version 0.14, http://www.freecadweb.org/) and open parametric modeler software. By exporting this model to an Wavefront .obj file (obj) and processing it in Excel, we got the cursive section. The connector for the needle in this new file was also obtained using a FreeCAD model. The connectors defined in the ovoid tube file are the outputs points for the ovoid computed in the Utrecht applicator reference system.
 
-## Template Benidorm
+## Template Benidorm {#sec-templatebenidorm}
 
 The modeling process for TB was different. Because only intrauterine tubes from the vaginal applicator set were included in the Oncentra data base, we had to use FreeCAD to create a new 3D model of the template. Using this program, we translated the real prototype to a vector file and modeled titanium needles, 4 cylinders (45 mm, 80 mm, 100 mm, and 135 mm), and the perineal plates with the A-vitamin pellets (Figure 2). This step gave us the necessary information regarding the skin of the applicator, and provided data we needed for the relative positions of all the parts that configured the applicator, so that the connectors could be created. With all this information, we created different files and their links using techniques described in previous sections.
 
