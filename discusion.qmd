@@ -68,7 +68,16 @@ Aplicador Vienna en MRI
 
 Esta idea fue presentada, además de en el 36º congreso de la European Society for Therapeutic Radiology and Oncology (ESTRO) celebrado en Viena, en el congreso conjunto 13º Congreso Argentino de Física Médica/7º Congreso Latinoamericano de Física Médica, celebrado en Villa Carlos Paz (Córdoba, Argentina), donde fue galardonado como mejor presentación póster de dicho congreso.
 
-Continuando con la exploración de las posibilidades de las bibliotecas de aplicadores, en 2019 son presentados sendos trabajos en el 61º congreso de la American Association of Physicist in Medicine (AAPM), celebrado en San Antonio (Texas, EEUU)[@otal2019_plastic;@otal2019_metal], en el primero se estudia de nuevo el aplicador Utrecht de Elekta, un aplicador plástico, y el segundo aborda la reconstrucción de un aplicador compatible con RM pero construido en titanio el aplicador Fletcher (Mick, Eckert&Ziegler, Germany). En el primero de ellos intenta obtener un método de reconstrucción de aplicadores metálicos compatibles en resonancia, en este caso el aplicador Fletcher (Mick, Eckert&Ziegler, Germany). El método se basa en obtener medidas de distancias en el aplicador ya implantado y mediante esta parametrización obtener un modelo virtual para la biblioteca del aplicador completo y tratarlo como si fuese rígido ([figura @fig-fletcher]).
+Continuando con la exploración de las posibilidades de las bibliotecas de aplicadores, en 2019 son presentados sendos trabajos en el 61º congreso de la American Association of Physicist in Medicine (AAPM), celebrado en San Antonio (Texas, EEUU). El objetivo de los trabajos presentados es buscar métodos que conviertan aplicadores formados por tres canales correspondientes a la sonda intrauterina y a los ovoides en un solo aplicador que se pueda considerar en la biblioteca de aplicadores como rígido. el aplicador Utrecht de Elekta, un aplicador plástico, y el segundo aborda la reconstrucción de un aplicador compatible con RM pero construido en titanio el aplicador Fletcher (Mick, Eckert&Ziegler, Germany). 
+
+En el trabajo de Otal et al.[@otal2019_plastic], el aplicador objetivo es el modelo Utrecht de la compañía Elekta (Estocolmo, Suecia), un aplicador plástico. Utilizando las *dummies* del artículo de Pérez-calatayud et al.[@perez-calatayudExclusiveMRIbasedTandem2009a] se obtienen las trayectorias de las fuentes en los tres canales intracavitarios. Con esa información y por un método de mínimos cuadrados se obtiene un modelo geométrico del aplicador adaptado al implante, con lo que el aplicador podrá ser colocado sobre la MRI como si fuese un aplicador de una sola pieza. Este método fue presentado en el 6º Congreso Conjunto 22 SEFM /17 SEPR (Burgos) y galardonado con el primer premio modalidad póster de la SEFM.
+
+[@otal2019_metal]
+
+
+
+
+En el primero de ellos intenta obtener un método de reconstrucción de aplicadores metálicos compatibles en resonancia, en este caso el aplicador Fletcher (Mick, Eckert&Ziegler, Germany). El método se basa en obtener medidas de distancias en el aplicador ya implantado y mediante esta parametrización obtener un modelo virtual para la biblioteca del aplicador completo y tratarlo como si fuese rígido ([figura @fig-fletcher]).
 
 ::: {#fig-fletcher layout-ncol="2"}
 ![Detalle de los parámetros de distancia sobre un modelo de CAD](img/fletcher2.png){#fig-fletcher1}
