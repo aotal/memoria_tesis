@@ -68,16 +68,17 @@ Aplicador Vienna en MRI
 
 Esta idea fue presentada, además de en el 36º congreso de la European Society for Therapeutic Radiology and Oncology (ESTRO) celebrado en Viena, en el congreso conjunto 13º Congreso Argentino de Física Médica/7º Congreso Latinoamericano de Física Médica, celebrado en Villa Carlos Paz (Córdoba, Argentina), donde fue galardonado como mejor presentación póster de dicho congreso.
 
-Continuando con la exploración de las posibilidades de las bibliotecas de aplicadores, en 2019 son presentados sendos trabajos en el 61º congreso de la American Association of Physicist in Medicine (AAPM), celebrado en San Antonio (Texas, EEUU). El objetivo de los trabajos presentados es buscar métodos que conviertan aplicadores formados por tres canales correspondientes a la sonda intrauterina y a los ovoides en un solo aplicador que se pueda considerar en la biblioteca de aplicadores como rígido. el aplicador Utrecht de Elekta, un aplicador plástico, y el segundo aborda la reconstrucción de un aplicador compatible con RM pero construido en titanio el aplicador Fletcher (Mick, Eckert&Ziegler, Germany). 
+En 2018 Richart et al.[@richart2018a] publicaron un artículo de revisión en donde se intentó recopilar el estado del arte de la reconstrucción de aplicadores en braquiterapia de cérvix. Entre otras muchas fueron incluidas las descritas en lo párrafos anteriores de la sección.
 
-En el trabajo de Otal et al.[@otal2019_plastic], el aplicador objetivo es el modelo Utrecht de la compañía Elekta (Estocolmo, Suecia), un aplicador plástico. Utilizando las *dummies* del artículo de Pérez-calatayud et al.[@perez-calatayudExclusiveMRIbasedTandem2009a] se obtienen las trayectorias de las fuentes en los tres canales intracavitarios. Con esa información y por un método de mínimos cuadrados se obtiene un modelo geométrico del aplicador adaptado al implante, con lo que el aplicador podrá ser colocado sobre la MRI como si fuese un aplicador de una sola pieza. Este método fue presentado en el 6º Congreso Conjunto 22 SEFM /17 SEPR (Burgos) y galardonado con el primer premio modalidad póster de la SEFM.
+Continuando con la exploración de las posibilidades de las bibliotecas de aplicadores, en 2019 son presentados sendos trabajos en el 61º congreso de la American Association of Physicist in Medicine (AAPM), celebrado en San Antonio (Texas, EEUU). El objetivo de los trabajos presentados es buscar métodos que conviertan aplicadores formados por tres canales correspondientes a la sonda intrauterina y a los ovoides en un solo aplicador que se pueda considerar en la biblioteca de aplicadores como rígido. el aplicador Utrecht de Elekta, un aplicador plástico, y el segundo aborda la reconstrucción de un aplicador compatible con RM pero construido en titanio el aplicador Fletcher (Mick, Eckert&Ziegler, Germany).
 
-[@otal2019_metal]
+En el trabajo de Otal2019_p et al.[@otal2019_plastic], el aplicador objetivo es el modelo Utrecht de la compañía Elekta (Estocolmo, Suecia), un aplicador plástico. Utilizando las *dummies* del artículo de Pérez-calatayud et al.[@perez-calatayudExclusiveMRIbasedTandem2009a] se obtienen las trayectorias de las fuentes en los tres canales intracavitarios. Con esa información y por un método de mínimos cuadrados se obtiene un modelo geométrico del aplicador adaptado al implante, con lo que el aplicador podrá ser colocado sobre la MRI como si fuese un aplicador de una sola pieza.
 
+Se aplicó el método expuesto a 14 pacientes con caracter retrospectivo. Las distancias entre los puntos en la imagen y los calculados se muestra en el histograma de la [figura @fig-utrecht1]. En el caso de los ovoides, las diferencias están por debajo del milímetro, no así en el caso de la sonda intrauterina, en el que no se aprecian tan buenos resultados. El peor resultado para la sonda intrauterina es debido a la menor curvatura de la misma lo que hace que en el ajuste exista una indeterminación mayor que en el caso de los ovoides los cuales forman un ángulo que minimiza la incertidumbre en la dirección cráneo-caudal. Este método fue presentado en el 6º Congreso Conjunto 22 SEFM /17 SEPR (Burgos) y galardonado con el primer premio modalidad póster de la SEFM.
 
+![Histograma de distancias entre los canales en la MRI y las obtenidas mediante la transformación del modelo de la biblioteca](img/utrecht1.png){#fig-utrecht1}
 
-
-En el primero de ellos intenta obtener un método de reconstrucción de aplicadores metálicos compatibles en resonancia, en este caso el aplicador Fletcher (Mick, Eckert&Ziegler, Germany). El método se basa en obtener medidas de distancias en el aplicador ya implantado y mediante esta parametrización obtener un modelo virtual para la biblioteca del aplicador completo y tratarlo como si fuese rígido ([figura @fig-fletcher]).
+El método descrito en Otal2019_p et al. es de uso exclusivo para aplicadores plásticos, ya que las *dummies* del canal son visibles en la MRI. No así para aplicadores metálicos en donde una *dummy* de ese tipo no es viable. En el trabajo de Otal2019_m et al.[@otal2019_metal], se propone un método diferente adaptado a los aplicadores metálicos, concretamente en el aplicador Fletcher (Mick, Eckert&Ziegler, Germany). Dicho método se basa en obtener medidas de distancias en el aplicador ya implantado y mediante esta parametrización obtener un modelo virtual para la biblioteca del aplicador completo y tratarlo como si fuese rígido, al igual que se hizo para el aplicador Utrecht ([figura @fig-fletcher]).
 
 ::: {#fig-fletcher layout-ncol="2"}
 ![Detalle de los parámetros de distancia sobre un modelo de CAD](img/fletcher2.png){#fig-fletcher1}
@@ -86,3 +87,19 @@ En el primero de ellos intenta obtener un método de reconstrucción de aplicado
 
 Aplicador Fletcher de Mick
 :::
+
+Posteriormente, en el año 2021 Otal2021 et al.[@otal2021] presentaron en la reunión de la American Brachytherapy Society (ABS) una herramienta para facilitar y ampliar la reconstrucción de apicadores plásticos sobre MRI, nuevamente sobre el aplicador Utrecht. Dicha herramienta está desarrollada sobre la plataforma 3DSlicer[@fedorov2012] y además de las soluciones aportadas en Otal2019_p et al., ha sido añadida una herramienta que permite la reconstrucción de la parte intersticial a partir de la parte intracavitaria. Las ideas principales para la construcción de la herramienta son las aportadas en el artículo de Otal2017.
+
+Una vez posicionada la parte intracavitaria se seleccionan en un desplegable las agujas colocadas en el implante y se introduce el valor de la profundidad de cada una de ellas, valor registrado por el responsable del implante ([figura @fig-utrecht2]). El punto de salida de cada una de las agujas es conocido de la parte intracavitaria, esto unido a los puntos registrados sobre la imagen de cada una de las agujas es ajustado a un spline polinómico que tiene la longitud aportada anteriormente ([figura @fig-utrecht3]).
+
+::: {#fig-utrecht layout-nrow="2"}
+![Formulario con la información del implante](img/utrecht2.png){#fig-utrecht2}
+
+![Vista en 3DSlicer del implante completo](img/utrecht3.png){#fig-utrecht3}
+
+Herramienta en 3DSlicer para la reconstrucción del aplicador Utrecht
+:::
+
+La herramienta desarrollada es ajena a la biblioteca de aplicadores de Oncentra, ya que contiene los modelos tridimensionales del aplicador en ella y por tanto es posible introducirlo en una versión de Oncentra sin la licencia de la biblioteca, la cual no viene incluída con el paquete básico. La salida que aporta son las coordenadas de cada punto de parada de la fuente para todos los canales del aplicador, tanto los intracavitarios como los intersticiales. Dichos valores se pueden introducir en el planificador a mano, lo cual es bastante tedioso y con peligro de cometer errores de transcripción o diseñar algún procedimiento de exportación de ficheros que permita al planificador importarlo de manera automática. El procedimiento completo de reconstrucción se puede visionar en la plataforma de vídeos [Youtube](https://youtu.be/kv827vIsAZM).
+
+El desarrollo de todas la innovaciones expuestas previamente unidas a la inquietud sobre las carencias de los TPSs actuales de un grupo de profesionales, físicos médicos y oncólogos radioterápicos, con sólida experiencia en el tratamiento de tumores de cérvix en braquiterapia intersticial con MRI exclusiva, fueron el germen de la publicación Otal2022.
