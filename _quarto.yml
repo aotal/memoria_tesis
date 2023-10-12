@@ -14,6 +14,7 @@ book:
     - index.qmd
     - introduction.qmd
     - m&m.qmd
+    - results.qmd
     - discusion.qmd    
     - references.qmd
 
@@ -21,9 +22,11 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
   pdf:
     documentclass: scrreprt
-
+  docx:
+    reference-doc: val.docx
 
 

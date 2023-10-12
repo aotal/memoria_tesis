@@ -1,4 +1,33 @@
 # Resultados
 
-This is a book created from markdown and executable code.
+{{< pagebreak >}}
 
+![](articulos/librerias/librerias-1.png)
+![](articulos/librerias/librerias-2.png)
+![](articulos/librerias/librerias-3.png)
+![](articulos/librerias/librerias-4.png)
+![](articulos/librerias/librerias-5.png)
+![](articulos/librerias/librerias-6.png)
+![](articulos/librerias/librerias-7.png)
+
+![](articulos/preplan/preplan-1.png)
+![](articulos/preplan/preplan-2.png)
+![](articulos/preplan/preplan-3.png)
+![](articulos/preplan/preplan-4.png)
+![](articulos/preplan/preplan-5.png)
+
+![](articulos/cancers/cancers-01.png)
+![](articulos/cancers/cancers-02.png)
+![](articulos/cancers/cancers-03.png)
+![](articulos/cancers/cancers-04.png)
+![](articulos/cancers/cancers-05.png)
+![](articulos/cancers/cancers-06.png)
+![](articulos/cancers/cancers-07.png)
+![](articulos/cancers/cancers-08.png)
+![](articulos/cancers/cancers-09.png)
+![](articulos/cancers/cancers-10.png)
+![](articulos/cancers/cancers-11.png)
+![](articulos/cancers/cancers-12.png)
+![](articulos/cancers/cancers-13.png)
+![](articulos/cancers/cancers-14.png)
+![](articulos/cancers/cancers-15.png)

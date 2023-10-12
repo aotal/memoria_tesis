@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Soluciones de reconstrucción mediante RMN - 2&nbsp; Material y métodos</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./results.html" rel="next">
+<link href="./introduction.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./m&amp;m.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Material y métodos</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Soluciones de reconstrucción mediante RMN</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prefacio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./m&amp;m.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Material y métodos</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./results.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Resultados</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Discusión</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliografía</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#artículo-sobre-librerías" id="toc-artículo-sobre-librerías" class="nav-link active" data-scroll-target="#artículo-sobre-librerías"><span class="header-section-number">2.1</span> Artículo sobre librerías</a></li>
+  <li><a href="#applicators-magnetic-resonance-imaging-acquisition-and-tps" id="toc-applicators-magnetic-resonance-imaging-acquisition-and-tps" class="nav-link" data-scroll-target="#applicators-magnetic-resonance-imaging-acquisition-and-tps"><span class="header-section-number">2.2</span> Applicators, magnetic resonance imaging acquisition, and TPS</a></li>
+  <li><a href="#utrecht-and-template-benidorm-applicators-implementation-in-the-tps-library" id="toc-utrecht-and-template-benidorm-applicators-implementation-in-the-tps-library" class="nav-link" data-scroll-target="#utrecht-and-template-benidorm-applicators-implementation-in-the-tps-library"><span class="header-section-number">2.3</span> Utrecht and Template Benidorm applicators implementation in the TPS library</a></li>
+  <li><a href="#the-utrecht-applicator" id="toc-the-utrecht-applicator" class="nav-link" data-scroll-target="#the-utrecht-applicator"><span class="header-section-number">2.4</span> The Utrecht applicator</a></li>
+  <li><a href="#sec-templatebenidorm" id="toc-sec-templatebenidorm" class="nav-link" data-scroll-target="#sec-templatebenidorm"><span class="header-section-number">2.5</span> Template Benidorm</a></li>
+  <li><a href="#sec-MM-reconstruction" id="toc-sec-MM-reconstruction" class="nav-link" data-scroll-target="#sec-MM-reconstruction"><span class="header-section-number">2.6</span> Reconstruction procedure</a></li>
+  <li><a href="#pre-plan" id="toc-pre-plan" class="nav-link" data-scroll-target="#pre-plan"><span class="header-section-number">2.7</span> Pre-plan</a></li>
+  <li><a href="#cancers" id="toc-cancers" class="nav-link" data-scroll-target="#cancers"><span class="header-section-number">2.8</span> Cancers</a>
+  <ul class="collapse">
+  <li><a href="#q1tools-for-commissioning-and-qa" id="toc-q1tools-for-commissioning-and-qa" class="nav-link" data-scroll-target="#q1tools-for-commissioning-and-qa"><span class="header-section-number">2.8.1</span> Q1—Tools for Commissioning and QA</a></li>
+  <li><a href="#q2image-registration-and-utilities-to-optimize-informationf-rom-previous-implants" id="toc-q2image-registration-and-utilities-to-optimize-informationf-rom-previous-implants" class="nav-link" data-scroll-target="#q2image-registration-and-utilities-to-optimize-informationf-rom-previous-implants"><span class="header-section-number">2.8.2</span> Q2—Image Registration and Utilities to Optimize Informationf rom Previous Implants</a></li>
+  <li><a href="#q3-mri-contouring.-removing-the-endocavitary-component" id="toc-q3-mri-contouring.-removing-the-endocavitary-component" class="nav-link" data-scroll-target="#q3-mri-contouring.-removing-the-endocavitary-component"><span class="header-section-number">2.8.3</span> Q3-MRI contouring. Removing the endocavitary component</a></li>
+  <li><a href="#q4-catheter-reconstruction.-endocavitary-component-library" id="toc-q4-catheter-reconstruction.-endocavitary-component-library" class="nav-link" data-scroll-target="#q4-catheter-reconstruction.-endocavitary-component-library"><span class="header-section-number">2.8.4</span> Q4-Catheter reconstruction. Endocavitary component library</a></li>
+  <li><a href="#q5-needle-reconstruction.-interstitial-component" id="toc-q5-needle-reconstruction.-interstitial-component" class="nav-link" data-scroll-target="#q5-needle-reconstruction.-interstitial-component"><span class="header-section-number">2.8.5</span> Q5-Needle reconstruction. Interstitial component</a></li>
+  <li><a href="#q6-interpolated-images" id="toc-q6-interpolated-images" class="nav-link" data-scroll-target="#q6-interpolated-images"><span class="header-section-number">2.8.6</span> Q6-Interpolated images</a></li>
+  <li><a href="#q7-use-of-eqd2-in-the-optimization-process" id="toc-q7-use-of-eqd2-in-the-optimization-process" class="nav-link" data-scroll-target="#q7-use-of-eqd2-in-the-optimization-process"><span class="header-section-number">2.8.7</span> Q7-Use of EQD2 in the optimization process</a></li>
+  <li><a href="#q8-eqd2-combination-with-externa-lbeam-radiation-therapy.-ebrt.-optimal-and-mandatory-constrains" id="toc-q8-eqd2-combination-with-externa-lbeam-radiation-therapy.-ebrt.-optimal-and-mandatory-constrains" class="nav-link" data-scroll-target="#q8-eqd2-combination-with-externa-lbeam-radiation-therapy.-ebrt.-optimal-and-mandatory-constrains"><span class="header-section-number">2.8.8</span> Q8-EQD2 combination with externa lbeam radiation therapy. (EBRT). Optimal and mandatory constrains</a></li>
+  <li><a href="#q9-dwell-times-locking" id="toc-q9-dwell-times-locking" class="nav-link" data-scroll-target="#q9-dwell-times-locking"><span class="header-section-number">2.8.9</span> Q9-Dwell times locking</a></li>
+  <li><a href="#q10-optimization-methods.-implementation-of-d90-and-d2cc" id="toc-q10-optimization-methods.-implementation-of-d90-and-d2cc" class="nav-link" data-scroll-target="#q10-optimization-methods.-implementation-of-d90-and-d2cc"><span class="header-section-number">2.8.10</span> Q10-Optimization methods. Implementation of D90 and D2cc</a></li>
+  <li><a href="#q11-dvh-resolution" id="toc-q11-dvh-resolution" class="nav-link" data-scroll-target="#q11-dvh-resolution"><span class="header-section-number">2.8.11</span> Q11-DVH resolution</a></li>
+  <li><a href="#q12-d2cc-location" id="toc-q12-d2cc-location" class="nav-link" data-scroll-target="#q12-d2cc-location"><span class="header-section-number">2.8.12</span> Q12-D2cc location</a></li>
+  <li><a href="#q13-model-based-dose-calculation-algorithms-mbdca" id="toc-q13-model-based-dose-calculation-algorithms-mbdca" class="nav-link" data-scroll-target="#q13-model-based-dose-calculation-algorithms-mbdca"><span class="header-section-number">2.8.13</span> Q13-Model-based dose calculation algorithms (MBDCA)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Material y métodos</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="artículo-sobre-librerías" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="artículo-sobre-librerías"><span class="header-section-number">2.1</span> Artículo sobre librerías</h2>
+</section>
+<section id="applicators-magnetic-resonance-imaging-acquisition-and-tps" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="applicators-magnetic-resonance-imaging-acquisition-and-tps"><span class="header-section-number">2.2</span> Applicators, magnetic resonance imaging acquisition, and TPS</h2>
+<p>The Utrecht Interstitial CT/MRI Applicator Set (Nucletron, an Elekta company, Elekta AB, Stockholm, Sweden) has been specifically developed for combined intracavitary/ interstitial treatment of gynecologic cancers [12]. Its design is based on the Fletcher CT/MRI Applicator Set (Nucletron, an Elekta company, Elekta AB, Stockholm, Sweden), and it uses the ovoids as a template for interstitial needle placement (up to 4 plastic needles in each). The insertion depth of the needles can be controlled using insertion tool. The final needle set-up is implant dependent in both trajectory and depth. However, although there are dummies for the endocavitary component, there are none for the interstitial one. Currently, the needle positions are reconstructed using their black tunnel signal on T2 MRI and their insertion depth.</p>
+<p>The TB (Lorca Marin, Murcia, Spain) consists of a template to allocate multiple Titanium needles and a cylinder, uterine tandem [17,18]. This template improves the existing MUPIT [14] template (Nucletron, an Elekta company, Elekta AB, Stockholm, Sweden) in that it implements both titanium needles and an intracavitary component, and is fully MRI compatible. The template consists of two perineal plates with two central holes that allow placement of a vaginal cylinder, available in different sizes to accommodate different vaginal lengths and intrauterine tubes of varying angles and lengths. Additionally, the plates are drilled with holes to introduce straight and angled titanium needles [18]. The plates have three dimples where three A-vitamin pellets are placed. These pellets produce a high signal in both T1 and T2 sequences and are used in the reconstruction process. The needles are reconstructed following their black tunnel signal and tip void. In T1 MRI, the positions can be determined properly but in T2, there is insufficient contrast [18]. Therefore, the depth of each needle must be obtained by measuring the free length with a ruler.</p>
+<p>The MRI scans of the patients were acquired with a 1.5 T MRI imager (Optima MR 450w, software version DV24, GE Medical Systems, Milwaukee, Wisconsin, USA). An eight-channel phased array receiver coil was used following standard clinical MRI protocols. Following the GEC-ESTRO recommendations [6,7,8], the acquisition consisted of an axial T2 weighted fast recovery fast spin echo (FRFSE) sequence with the slice thickness reduced to 2 mm. This sequence was used for both delineation and reconstruction. Magnetic resonance imaging acquisition setting details have been described in a publication by Richart et al.&nbsp;[18]. The developed library has been implemented in the Oncentra Brachytherapy TPS, version 4.3.0, with a brachytherapy module that includes a library of rigid applicators. An independent program, the Library Manager Applicator (LMA), was used to add 3D models of the applicators to the Oncentra database.</p>
+</section>
+<section id="utrecht-and-template-benidorm-applicators-implementation-in-the-tps-library" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="utrecht-and-template-benidorm-applicators-implementation-in-the-tps-library"><span class="header-section-number">2.3</span> Utrecht and Template Benidorm applicators implementation in the TPS library</h2>
+<p>In the Oncentra TPS (Nucletron, an Elekta company, Elekta AB, Stockholm, Sweden), the input files for the library application manager are a set of Extensible Markup Language (xml) files organized in a hierarchical structure. The main file has a rule.xml extension. In this main file, each applicator, with all its options, is configured for use in Oncentra. The blocks used in this file are separate files that include information about properties of channels, ovoids, etc. These blocks are divided in four kinds of files: tubes, ovoids, cylinders, and fixations. These files contain four subsections: 1) a description of the file, including the part ID and the type; 2) the set of anchor points; 3) the connectors used; 4) information about the surface of the element (called the cursive in Oncentra).</p>
+</section>
+<section id="the-utrecht-applicator" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="the-utrecht-applicator"><span class="header-section-number">2.4</span> The Utrecht applicator</h2>
+<p>In this case, we started from a model provided by Elekta without the interstitial component. The first challenge was to determine distance from the surface of the ovoids of the output points of the needles. We used the technical information provided by Elekta to obtain the coordinates of the output points of the needles in the intrinsic reference system of the ovoids (Figure 1). To determine the coordinates in the reference system of the applicator, we had to find the required translation and a rotation. The translation is given by the tip position of each ovoid tube. To find the rotation, we obtained the plane of each of the ovoid tubes from the data in the file corresponding to the ovoid tube in the center curve section, using the minimum square method. After defining the planes, we had to match the x and z directions in both reference systems.</p>
+<p>Once we had the output points, the next step was to create a file corresponding to each needle. A 3D model of each needle was created with FreeCAD (version 0.14, http://www.freecadweb.org/) and open parametric modeler software. By exporting this model to an Wavefront .obj file (obj) and processing it in Excel, we got the cursive section. The connector for the needle in this new file was also obtained using a FreeCAD model. The connectors defined in the ovoid tube file are the outputs points for the ovoid computed in the Utrecht applicator reference system.</p>
+</section>
+<section id="sec-templatebenidorm" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="sec-templatebenidorm"><span class="header-section-number">2.5</span> Template Benidorm</h2>
+<p>The modeling process for TB was different. Because only intrauterine tubes from the vaginal applicator set were included in the Oncentra data base, we had to use FreeCAD to create a new 3D model of the template. Using this program, we translated the real prototype to a vector file and modeled titanium needles, 4 cylinders (45 mm, 80 mm, 100 mm, and 135 mm), and the perineal plates with the A-vitamin pellets (Figure 2). This step gave us the necessary information regarding the skin of the applicator, and provided data we needed for the relative positions of all the parts that configured the applicator, so that the connectors could be created. With all this information, we created different files and their links using techniques described in previous sections.</p>
+</section>
+<section id="sec-MM-reconstruction" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="sec-MM-reconstruction"><span class="header-section-number">2.6</span> Reconstruction procedure</h2>
+<p>For the Utrecht applicator, the MRI T2 reconstruction process was based on the points that the rigid section and the interstitial part have in common. First, the rigid part was reconstructed using the specific dummies that existed for the tandem and ovoids, which were clearly visible in T2 sequence, together with the cursive of the applicator. These have been described in a previous publication [19] and the dummies are currently provided to users by Elekta. These dummies consist of catheters filled with a saline and iodine mixture. Just water provides sufficient visibility, and the iodine colors the liquid to facilitate checking for bubbles. The distal end of the dummy corresponds with the maximum source-to-indexer distance of the high-dose-rate afterloader. The tip position of both ovoids and the tip position of the intrauterine tandem (MRI markers) are used as anchor points to locate the applicator. Small corrections to better fit the signal void and the MRI markers are made, using the indentations in the cursive of the ovoids and tandem. Unlike tandem and ovoids, this type of dummy is incompatible with plastic needles, due to their narrower diameter. Because the needles are not perfectly rigid, slight deviations in the modeled positions of the needle tips can be present. To account for this, small corrections can be made by rotating the needles at their exit points on the ovoids.</p>
+<p>The correct modeling of the intracavitary component gives us the location of the needle output points; these are the exit points at the ovoid’s surface. Combining this information with the free length, enables us to know the complete needle position. In case of TB, once the choice of the needles was made, we entered the configuration of needles and the free length data into a home-made java application (Figure 3) to generate xml files and then imported them to mum source-to-indexer distance of the high-dose-rate afterloader. The tip position of both ovoids and the tip position of the intrauterine tandem (MRI markers) are used as anchor points to locate the applicator. Small corrections to better fit the signal void and the MRI markers are made, using the indentations in the cursive of the ovoids and tandem. Unlike tandem and ovoids, this type of dummy is incompatible with plastic needles, due to their narrower diameter. Because the needles are not perfectly rigid, slight deviations in the modeled positions of the needle tips can be present. To account for this, small corrections can be made by rotating the needles at their exit points on the ovoids.</p>
+<p>The correct modeling of the intracavitary component gives us the location of the needle output points; these are the exit points at the ovoid’s surface. Combining this information with the free length, enables us to know the complete needle position. In case of TB, once the choice of the needles was made, we entered the configuration of needles and the free length data into a home-made java application (Figure 3) to generate xml files and then imported them to the LMA from Oncentra. In the LMA, we chose the cylinder and the intrauterine components and then exported that information to Oncentra. After selecting the previously composed model, we located the three pellets in the image to determine the position of the applicator. As in the Utrecht case, we made some small corrections using the cursive data to improve the position of the cylinder and the intrauterine tandem, and verified these changes using the signal void data from the MRI image. Slight deviations from the modeled positions of the needles were corrected as described above with the aim of matching the theoretical position with the black signal on the MRI image. A good match is important because the position of tip of the needle is inter-related to the free-length data (Figure 4).</p>
+</section>
+<section id="pre-plan" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="pre-plan"><span class="header-section-number">2.7</span> Pre-plan</h2>
+<p>The template Benidorm (Lorca Marin, Murcia, Spain), Figure 1, born out of the idea to combine technical advantages of MUPIT, intrauterine probe, and imaging advantages of MRI-based brachytherapy, while preserving the stability, geometry, and robustness of the implant. The design allows covering any desired volume in gynecological cancer from distal vagina to uterus and distal parametrium, avoiding possible errors of free-hand needle placement. This device is constructed using a template, which is fixed to the perineum, allowing the employment of titanium needles and an intrauterine component to provide a central brachytherapy dose [9,10,11]. The template consists in two perineal plates with two central holes, allowing placement of a vaginal cylinder (available in different sizes) to accommodate different vaginal lengths. These cylinders can also engage different intrauterine tubes of varying angles and lenghts. Additionally, the plates are drilled with 12 rows of holes, with 1.1 cm apart, to introduce straight and angled titanium needles 1.9 mm in diameter and 200 mm length. The plates have three dimples where A-vitamin pellets are placed as a recognizable fiducial marker in MRI to be used in the reconstruction process. The number, location, and depth of the needles are decided by the physician, and they are customized for each patient.</p>
+<p>The MRI scans of the patients were acquired with a 1.5 T MRI imager (Optima MRI 450w, software version DV24, GE Medical Systems Milwaukee, Wisconsin, USA). An eight-channel phased array receiver coil was employed, according to standard clinical MRI protocols. Following the GEC-ESTRO recommendations [1,2,3], the acquisition consists on axial T2 weighted fast recovery fast spin-echo (FRFSE) sequence, with a slice thickness reduced to 2 mm. This sequence is used for both delineating and reconstruction. Magnetic resonance imaging acquisition setting details were included in a previous publication from Richart et al.&nbsp;[11].</p>
+<p>An applicator library has been specifically developed for this applicator, using free available software [12] (Figure 1). The anchor points are three inserted A-vitamin pellets. This library is feasible and very efficient; thus saving time, significantly reducing needle identification errors and avoiding uncertainty. It allows to solve all the steps involved in the treatment planning (contouring, reconstruction, and optimization) in just a MRI T2 sequence mainly in saving time.</p>
+<p>The implemented pre-planning procedure is as follow: 1: Pre-brachytherapy MRI T2 acquisition is carried out with the template in place just with the vaginal cylinder (without uterine tube and needles) 3-5 days prior to brachytherapy implant. A vaginal obturator of a known length (40, 60, 100, or 130 mm according to the vaginal length) is introduced and the bladder is filled with 50 cc of saline solution. 2: On this image set, the CTV is drawn. Clinical and image gross target volume (GTV) at diagnosis and the GTV at the time of the brachytherapy were unified in a single CTV (including GTV, high-risk CTV [CTV HR R] and intermediate-risk CTV [CTV IR ]), based on GEC ESTRO recommendations [13,14,15]. The required needles and their depths are selected to encompass CTV (as conformal as possible). To facilitate this task, a Java based application linked to the treatment planning system (TPS) (Oncentra Prostate version 4.3, Elekta AB, Stockholm, Sweden) has been developed. From this procedure, each needle identification and its depth is obtained previously to the implant. 3: With this information, radiation oncologist proceeds with implantation and then, a post-implant MRI is performed, in which the contouring, needles plus tandem reconstruction, and optimization are stablished.</p>
+</section>
+<section id="cancers" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="cancers"><span class="header-section-number">2.8</span> Cancers</h2>
+<p>The authors of this review are radiation oncologists and medical physicists with extensive experience in MRI-based cervix HDR brachytherapy treatments with an interstitial component, representing the Spanish centres with the largest number of implants performed. The three TPSs analysed were Brachyvision v16.0 from Varian (Varian Medical Systems, Palo Alto, CA, USA), Oncentra v4.6.2 from Elekta (Elekta AB, Stockholm, Sweden), and Sagiplan v2.2 from BEBIG (Eckert &amp; Ziegler BEBIG GmbH, Berlin, Germany). Most of the authors are users of Oncentra Brachy, with just one user of Brachyvision; there are no Sagiplan users.</p>
+<p>The reviews of the TPSs were doneb ased on the authors’ clinical experience and interactive demos providedb y the software manufacturers. In these demos, the TPS version tested was the latest one commercially available, including also all the new tools currently developed tob e included in future releases. After an introduction to most of the utilities and tools of the planning systems, the specialist from the vendor company (henceforth named specialist) was asked to answer some of the issues that are routinely faced in a clinical environment and that willb eb riefly describedb elow. In order to follow a systematic approach on the evaluation of each TPS capabilities, demos were carriedb ased on the questionnaire summarized in Table 1. Specialists were also asked about external software and devices commercially available or under development that could shed some light on these problems.</p>
+<table class="table">
+<caption>The rationale underlying each question is discused below</caption>
+<colgroup>
+<col style="width: 43%">
+<col style="width: 56%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Question</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Q1</td>
+<td>Tools for commissioning and QA.</td>
+</tr>
+<tr class="even">
+<td>Q2</td>
+<td>Image registration and utilities to optimize information from previous treatments data.</td>
+</tr>
+<tr class="odd">
+<td>Q3</td>
+<td>MRI contouring. Removing the endocavitary component.</td>
+</tr>
+<tr class="even">
+<td>Q4</td>
+<td>Catheter reconstruction. Endocavitary component library.</td>
+</tr>
+<tr class="odd">
+<td>Q5</td>
+<td>Needle reconstruction. Interstitial component.</td>
+</tr>
+<tr class="even">
+<td>Q6</td>
+<td>Interpolated images.</td>
+</tr>
+<tr class="odd">
+<td>Q7</td>
+<td>Use of EQD2 in the optimization process.</td>
+</tr>
+<tr class="even">
+<td>Q8</td>
+<td>EQD2 combination with externa lbeam radiation therapy. (EBRT). Optimal and mandatory constrains.</td>
+</tr>
+<tr class="odd">
+<td>Q9</td>
+<td>Dwell times locking.</td>
+</tr>
+<tr class="even">
+<td>Q10</td>
+<td>Optimization methods. Implementation of D90 and D2cc.</td>
+</tr>
+<tr class="odd">
+<td>Q11</td>
+<td>DVH resolution.</td>
+</tr>
+<tr class="even">
+<td>Q12</td>
+<td>D2cc location.</td>
+</tr>
+<tr class="odd">
+<td>Q13</td>
+<td>Model-based dose calculation algorithms (MBDCA).</td>
+</tr>
+</tbody>
+</table>
+<p><br>
+The work plan has been complemented by a review of the literature on this specific topic. The bibliography review methodology was based on a keyword search in the PubMed database of publications from the last ten years. Such keywords include MRI, cervical cancer, HDR brachytherapy, catheter reconstruction, dose accumulation, etc. On the other hand, more specific keywords, such as deep learning, electromagnetic tracking, auto-segmentation, and synthetic-CT, were also included. The study aims to highlight the general shortcomings of the TPSs and the possible improvements that could be made to them in the opinion of a group of experienced users. However, it is not the authors' intention to make comparisons between them, much less to recommend a ranking.</p>
+<section id="q1tools-for-commissioning-and-qa" class="level3" data-number="2.8.1">
+<h3 data-number="2.8.1" class="anchored" data-anchor-id="q1tools-for-commissioning-and-qa"><span class="header-section-number">2.8.1</span> Q1—Tools for Commissioning and QA</h3>
+<p>Aside from the verification of the applicator’s geometry, the medical physicist must check the TPS calculation of the dose (based on TG43 and also TG186 when possible), the applicator’s geometry within the digital libraries, and all the tools involved in a treatment planning. Digital libraries reproduce the geometry of the applicators. However, the real path of the source could differ from the symmetric axis of the applicator, which is usually the path introduced by the manufacturer in the corresponding libraries [12]. This effect appears predominantly on curved applicators (e.g., ring). Medical physicists</p>
+<p>should analyse the possible discrepancies during the commissioning period and correct the source path introduced in the digital libraries when the TPS allows it. MBDCAs should be also commissioned. The AAPM/ESTRO/ABG working group on MBDCA in brachytherapy (WG-DCAB) has developed and validated using several test cases for clinical users to perform a standardized commissioning process, including a generic GYN shielded applicator. These tests have been implemented in the two TPSs that include this possibility and shared via the Joint AAPM/IROC-Houston Brachytherapy Source Registry [28]. Vendor-specific manuals have also been shared to guide the physicists.</p>
+<p>TPSs should be compatible with these generic models and facilitate the MBDCA commissioning by implementing the tools necessary to perform an in-depth comparison of the 3D dose distributions. Finally, TPSs must easily perform the quality control tests suggested in the guidelines [29–31].</p>
+</section>
+<section id="q2image-registration-and-utilities-to-optimize-informationf-rom-previous-implants" class="level3" data-number="2.8.2">
+<h3 data-number="2.8.2" class="anchored" data-anchor-id="q2image-registration-and-utilities-to-optimize-informationf-rom-previous-implants"><span class="header-section-number">2.8.2</span> Q2—Image Registration and Utilities to Optimize Informationf rom Previous Implants</h3>
+<p>GYN IGABT image registration would be a fundamental tool to use in different phases of the planning process, such as in applicator reconstruction, volumes definition or propagation, dose accumulation in multifraction BT, or dose accumulation of EBRT + BT.</p>
+<p>In the case of applicator reconstruction or when transferring the target volume contours of a first MRI implant to the scans used for a second implant, for images with the applicator in place, a rigid registration of the applicator is recommended [21,32]. Rigid registration can also be used when a CT study is performed prior to the administration of the second fractions of each implant, allowing verification of the position and geometry of the OARs at the time of administration of these fractions. This will offer the possibility to rectify the dosimetry if necessary.</p>
+<p>If the brachytherapy treatment consists of more than one implant, it would be very useful to include the dose distributions of previous implants in the optimization.</p>
+<p>Since the brachytherapy applicator completely deforms the anatomy compared to the EBRT images, rigid registration has been questioned as a valuable method. Deformable registration could, in principle, combine the dose from each tissue voxel in the EBRT fractions with the corresponding one for each BT fraction.</p>
+</section>
+<section id="q3-mri-contouring.-removing-the-endocavitary-component" class="level3" data-number="2.8.3">
+<h3 data-number="2.8.3" class="anchored" data-anchor-id="q3-mri-contouring.-removing-the-endocavitary-component"><span class="header-section-number">2.8.3</span> Q3-MRI contouring. Removing the endocavitary component</h3>
+<p>A significant issue for cervix segmentation is the presence of the applicator. Such an applicator causes deformation of the surrounding tissues, hindering the correct segmentation [33]. Additionally, the high dose gradient in the vicinity of the applicator may impact the accuracy of the surrounding tissues’ DVH dosimetric parameters [34,35]. These issues will increase the dose uncertainty. Therefore, it is necessary to develop techniques to remove the applicator from the image, not only for accurate tumour segmentation but also for a more accurate DVH evaluation.</p>
+</section>
+<section id="q4-catheter-reconstruction.-endocavitary-component-library" class="level3" data-number="2.8.4">
+<h3 data-number="2.8.4" class="anchored" data-anchor-id="q4-catheter-reconstruction.-endocavitary-component-library"><span class="header-section-number">2.8.4</span> Q4-Catheter reconstruction. Endocavitary component library</h3>
+<p>Determining the source path and the most distal dwell position, together with the matching of the anatomical geometries, are the catheter reconstruction objectives [13]. The CT dummy design that allows a direct reconstruction (DR) of the brachytherapy source channels is straightforward, and all vendors include them in their product catalogues. By contrast, applicator reconstruction is more challenging when MRI is used and even more so in T2-weighted sequences. The materials visible in MRI are usually liquids, and this limits the construction diameter of the dummy. Some solutions, however, are available for the endocavitary part [36].</p>
+<p>An alternative to this modality of reconstruction is the use of applicator libraries containing accurate 3D models. The corresponding applicator can be selected and then displaced and rotated until it matches the image using reference points located both in the image and the model. Thereby, the source path and the most distal dwell position are clearly defined. This method is only valid for rigid applicators and, therefore, excludes the interstitial part.</p>
+</section>
+<section id="q5-needle-reconstruction.-interstitial-component" class="level3" data-number="2.8.5">
+<h3 data-number="2.8.5" class="anchored" data-anchor-id="q5-needle-reconstruction.-interstitial-component"><span class="header-section-number">2.8.5</span> Q5-Needle reconstruction. Interstitial component</h3>
+<p>As discussed in Q4, the use of applicator libraries is only helpful in the case of rigid applicators and therefore the use of applicator libraries is, in principle, not possible for the interstitial part. Thus, direct reconstruction is the only way to make such reconstruction. In contrast to the case of needles on CT images, identifying needle trajectories and needle tips is still an open issue in MRI.</p>
+</section>
+<section id="q6-interpolated-images" class="level3" data-number="2.8.6">
+<h3 data-number="2.8.6" class="anchored" data-anchor-id="q6-interpolated-images"><span class="header-section-number">2.8.6</span> Q6-Interpolated images</h3>
+<p>In the case of the DR modality, the determination of the most distal dwell position involves an extra challenge due to the finite slice thickness. Even though a slice thickness lower or equal to 3 mm is suitable for MRI images, the acquisition protocols of a given institution may not offer such a possibility while still needing to achieve millimetric precision on the reconstruction. This precision goal is especially important for the tip position. A possible solution is to add reconstructed images between two slice thicknesses, thus reducing the uncertainty.</p>
+</section>
+<section id="q7-use-of-eqd2-in-the-optimization-process" class="level3" data-number="2.8.7">
+<h3 data-number="2.8.7" class="anchored" data-anchor-id="q7-use-of-eqd2-in-the-optimization-process"><span class="header-section-number">2.8.7</span> Q7-Use of EQD2 in the optimization process</h3>
+<p>Objective and tolerance doses on locally advanced cervix cancer are expressed in EQD2 and not in physical dose units. This accounts for the fact that two treatment modalities with different fractionations and biological effectiveness are intended to be combined (EBRT + BT).</p>
+<p>Independently of the method, optimization is based on an iterative process in which the medical physicist and radiation oncologist verifies whether all objective and tolerance doses (in EQD2) are fulfilled. At the time of publishing this review, these iterations are done using an external spreadsheet.</p>
+</section>
+<section id="q8-eqd2-combination-with-externa-lbeam-radiation-therapy.-ebrt.-optimal-and-mandatory-constrains" class="level3" data-number="2.8.8">
+<h3 data-number="2.8.8" class="anchored" data-anchor-id="q8-eqd2-combination-with-externa-lbeam-radiation-therapy.-ebrt.-optimal-and-mandatory-constrains"><span class="header-section-number">2.8.8</span> Q8-EQD2 combination with externa lbeam radiation therapy. (EBRT). Optimal and mandatory constrains</h3>
+<p>As previously mentioned, the most used parameter for combining theb iological effect of EBRT and BT fractions is EQD2. Therefore, mandatory and optimal constraints shouldb e expressed using that quantity. If TPSs can combine the doses of the different fractions in an agile way, an excess or lack of dose canb e detected in the EBRT phase and compensated during the BT phase. In addition, for the definition of the intermediate-risk clinical target volume (CTV-IR), it is necessary to transfer the pre-EBRT GTV to the MRI of the BT treatment (ICRU 89) [21].</p>
+</section>
+<section id="q9-dwell-times-locking" class="level3" data-number="2.8.9">
+<h3 data-number="2.8.9" class="anchored" data-anchor-id="q9-dwell-times-locking"><span class="header-section-number">2.8.9</span> Q9-Dwell times locking</h3>
+<p>The most recent protocols (EMBRACE II and ICRU 89) suggest de-escalating vaginal doses (vaginal TRAK representing less than 30% of total) and controlling the contribution from the interstitial component (less than 20–30%) [21,25]. This question was intended to identify the tools that the TPSs have in order to facilitate the control of the contribution of the different components. As an example, dwell-time locking allowsb locking a particular component (orj ust several needles), so it cannotb e modifiedb y the inverse optimization algorithm, manual optimization, or renormalization tools. As a result, the intracavitary and interstitial components couldb e graphically optimized separately.</p>
+</section>
+<section id="q10-optimization-methods.-implementation-of-d90-and-d2cc" class="level3" data-number="2.8.10">
+<h3 data-number="2.8.10" class="anchored" data-anchor-id="q10-optimization-methods.-implementation-of-d90-and-d2cc"><span class="header-section-number">2.8.10</span> Q10-Optimization methods. Implementation of D90 and D2cc</h3>
+<p>Once the catheters are reconstructed, the dwell times must be chosen to fulfil the prescribed dose to the target volumes. To this end, several optimization methods have been used. This question was included to get details on the different optimization methods available for each TPS and their limitations. Specifically, the specialists were questioned about the inclusion of inverse-optimization algorithms and the possibility to aim the optimization towards the dosimetric metrics suggested to be reported (D 90 , D 2cc , etc.). Moreover, the capability of the optimizers to control the dwell time gradient/homogeneity and the weight of each component (intracavitary or interstitial) was also assessed.</p>
+</section>
+<section id="q11-dvh-resolution" class="level3" data-number="2.8.11">
+<h3 data-number="2.8.11" class="anchored" data-anchor-id="q11-dvh-resolution"><span class="header-section-number">2.8.11</span> Q11-DVH resolution</h3>
+<p>Following the advice of ICRU 89, the EMBRACE group decided to abandon the dose reportb ased on minimum (D100) and maximum doses. Instead, more robust dosimetric metrics were gathered: D98, D90, D2cc, and D0.1cc, among others. The control of the DVH resolution limitations is extremely important in the case of the OAR for which D2cc and D0.1cc are suggested tob e reported. This question was aimed to identify the strategies of the different TPSs tob e able to identify the doses deposited for volumes up to 0.1 cm.</p>
+</section>
+<section id="q12-d2cc-location" class="level3" data-number="2.8.12">
+<h3 data-number="2.8.12" class="anchored" data-anchor-id="q12-d2cc-location"><span class="header-section-number">2.8.12</span> Q12-D2cc location</h3>
+<p>A D 2cc value above a certain threshold is the cause of toxicities in OARs. The ratio between the D 2cc and ICRU bladder point dose is correlated with the development of urinary morbidity [37,38]. Mazeron et al.&nbsp;also found an increased likelihood of rectal bleeding when the rectal D 2cc was greater than 70 Gy. If the position of D 2cc is known, it would be possible to take this information into account during the optimization process (i.e., manual fine tuning).</p>
+</section>
+<section id="q13-model-based-dose-calculation-algorithms-mbdca" class="level3" data-number="2.8.13">
+<h3 data-number="2.8.13" class="anchored" data-anchor-id="q13-model-based-dose-calculation-algorithms-mbdca"><span class="header-section-number">2.8.13</span> Q13-Model-based dose calculation algorithms (MBDCA)</h3>
+<p>Introduction of MBDCAs capable of accounting for tissue and applicator heterogeneities inb rachytherapy hasb een a major development inb rachytherapy treatment planning in recent years. Their emergence and the protocols for early adopters was addressedb y AAPM, ESTRO, ABS, and ABG Task-Group 186 (TG186) [39]. TG186 emphasizes that although prescriptionsb ased on the TG-43 dose calculation formalism must remain in effect, they shouldb e compared against MBDCA planning systems to understand its possible shortcomings and limitations. For this reason, the availability of MBDCAs was checked for each TPS.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./introduction.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./results.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Resultados</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

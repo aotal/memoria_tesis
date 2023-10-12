@@ -140,3 +140,5 @@ A D 2cc value above a certain threshold is the cause of toxicities in OARs. The 
 ### Q13-Model-based dose calculation algorithms (MBDCA)
 
 Introduction of MBDCAs capable of accounting for tissue and applicator heterogeneities inb rachytherapy hasb een a major development inb rachytherapy treatment planning in recent years. Their emergence and the protocols for early adopters was addressedb y AAPM, ESTRO, ABS, and ABG Task-Group 186 (TG186) [39]. TG186 emphasizes that although prescriptionsb ased on the TG-43 dose calculation formalism must remain in effect, they shouldb e compared against MBDCA planning systems to understand its possible shortcomings and limitations. For this reason, the availability of MBDCAs was checked for each TPS.
+
+{{< pagebreak >}}
