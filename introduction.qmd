@@ -266,7 +266,7 @@ El grupo de trabajo GEC-ESTRO (GYN GEC-ESTRO) introdujo varias métricas para in
 
 -   **D2cc**: D2cc es la dosis que recibe un volumen específico de un órgano en riesgo (OAR). Representa la dosis más alta recibida por un volumen de 2 cc (centímetros cúbicos) de OAR. Se ha descubierto que D2cc es valioso para evaluar los efectos secundarios tardíos en órganos como la vejiga y el recto.
 
-### Equivalentes biológicos
+### Equivalentes biológicos {#sec-equivalentesbiologicos}
 
 Como se expuso en la [sección @sec-esquemadetratamiento], el esquema habitual de tratamiento incluye varias sesiones de EBRT con fracciones de 1.8-2 Gy. Dicho fraccionamiento es muy diferente de los que se utilizan para las fracciones de BT. Ello hace necesario utiizar equivalente biológicos que nos permitan sumar la dosis de las diferentes fases del tratamiento.
 
