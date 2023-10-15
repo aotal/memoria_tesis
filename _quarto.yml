@@ -16,6 +16,7 @@ book:
     - introduction.qmd
     - m&m.qmd
     - results.qmd
+    - papers.qmd
     - discusion.qmd    
     - references.qmd
 
@@ -29,5 +30,7 @@ format:
     documentclass: scrreprt
   docx:
     reference-doc: val.docx
+  epub:
+    toc: true
 
 
