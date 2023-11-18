@@ -20,7 +20,7 @@ book:
     - discusion.qmd    
     - references.qmd
 
-bibliography: references.bib
+bibliography: referencias.bib
 
 format:
   html:

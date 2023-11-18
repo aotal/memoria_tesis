@@ -1,8 +1,8 @@
-### Wich are the volumes it is mandatory to segment? [@haie-mederRecommendationsGynaecologicalGYN2005]
+### Wich are the volumes it is mandatory to segment? [@haie-meder2005]
 
 GTV (Gross Tumor Volume) - Volumen del tumor visible macroscópicamente. HR CTV (High Risk Clinical Target Volume) - Volumen clínico objetivo de alto riesgo. \[8a\] \[5a\] IR CTV (Intermediate Risk Clinical Target Volume) - Volumen clínico objetivo de riesgo intermedio. \[8a\] \[5a\] OAR (Organs at Risk) - Órganos en riesgo, como el recto, sigmoides, vejiga y vagina. \[6\] \[8b\] Volumen de interés de alto nivel de dosis (High Dose Volume) - Volumen que recibe una dosis alta. \[1\] \[5b\] Es importante destacar que estos volúmenes deben ser segmentados y evaluados para mejorar la planificación del tratamiento y la protección de los órganos en riesgo.
 
-### How IR CTV should be segmented after EBRT? [@haie-mederRecommendationsGynaecologicalGYN2005]
+### How IR CTV should be segmented after EBRT? [@haie-meder2005]
 
 Después de la radioterapia externa (EBRT), la segmentación del CTV intermedio (IR CTV) debe realizarse de la siguiente manera:
 
