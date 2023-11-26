@@ -1,0 +1,21 @@
+# Recomendaciones GEC-ESTRO y ABS
+
+## Recommendations from Gynaecological (GYN) GEC-ESTRO Working Group\* (I): concepts and terms in 3D image based 3D treatment planning in cervix cancer brachytherapy with emphasis on MRI assessment of GTV and CTV
+
+El objetivo del documento es proporcionar conceptos y términos para evaluar el volumen blanco de tratamiento (GTV) y el volumen clínico de tratamiento (CTV). El documento incluye información sobre los distintos casos clínicos tratados en diferentes centros con diferentes técnicas y tasas de dosis, así como sobre talleres y reuniones de expertos para mejorar la definición de protocolo y evaluación de parámetros.
+
+## Recommendations from gynaecological (GYN) GEC ESTRO working group (II): Concepts and terms in 3D image-based treatment planning in cervix cancer brachytherapy—3D dose volume parameters and aspects of 3D image-based anatomy, radiation physics, radiobiology
+
+Proporciona recomendaciones del grupo de trabajo GYN GEC ESTRO sobre el uso de la planificación del tratamiento basada en imágenes en 3D en braquiterapia para el cáncer de cuello uterino. Discute conceptos y términos, parámetros de volumen de dosis y aspectos de anatomía, física de radiación y radiobiología. El objetivo es mejorar la cobertura del objetivo y la protección de los órganos en riesgo utilizando un lenguaje común y un enfoque estandarizado.
+
+Este documento se centra en conceptos y términos en 3D para la planificación del tratamiento en braquiterapia para el cáncer de cuello uterino. Proporciona pautas para evaluar el volumen del tumor clínico y volumen del tumor macroscópico usando MRI. También discute parámetros de dosis-volumen y destacan datos clínicos relevantes en la regeneración de clonógenos tumorales y la radiobiología del cáncer.
+
+## Recommendations from Gynaecological (GYN) GEC-ESTRO Working Group: Considerations and pitfalls in commissioning and applicator reconstruction in 3D image-based treatment planning of cervix cancer brachytherapy
+
+El artículo es una recopilación de recomendaciones de la Sociedad Europea y la Organización de Tratamiento de Cáncer de Ginecología (GEC-ESTRO) sobre la planificación del tratamiento basado en imágenes 3D en la braquiterapia para el cáncer de cérvix.
+
+El documento discute los conceptos y términos utilizados en la planificación del tratamiento, la reconstrucción de aplicadores, los parámetros de volumen de dosis y los aspectos de anatomía, física de la radiación y radiobiología relacionados con el cáncer de cérvix. El objetivo de estas recomendaciones es mejorar la cobertura del objetivo y la protección de los órganos en riesgo mediante un lenguaje común y un enfoque estandarizado.
+
+## Recommendations from Gynaecological (GYN) GEC-ESTRO Working Group (IV): Basic principles and parameters for MR imaging within the frame of image based adaptive cervix cancer brachytherapy
+
+Proporciona recomendaciones del grupo de trabajo GEC-ESTRO sobre imágenes de resonancia magnética (RM) en la braquiterapia del cáncer de cuello uterino. El documento describe los principios y parámetros básicos para la imagenología de RM, incluyendo requisitos técnicos y preparación del paciente. Estas recomendaciones tienen como objetivo mejorar la precisión y exactitud en la planificación del tratamiento para pacientes con cáncer de cuello uterino \[1\] \[6\].

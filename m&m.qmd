@@ -124,7 +124,7 @@ Independientemente del método, la optimización se basa en un proceso iterativo
 
 ### Q8---Uso del EQD2 para evaluar el tratamiento con la parte de radioterapia externa. Restricciones óptimas y obligatorias {#sec-q8}
 
-Como se mencionó en [@sec-q7], el parámetro más utilizado para combinar el efecto biológico de las fracciones EBRT y BT es EQD2. Por lo tanto, las restricciones obligatorias y óptimas deben expresarse utilizando esa magnitud. Si los TPS pueden combinar las dosis de las diferentes fracciones de forma ágil, se podría detectar un exceso o falta de dosis en la fase EBRT y compensar durante la fase BT. Además, para la definición del volumen objetivo clínico de riesgo intermedio (CTV-IR), es necesario transferir el GTV pre-EBRT a la resonancia magnética del tratamiento con BT (ICRU 89) [@prescrib2013].
+Como se mencionó en [@sec-q7], el parámetro más utilizado para combinar el efecto biológico de las fracciones EBRT y BT es EQD2. Por lo tanto, las restricciones obligatorias y óptimas deben expresarse utilizando esa magnitud. Si los TPS pueden combinar las dosis de las diferentes fracciones de forma ágil, se podría detectar un exceso o falta de dosis en la fase EBRT y compensar durante la fase BT. Además, para la definición del volumen objetivo clínico de riesgo intermedio (CTV-IR), es necesario transferir el GTV pre-EBRT a la resonancia magnética del tratamiento con BT (ICRU 89) [@ICRU89].
 
 ### Q9---Bloqueo de pesos {#sec-q9}
 
