@@ -2,7 +2,7 @@
 
 ## Braquiterapia ginecológica
 
-La braquiterapia (BT) es una técnica de radioterapia en la que se colocan fuentes radiactivas cerca o directamente dentro de la zona de tratamiento. Las fuentes pueden insertarse en cavidades corporales, colocarse en la superficie del área a tratar o introducirse en los tejidos mediante técnicas intersticiales. El objetivo de la braquiterapia es garantizar la administración precisa y segura de la dosis de radiación prescrita en la zona objetivo, minimizando al mismo tiempo las dosis innecesarias en los tejidos sanos circundantes. La braquiterapia se utiliza sobre todo para tratar diversos tipos de cáncer y ciertas enfermedades benignas, como la hiperplasia benigna de próstata.
+La braquiterapia (BT) es una técnica de radioterapia en la que se colocan fuentes radiactivas cerca o directamente dentro de la zona de tratamiento. Las fuentes pueden insertarse en cavidades corporales, colocarse en la superficie del área a tratar o introducirse en los tejidos mediante técnicas intersticiales. El objetivo de la braquiterapia es garantizar la administración precisa y segura de la dosis de radiación prescrita en la zona objetivo, minimizando al mismo tiempo las dosis innecesarias en los tejidos sanos circundantes. La braquiterapia se utiliza sobre todo para tratar diversos tipos de cáncer y ciertas enfermedades benignas, como la hiperplasia benigna de próstata(prueba).
 
 El primer caso de tratamiento de tumores ginecológicos a través del uso de fuentes radiactivas del que se tiene constancia fue en 1903, cuando se utilizó el radio como isótopo de tratamiento para tratar tumores ginecológicos [@goodwin1968]. Este uso temprano de la braquiterapia se produjo tras el descubrimiento de la radiactividad por Henri Becquerel. Desde el primer momento se toma conciencia del reto que supone el conocimiento de determinar la actividad y la disposición de la fuente y la importancia de ambos factores. Se realizaron observaciones clínicas para investigar la eficacia de la braquiterapia y se desarrollaron normas y reglamentos para la estandarizarización los procedimientos de radioterapia [@adosage1934; @parker1938; @thetrea1949b].
 
@@ -14,7 +14,7 @@ En términos generales, la braquiterapia aprovecha el hecho de que las fuentes e
 
 ### Inconvenientes de BT frente a EBRT
 
-Según Hoskin et al.\[\@-clinic2012\] Los inconvenientes de la braquiterapia comparada con la EBRT incluyen:
+Según Hoskin et al.[@-clinic2012] Los inconvenientes de la braquiterapia comparada con la EBRT incluyen:
 
 1.  Procedimiento invasivo: La braquiterapia requiere la colocación de aplicadores o fuentes de radiación mediante un procedimiento invasivo, excepto en el caso de los moldes superficiales utilizados para tumores cutáneos. Esto puede aumentar la complejidad y el coste del procedimiento, ya que requiere algún tipo de anestesia y acceso a un quirófano.
 
