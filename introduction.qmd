@@ -14,7 +14,7 @@ En términos generales, la braquiterapia aprovecha el hecho de que las fuentes e
 
 ### Inconvenientes de BT frente a EBRT
 
-Según Hoskin et al.[@-clinic2012] Los inconvenientes de la braquiterapia comparada con la EBRT incluyen:
+Según Hoskin et al.\[\@-clinic2012\] Los inconvenientes de la braquiterapia comparada con la EBRT incluyen:
 
 1.  Procedimiento invasivo: La braquiterapia requiere la colocación de aplicadores o fuentes de radiación mediante un procedimiento invasivo, excepto en el caso de los moldes superficiales utilizados para tumores cutáneos. Esto puede aumentar la complejidad y el coste del procedimiento, ya que requiere algún tipo de anestesia y acceso a un quirófano.
 
@@ -186,7 +186,7 @@ Además, otros estudios han demostrado la eficacia de la quimioterapia concurren
 
 Por lo tanto, teniendo en cuenta los resultados de estos estudios, se puede justificar que un enfoque de tratamiento equilibrado consistente en radioterapia de haz externo (RHE) con quimioterapia concurrente seguida de braquiterapia intracavitaria (BT) desempeña un papel fundamental en la consecución de resultados curativos para el cáncer de cuello uterino localmente avanzado.
 
-En efecto, el panorama del tratamiento del cáncer de cuello uterino ha evolucionado con la introducción de nuevas técnicas de EBRT, como la radioterapia de intensidad modulada (IMRT), la terapia de arco volumétrico modulado, la radioterapia corporal estereotáctica (SBRT) y la terapia con protones. Estas técnicas ofrecen una mayor precisión y conformación en la administración de la radiación a la zona diana, al tiempo que minimizan el daño a los tejidos sanos circundantes. Como consecuencia, en algunas zonas de Estados Unidos se ha tendido a utilizar exclusivamente tratamientos de EBRT, excluyendo el uso de BT.
+En efecto, el panorama del tratamiento del cáncer de cuello uterino ha evolucionado con la introducción de nuevas técnicas de EBRT, como la radioterapia de intensidad modulada (IMRT), la terapia de arco volumétrico modulado, la radioterapia corporal estereotáctica (SBRT) y la terapia con protones. Estas técnicas ofrecen una mayor precisión y conformación en la administración de la radiación a la zona diana, al tiempo que minimizan el daño a los tejidos sanos circundantes. Como consecuencia, en algunas zonas de Estados Unidos se ha tendido a utilizar exclusivamente tratamientos de EBRT, excluyendo el uso de BT[@gill2014].
 
 Sin embargo, los estudios han indicado que la incorporación de la braquiterapia en el plan de tratamiento del cáncer de cuello uterino es crucial para lograr resultados óptimos. Las investigaciones han demostrado que la braquiterapia puede administrar dosis significativamente más altas de radiación al tumor primario, minimizando al mismo tiempo la dosis a los órganos críticos de riesgo, como el intestino y la vejiga[@tanderup2014a]. Además, los estudios han demostrado que el uso de la braquiterapia se asocia a mayores tasas de supervivencia global y específica por causa[@han2013].
 
@@ -241,7 +241,7 @@ Entre las recomendaciones realizadas por estos dos grupos de trabajo destacan la
 
 El nuevo concepto de definición de volumen propuesto tiene en cuenta la forma del tumor primario en el momento del diagnóstico y tras la respuesta a la radio quimioterapia, así como aspectos dosimétricos. Este concepto pretende delimitar con precisión los volúmenes diana para el tratamiento con braquiterapia en el cáncer de cuello de útero.
 
-Según Haide-Meder et al.[@haie-meder2005], el concepto implica el uso de MRI para evaluar el tamaño y la configuración del tumor. La MRI proporciona información más fiable que el examen clínico las imágenes de CT.
+Según Haide-Meder et al.[@haie-meder2005], el concepto implica el uso de MRI para evaluar el tamaño y la configuración del tumor.
 
 También se menciona la importancia de la delimitación precisa del volumen tumoral macroscópico (GTV), la definición y delimitación del volumen diana clínico (CTV) y el volumen diana de planificación (PTV). Este concepto se centra en la adaptación de la isodosis en forma de pera mediante la optimización para una dosis fija y/o un volumen fijo, lo que requiere un lenguaje común y una terminología precisa.
 
@@ -257,23 +257,34 @@ IGABT tiene en cuenta los cambios dinámicos que se producen en el CTV y los tej
 
 El aspecto adaptativo de la IGABT se refiere a la capacidad de modificar el plan de tratamiento en función de los cambios observados en el tumor y los tejidos circundantes. Esto puede implicar el ajuste de la posición y la forma del aplicador de braquiterapia, la adaptación de la dosis de radiación o la alteración de la técnica de tratamiento para optimizar la cobertura del objetivo y preservar las estructuras críticas.
 
-Mediante la monitorización continua de la respuesta del tumor y la adaptación del plan de tratamiento, IGABT pretende mejorar los resultados del tratamiento administrando dosis más altas al tumor y minimizando al mismo tiempo la exposición a la radiación de los tejidos sanos. El uso de la guía por imagen permite una visualización y orientación precisas del CTV, lo que garantiza que el tratamiento se administre con precisión en la zona prevista.
+El uso de la guía por imagen permite una visualización y orientación precisas del CTV, lo que garantiza que el tratamiento se administre con precisión en la zona prevista.
 
 El estudio publicado por Möller et al.[@möller2020] proporcionó información sobre los resultados y efectos secundarios de la IGABT en el tratamiento del carcinoma cervical avanzado. En el estudio participaron 138 pacientes con cáncer de cuello uterino avanzado que recibieron radioterapia externa e IGABT. El estudio reveló que las tasas de control local y pélvico eran excelentes, lo que indica la eficacia de la IGABT en el tratamiento de los carcinomas cervicales avanzados. Además, el estudio informó de que la toxicidad grave tardía era poco frecuente, lo que respalda aún más la seguridad del IGABT.
 
-Los resultados mostrados por el EMBRACE-I[@pötter2021], que fue el primer estudio prospectivo a gran escala sobre IGABT basada en RM para el cáncer de cuello de útero localmente avanzado. El estudio mostró una elevada tasa de control pélvico y supervivencia global con una morbilidad grave limitada, aportando así pruebas científicas significativas sobre la seguridad y eficacia de la IGABT.
+Los resultados mostrados por el estudio clínico EMBRACE-I[@pötter2021], que fue el primer estudio prospectivo a gran escala sobre IGABT basada en RM para el cáncer de cuello de útero localmente avanzado. El estudio mostró una elevada tasa de control pélvico y supervivencia global con una morbilidad grave limitada, aportando así pruebas científicas significativas sobre la seguridad y eficacia de la IGABT.
 
-Estos estudios, junto con otras series mono institucionales y estudios de cohortes retrospectivos, contribuyeron a crear la base de pruebas científicas para la IGABT en el tratamiento del carcinoma cervicouterino. Los resultados de estos estudios respaldaron colectivamente el uso de IGABT y proporcionaron datos clínicos y de toxicidad para demostrar su seguridad y eficacia.
+Estos estudios, junto con otras series mono institucionales y estudios de cohortes retrospectivos, contribuyeron a crear la base de pruebas científicas para la IGABT en el tratamiento del carcinoma cervicouterino[@tan2018][@horeweg2019][@sturdza2022]. Los resultados de estos estudios respaldaron colectivamente el uso de IGABT y proporcionaron datos clínicos y de toxicidad para demostrar su seguridad y eficacia.
 
 ### El estudio EMBRACE
 
-El estudio [EMBRACE](www.embracestudy.dk), acrónimo de *International MRI-guided BRAchytherapy in CErvical cancer*, fue un estudio observacional prospectivo iniciado en 2008. El objetivo principal del estudio era investigar el resultado clínico de la braquiterapia guiada por imagen basada en MRI (IGBT) cuando se aplica en un entorno multi centrico. El estudio se adhirió a las recomendaciones proporcionadas por la GEC-ESTRO con respecto al contorno y la presentación de informes[@haie-meder2005; @potter2006].
+El estudio [EMBRACE](www.embracestudy.dk), acrónimo de *International MRI-guided BRAchytherapy in CErvical cancer*, es un estudio observacional prospectivo iniciado en 2008. El objetivo principal del estudio es investigar el resultado clínico de la braquiterapia guiada por imagen basada en MRI (IGABT) cuando se aplica en un entorno multi centrico. El estudio se adhirió a las recomendaciones proporcionadas por la GEC-ESTRO con respecto al contorno y la presentación de informes[@haie-meder2005; @potter2006].
 
-El estudio EMBRACE tenía como objetivo recopilar datos de una amplia cohorte de pacientes tratados con IGBT en entornos mono centricos antes de su participación en el estudio. Comprendía varios estudios, incluidos los estudios EMBRACE, RetroEMBRACE y EMBRACEII. El estudio EMBRACEII, por ejemplo, incluyó a pacientes con cáncer de cuello uterino avanzado tratadas con radioterapia de intensidad modulada (IMRT), quimioterapia y braquiterapia guiada por MRI (RM-GBT).
+![Línea temporal de EMBRACE](img/embrace.png){#fig-embracetimeline}
+
+
+El estudio EMBRACE tenía como objetivo recopilar datos de una amplia cohorte de pacientes tratados con IGBT en entornos mono centricos antes de su participación en el estudio. Comprende varios estudios, incluidos los estudios EMBRACEI, RetroEMBRACE y EMBRACEII. El estudio EMBRACEII incluyó a pacientes con cáncer de cuello uterino avanzado tratadas con radioterapia de intensidad modulada (IMRT), quimioterapia y braquiterapia guiada por MRI.
 
 El impacto del estudio EMBRACE en la braquiterapia para el cáncer de cuello de útero ha sido significativo. El estudio ha contribuido a mejorar el control pélvico y la supervivencia en pacientes con cáncer de cuello de útero localmente avanzado. Ha ayudado a establecer la eficacia de la braquiterapia adaptativa guiada por MRI (HDR-B) para el carcinoma cervical. Los resultados del estudio han sido comparables a los de otros estudios multicéntricos, con una toxicidad tardía manejable.
 
 Uno de los principales objetivos del estudio EMBRACEII es reducir la toxicidad en pacientes que muestran una buena respuesta tras la radio quimioterapia. El estudio pretende intensificar el tratamiento con braquiterapia, en particular con braquiterapia intersticial, para mejorar el control local y la supervivencia en pacientes con tumores avanzados y mala respuesta inicial.
+
+A continuación se enumeran las diferentes fases de EMBRACE
+
+- **EMBRACE I:** Iniciado en 2008 para evaluar la braquiterapia guiada por imágenes en un estudio prospectivo multicéntrico. No se establecieron restricciones estrictas en la prescripción de dosis para volúmenes objetivo u órganos en riesgo. Involucró técnicas intracavitarias e intersticiales combinadas. Se reclutaron 1416 pacientes y concluyó en 2015.
+   
+- **RetroEMBRACE:** Se llevó a cabo simultáneamente a EMBRACE I e implicó una recopilación retrospectiva de datos en 12 instituciones. Utilizó Recomendaciones Gyn GEC ESTRO para la delimitación de objetivos y la presentación de volúmenes de dosis. Recopiló datos de instituciones con experiencia clínica previa antes de EMBRACE I. Se reclutaron 814 pacientes y se finalizó la recopilación de datos en 2013.  
+
+- **EMBRACE II:** Iniciado en 2016 con un enfoque en el tratamiento local, nodal y sistémico. Prescribe braquiterapia adaptativa guiada por MRI con restricciones específicas de volumen de dosis. Incluye radioterapia externa guiada por imágenes y radioquimioterapia concomitante.
 
 ### De las recomendaciones de GEC-ESTRO a la ICRU89
 
