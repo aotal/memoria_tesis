@@ -269,8 +269,72 @@ Estos estudios, junto con otras series mono institucionales y estudios de cohort
 
 El estudio [EMBRACE](www.embracestudy.dk), acrónimo de *International MRI-guided BRAchytherapy in CErvical cancer*, es un estudio observacional prospectivo iniciado en 2008. El objetivo principal del estudio es investigar el resultado clínico de la braquiterapia guiada por imagen basada en MRI (IGABT) cuando se aplica en un entorno multi centrico. El estudio se adhirió a las recomendaciones proporcionadas por la GEC-ESTRO con respecto al contorno y la presentación de informes[@haie-meder2005; @potter2006].
 
-![Línea temporal de EMBRACE](img/embrace.png){#fig-embracetimeline}
+```{python}
+#| label: fig-embracetimeline
+#| fig-cap: "Línea temporal de EMBRACE"
 
+import matplotlib.pyplot as plt
+from datetime import date
+import numpy as np
+
+# Datos de fechas y eventos del estudio EMBRACE
+dates = [date(2008, 1, 1), date(2011, 1, 1), date(2013, 1, 1), date(2015, 1, 1), date(2016, 1, 1)]
+events = [
+    'Comienzo de EMBRACE I y RetroEMBRACE',
+    'Creación de EMBRACE Research Group',
+    'Finalización de RetroEMBRACE',
+    'Conclusión de reclutamiento para EMBRACE I',
+    'Comienzo de EMBRACE II'
+]
+
+# Ordenar eventos cronológicamente
+sorted_indices = np.argsort(dates)
+sorted_dates = [dates[i] for i in sorted_indices]
+sorted_events = [events[i] for i in sorted_indices]
+
+# Obtener solo el año para las etiquetas de los eventos
+labels = [f'{d.year}:\n{l}' for l, d in zip(sorted_events, sorted_dates)]
+
+# Configurar el gráfico
+fig, ax = plt.subplots(figsize=(15, 4), constrained_layout=True)
+ax.set_ylim(-2, 1.75)
+min_date = min(sorted_dates)
+max_date = max(sorted_dates)
+ax.set_xlim(min_date, max_date)
+ax.axhline(0, xmin=0.05, xmax=0.95, c='deeppink', zorder=1)
+
+ax.scatter(sorted_dates, np.zeros(len(sorted_dates)), s=120, c='palevioletred', zorder=2)
+ax.scatter(sorted_dates, np.zeros(len(sorted_dates)), s=30, c='darkmagenta', zorder=3)
+
+# Desplazamiento de etiquetas para mejorar la legibilidad
+label_offsets = np.zeros(len(sorted_dates))
+label_offsets[::2] = 0.35
+label_offsets[1::2] = -0.7
+for i, (l, d) in enumerate(zip(labels, sorted_dates)):
+    ax.text(d, label_offsets[i], l, ha='center', fontfamily='serif', fontweight='bold', color='royalblue', fontsize=12)
+
+# Líneas verticales para los eventos
+stems = np.zeros(len(sorted_dates))
+stems[::2] = 0.3
+stems[1::2] = -0.3
+markerline, stemline, baseline = ax.stem(sorted_dates, stems)
+plt.setp(markerline, marker=',', color='darkmagenta')
+plt.setp(stemline, color='darkmagenta')
+
+# Configurar el título
+ax.set_title('Cronología de los estudios EMBRACE', fontweight="bold", fontfamily='serif', fontsize=16, color='royalblue')
+
+# Ocultar bordes del gráfico
+for spine in ["left", "top", "right", "bottom"]:
+    ax.spines[spine].set_visible(False)
+
+# Ocultar etiquetas de los ejes
+ax.set_xticks([])
+ax.set_yticks([])
+
+# Mostrar el gráfico
+plt.show()
+```
 
 El estudio EMBRACE tenía como objetivo recopilar datos de una amplia cohorte de pacientes tratados con IGBT en entornos mono centricos antes de su participación en el estudio. Comprende varios estudios, incluidos los estudios EMBRACEI, RetroEMBRACE y EMBRACEII. El estudio EMBRACEII incluyó a pacientes con cáncer de cuello uterino avanzado tratadas con radioterapia de intensidad modulada (IMRT), quimioterapia y braquiterapia guiada por MRI.
 
@@ -280,11 +344,11 @@ Uno de los principales objetivos del estudio EMBRACEII es reducir la toxicidad e
 
 A continuación se enumeran las diferentes fases de EMBRACE
 
-- **EMBRACE I:** Iniciado en 2008 para evaluar la braquiterapia guiada por imágenes en un estudio prospectivo multicéntrico. No se establecieron restricciones estrictas en la prescripción de dosis para volúmenes objetivo u órganos en riesgo. Involucró técnicas intracavitarias e intersticiales combinadas. Se reclutaron 1416 pacientes y concluyó en 2015.
-   
-- **RetroEMBRACE:** Se llevó a cabo simultáneamente a EMBRACE I e implicó una recopilación retrospectiva de datos en 12 instituciones. Utilizó Recomendaciones Gyn GEC ESTRO para la delimitación de objetivos y la presentación de volúmenes de dosis. Recopiló datos de instituciones con experiencia clínica previa antes de EMBRACE I. Se reclutaron 814 pacientes y se finalizó la recopilación de datos en 2013.  
+-   **EMBRACE I:** Iniciado en 2008 para evaluar la braquiterapia guiada por imágenes en un estudio prospectivo multicéntrico. No se establecieron restricciones estrictas en la prescripción de dosis para volúmenes objetivo u órganos en riesgo. Involucró técnicas intracavitarias e intersticiales combinadas. Se reclutaron 1416 pacientes y concluyó en 2015.
 
-- **EMBRACE II:** Iniciado en 2016 con un enfoque en el tratamiento local, nodal y sistémico. Prescribe braquiterapia adaptativa guiada por MRI con restricciones específicas de volumen de dosis. Incluye radioterapia externa guiada por imágenes y radioquimioterapia concomitante.
+-   **RetroEMBRACE:** Se llevó a cabo simultáneamente a EMBRACE I e implicó una recopilación retrospectiva de datos en 12 instituciones. Utilizó Recomendaciones Gyn GEC ESTRO para la delimitación de objetivos y la presentación de volúmenes de dosis. Recopiló datos de instituciones con experiencia clínica previa antes de EMBRACE I. Se reclutaron 814 pacientes y se finalizó la recopilación de datos en 2013.
+
+-   **EMBRACE II:** Iniciado en 2016 con un enfoque en el tratamiento local, nodal y sistémico. Prescribe braquiterapia adaptativa guiada por MRI con restricciones específicas de volumen de dosis. Incluye radioterapia externa guiada por imágenes y radioquimioterapia concomitante.
 
 ### De las recomendaciones de GEC-ESTRO a la ICRU89
 
