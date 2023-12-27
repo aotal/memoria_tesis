@@ -18,6 +18,7 @@ book:
     - results.qmd
     - papers.qmd
     - discusion.qmd
+    - conclusions.qmd
     - references.qmd
 bibliography: referencias.bib
 format:
