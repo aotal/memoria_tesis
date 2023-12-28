@@ -14,7 +14,7 @@ En términos generales, la BT aprovecha el hecho de que las fuentes están conec
 
 ### Inconvenientes de BT frente a EBRT
 
-Según Hoskin et al.[@-clinic2012] Los inconvenientes de la BT comparada con la EBRT incluyen:
+Según Hoskin et al.[@clinic2012] Los inconvenientes de la BT comparada con la EBRT incluyen:
 
 1.  Procedimiento invasivo: La BT requiere la colocación de aplicadores o fuentes de radiación mediante un procedimiento invasivo, excepto en el caso de los moldes superficiales utilizados para tumores cutáneos. Esto puede aumentar la complejidad y el coste del procedimiento, ya que requiere algún tipo de anestesia y acceso a un quirófano.
 
