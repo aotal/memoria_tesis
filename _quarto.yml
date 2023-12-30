@@ -12,6 +12,7 @@ book:
   title: Soluciones de reconstrucción mediante RMN
   author: Antonio Otal Palacín
   chapters:
+    - siglas.qmd
     - index.qmd
     - introduction.qmd
     - m&m.qmd
@@ -27,6 +28,8 @@ format:
       - cosmo
   pdf:
     documentclass: scrreprt
+    lof: true
+    lot: true
   docx:
     reference-doc: val.docx
   epub:
