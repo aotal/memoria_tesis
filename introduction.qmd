@@ -2,7 +2,7 @@
 
 ## Braquiterapia ginecológica
 
-La  braquiterapia (BT) es una técnica de radioterapia en la que se colocan fuentes radiactivas cerca o directamente dentro de la zona de tratamiento. Las fuentes pueden insertarse en cavidades corporales, colocarse en la superficie del área a tratar o introducirse en los tejidos mediante técnicas intersticiales. El objetivo de la BT es garantizar la administración precisa y segura de la dosis de radiación prescrita en la zona objetivo, minimizando al mismo tiempo las dosis innecesarias en los tejidos sanos circundantes. La BT se utiliza sobre todo para tratar diversos tipos de cáncer y ciertas enfermedades benignas, como la hiperplasia benigna de próstata.
+La braquiterapia (BT) es una técnica de radioterapia en la que se colocan fuentes radiactivas cerca o directamente dentro de la zona de tratamiento. Las fuentes pueden insertarse en cavidades corporales, colocarse en la superficie del área a tratar o introducirse en los tejidos mediante técnicas intersticiales. El objetivo de la BT es garantizar la administración precisa y segura de la dosis de radiación prescrita en la zona objetivo, minimizando al mismo tiempo las dosis innecesarias en los tejidos sanos circundantes. La BT se utiliza sobre todo para tratar diversos tipos de cáncer y ciertas enfermedades benignas, como la hiperplasia benigna de próstata.
 
 El primer caso de tratamiento de tumores ginecológicos a través del uso de fuentes radiactivas del que se tiene constancia fue en 1903, cuando se utilizó el radio como isótopo de tratamiento para tratar tumores ginecológicos [@goodwin1968]. Este uso temprano de la BT se produjo tras el descubrimiento de la radiactividad por Henri Becquerel. Desde el primer momento se toma conciencia del reto que supone el conocimiento de determinar la actividad y la disposición de la fuente y la importancia de ambos factores. Se realizaron observaciones clínicas para investigar la eficacia de la BT y se desarrollaron normas y reglamentos para la estandarizarización los procedimientos de radioterapia [@adosage1934; @parker1938; @thetrea1949b].
 
@@ -168,7 +168,7 @@ El registro deformable, por otro lado, permite transformaciones más complejas a
 
 Por otro lado el registro de imágenes influye de manera importante sobre las incertidumbres en los parámetros de los histogramas dosis-volumen (DVH)[@richart2018]. Tanderup et al.[@tanderup2008] encontraron que las incertidumbres en la reconstrucción del aplicador, como las traslaciones y rotaciones, pueden influir más en los parámetros DVH del recto y la vejiga, especialmente en la dirección anteroposterior. Demostraron que las desviaciones en estos parámetros pueden ser de hasta un 5-6% por mm de desplazamiento del aplicador. Schindel et al.[@schindel2013] analizaron el efecto de los desplazamientos del tándem y los ovoides en su conjunto, así como las incertidumbres de reconstrucción inducidas al desplazar el tándem y los ovoides de forma independiente en la dirección cráneocaudal. Descubrieron que el D2cc del recto es el parámetro más sensible a los desplazamientos, cambiando aproximadamente un 10% por cambio de ±1.5 mm. Para evitar cambios dosimétricos superiores al 10%, las incertidumbres de la reconstrucción deben mantenerse dentro de los 3 mm.
 
-::: {.callout-note}
+::: callout-note
 Según ICRU89[@ICRU89], los parámetros en forma de $D_V$ se definen como la dosis recibida por al menos un volumen V, donde V se da como porcentaje de una región definida o en unidades de cc. Los parámetros $V_D$ son el volumen que recibe dosis superiores o iguales a la dosis absorbida D especificada como la dosis absorbida.
 :::
 
@@ -184,11 +184,11 @@ Además, el registro manual de imágenes introduce la posibilidad de error human
 
 Numerosos estudios destacan el papel fundamental de la BT intracavitaria en la consecución de resultados curativos para el cáncer de cuello de útero localmente avanzado, a menudo administrada tras radioterapia de haz externo (EBRT) con quimioterapia concurrente. Uno de estos estudios, realizado en el Centro Oncológico M. D. Anderson de la Universidad de Texas[@logsdon1999], exploró la influencia de los cambios en la política de tratamiento sobre los resultados de la radioterapia para la enfermedad en estadio IIIB FIGO[^introduction-1]. Demostró que las estrategias de tratamiento que ponían mayor énfasis en la radioterapia intracavitaria arrojaban los mejores resultados. Además, las directrices de la *American Brachytherapy Society* (ABS)[@viswanathan2012; @viswanathan2012a] así como la The Groupe Européen de Curiethérapie (GEC) and the European SocieTy for Radiotherapy & Oncology (ESTRO)[@dimopoulos2012] recomiendan que la BT debe incluirse como componente de la radioterapia definitiva para el carcinoma cervical, ya que disminuye las recidivas y las complicaciones cuando se utiliza junto con la EBRT.
 
-::: {.callout-note}
+[^introduction-1]: El carcinoma de células escamosas de cuello uterino en estadio IIIB de FIGO representa un estadio avanzado de cáncer de cuello uterino en el que el tumor se ha extendido a la pared pélvica, causando invasión parametrial y/o hidronefrosis o riñón no funcional.
+
+::: callout-note
 La clasificación de los estadíos del cáncer de cérvix más utilizada es la de la FIGO (Fédération Internationale de Gynécologie et d’Obstétrique), pudiendose encontrar dicha clasificación en ICRU89[@ICRU89]
 :::
-
-[^introduction-1]: El carcinoma de células escamosas de cuello uterino en estadio IIIB de FIGO representa un estadio avanzado de cáncer de cuello uterino en el que el tumor se ha extendido a la pared pélvica, causando invasión parametrial y/o hidronefrosis o riñón no funcional.
 
 Además, otros estudios han demostrado la eficacia de la quimioterapia concurrente con la radioterapia en el tratamiento del cáncer de cuello uterino localmente avanzado. Por ejemplo, un estudio en el que se comparó la radiación pélvica con quimioterapia concurrente con la radiación pélvica y para-aórtica para el cáncer de cuello uterino de alto riesgo demostró mejores resultados con la adición de quimioterapia concurrente[@pelvicr1999]. En otro estudio se observó que la radioterapia y la quimioterapia simultáneas con cisplatino mejoraban los resultados del cáncer de cuello uterino localmente avanzado[@concurre1999].
 
