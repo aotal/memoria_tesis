@@ -1,3 +1,5 @@
+# Índice de abreviaturas {.unnumbered}
+
 | Acrónimo | Texto                                               |
 |----------|------------------------------------------------------|
 | AAPM     | American association of physicist in medicine        |
@@ -13,7 +15,7 @@
 | EQD2     | Dosis efectiva en 2Gy por fracción                  |
 | ESTRO    | European Society for Therapeutic Radiation and Oncology |
 | FDG      | 18F-fluorodesoxiglucosa                             |
-| GEC-ESTRO| Groupe Europeen de Curietherapie and European Society for Therapeutic Radiation and Oncology |
+| GEC      | Groupe Europeen de Curietherapie                     |
 | GTV      | Volumen tumoral macroscópico                         |
 | GWG      | Gynecologic working group                            |
 | HDR      | Braquiterapia de alta tasa de dosis                  |
@@ -37,3 +39,5 @@
 | TPS      | Sistemas de plaificación de tratamientos             |
 | WG-DCAB  | Working Group on Model-Based Dose Calculation Algorithms in Brachytherapy |
 | xml      | Extensible Markup Language                           |
+
+{{< pagebreak >}}

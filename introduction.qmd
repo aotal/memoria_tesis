@@ -66,7 +66,7 @@ En el Sistema Manchester, los dos puntos de referencia utilizados para la dosime
 
 El punto B, otro punto utilizado en el Sistema de Manchester, representa los ganglios pélvicos. Originalmente se definió a 5 cm lateralmente desde la línea media, al mismo nivel que el Punto A. Sin embargo, es importante señalar que la posición real de los ganglios pélvicos puede variar de un paciente a otro ([Figura @fig-sistemamanchester]).
 
-El sistema de Manchester consiste en una combinación de tubos intrauterinos y ovoides, que se insertan en la vagina y el útero de la paciente[@yordy2012]. La geometría de los aplicadores está diseñada de tal manera que el punto A recibe la misma dosis, independientemente de la combinación específica de tubos intrauterinos y ovoides utilizados. Esta característica hizo que el sistema de Manchester y sus aplicadores fueran más populares que los disponibles anteriormente y formó la base de los métodos modernos de aplicación de BT intracavitaria y especificación de dosis .
+El sistema de Manchester consiste en una combinación de tubos intrauterinos y ovoides, que se insertan en la vagina y el útero de la paciente[@yordy2012]. La geometría de los aplicadores está diseñada de tal manera que el punto A recibe la misma dosis, independientemente de la combinación específica de tubos intrauterinos y ovoides utilizados. Esta característica hizo que el sistema de Manchester y sus aplicadores fueran más populares que los disponibles anteriormente y formó la base de los métodos modernos de aplicación de BT intracavitaria y especificación de dosis.
 
 ![Diagrama esquemático de los puntos "A" y "B" en el sistema clásico de Manchester.](img/SistemaManchester.png){#fig-sistemamanchester}
 
@@ -192,7 +192,7 @@ La clasificación de los estadíos del cáncer de cérvix más utilizada es la d
 
 Además, otros estudios han demostrado la eficacia de la quimioterapia concurrente con la radioterapia en el tratamiento del cáncer de cuello uterino localmente avanzado. Por ejemplo, un estudio en el que se comparó la radiación pélvica con quimioterapia concurrente con la radiación pélvica y para-aórtica para el cáncer de cuello uterino de alto riesgo demostró mejores resultados con la adición de quimioterapia concurrente[@pelvicr1999]. En otro estudio se observó que la radioterapia y la quimioterapia simultáneas con cisplatino mejoraban los resultados del cáncer de cuello uterino localmente avanzado[@concurre1999].
 
-Por lo tanto, teniendo en cuenta los resultados de estos estudios, se puede justificar que un enfoque de tratamiento equilibrado consistente en radioterapia de haz externo (RHE) con quimioterapia concurrente seguida de BT intracavitaria (BT) desempeña un papel fundamental en la consecución de resultados curativos para el cáncer de cuello uterino localmente avanzado.
+Por lo tanto, teniendo en cuenta los resultados de estos estudios, se puede justificar que un enfoque de tratamiento equilibrado consistente en radioterapia de haz externo (RHE) con quimioterapia concurrente seguida de BT intracavitaria desempeña un papel fundamental en la consecución de resultados curativos para el cáncer de cuello uterino localmente avanzado.
 
 En efecto, el panorama del tratamiento del cáncer de cuello uterino ha evolucionado con la introducción de nuevas técnicas de EBRT, como la radioterapia de intensidad modulada (IMRT), la terapia de arco volumétrico modulado, la radioterapia corporal estereotáctica (SBRT) y la terapia con protones. Estas técnicas ofrecen una mayor precisión y conformación en la administración de la radiación a la zona diana, al tiempo que minimizan el daño a los tejidos sanos circundantes. Como consecuencia, en algunas zonas de Estados Unidos se ha tendido a utilizar exclusivamente tratamientos de EBRT, excluyendo el uso de BT[@gill2014].
 
@@ -271,7 +271,7 @@ El estudio publicado por Möller et al.[@möller2020] proporcionó información 
 
 Los resultados mostrados por el estudio clínico EMBRACE-I[@pötter2021], que fue el primer estudio prospectivo a gran escala sobre IGABT basada en RM para el cáncer de cuello de útero localmente avanzado. El estudio mostró una elevada tasa de control pélvico y supervivencia global con una morbilidad grave limitada, aportando así pruebas científicas significativas sobre la seguridad y eficacia de la IGABT.
 
-Estos estudios, junto con otras series mono institucionales y estudios de cohortes retrospectivos, contribuyeron a crear la base de pruebas científicas para la IGABT en el tratamiento del carcinoma cervicouterino[@tan2018][@horeweg2019][@sturdza2022]. Los resultados de estos estudios respaldaron colectivamente el uso de IGABT y proporcionaron datos clínicos y de toxicidad para demostrar su seguridad y eficacia.
+Estos estudios, junto con otras series mono institucionales y estudios de cohortes retrospectivos, contribuyeron a crear la base de pruebas científicas para la IGABT en el tratamiento del carcinoma cervicouterino[@tan2018;@horeweg2019;@sturdza2022]. Los resultados de estos estudios respaldaron colectivamente el uso de IGABT y proporcionaron datos clínicos y de toxicidad para demostrar su seguridad y eficacia.
 
 ### El estudio EMBRACE
 
@@ -350,7 +350,7 @@ El impacto del estudio EMBRACE en la BT para el cáncer de cuello de útero ha s
 
 Uno de los principales objetivos del estudio EMBRACEII es reducir la toxicidad en pacientes que muestran una buena respuesta tras la radio quimioterapia. El estudio pretende intensificar el tratamiento con BT, en particular con BT intersticial, para mejorar el control local y la supervivencia en pacientes con tumores avanzados y mala respuesta inicial.
 
-A continuación se enumeran las diferentes fases de EMBRACE
+A continuación, se enumeran las diferentes fases de EMBRACE
 
 -   **EMBRACE I:** Iniciado en 2008 para evaluar la BT guiada por imágenes en un estudio prospectivo multicéntrico. No se establecieron restricciones estrictas en la prescripción de dosis para volúmenes objetivo u órganos en riesgo. Involucró técnicas intracavitarias e intersticiales combinadas. Se reclutaron 1416 pacientes y concluyó en 2015.
 

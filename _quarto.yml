@@ -9,6 +9,7 @@ execute:
   echo: false
 jupyter: python3
 book:
+  favicon: LogoUni.png
   title: Soluciones de reconstrucción mediante RMN
   author: Antonio Otal Palacín
   chapters:
@@ -24,6 +25,7 @@ book:
 bibliography: referencias.bib
 format:
   html:
+    cover-image: LogoUni.png
     theme:
       - cosmo
   pdf:
@@ -32,5 +34,6 @@ format:
     lot: true
   docx:
     reference-doc: val.docx
+    toc: true
   epub:
     toc: true
