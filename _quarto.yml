@@ -10,7 +10,7 @@ execute:
 jupyter: python3
 book:
   favicon: LogoUni.png
-  title: Soluciones de reconstrucción mediante RMN
+  title: Soluciones de reconstrucción mediante MRI
   author: Antonio Otal Palacín
   chapters:
     - siglas.qmd
