@@ -46,14 +46,14 @@ Cáncer de cérvix por paises en 2020 ([Global Cancer Observatory](https://gco.i
 
 ### Evolución de los sistemas de implantación
 
-Su origen se remonta a comienzos del siglo XX, cuando se introdujeron por primera vez fuentes radiactivas implantadas manualmente en los tumores [@introd2012]. En aquel entonces, este enfoque implicaba una exposición no deseada a la radiación para los médicos y otros profesionales de la salud. Sin embargo, a mediados del siglo XX, se comenzaron a utilizar técnicas de carga diferida (*after-loaders*) [@aronowitz2015] ([Figura @fig-afterloader]), en las cuales las agujas huecas o los aplicadores se colocan en el volumen del tumor insertando posteriormente las fuentes radiactivas en dichos dispositivos, con lo que la exposición a la radiación del personal sanitario se redujo de manera importante.
+El origen de los sistemas de implantación (dispositivos utilizados para administrar y colocar fuentes radiactivas dentro de un tumor o en sus proximidades), se remonta a comienzos del siglo XX, cuando se introdujeron por primera vez fuentes radiactivas implantadas manualmente en los tumores [@introd2012]. En aquel entonces, este enfoque implicaba una exposición no deseada a la radiación para los médicos y otros profesionales de la salud. Sin embargo, a mediados del siglo XX, se comenzaron a utilizar técnicas de carga diferida (*after-loaders*) [@aronowitz2015] ([Figura @fig-afterloader]), en las cuales las agujas huecas o los aplicadores se colocan en el volumen del tumor insertando posteriormente las fuentes radiactivas en dichos dispositivos, con lo que la exposición a la radiación del personal sanitario se redujo de manera importante.
 
 ::: {#fig-afterloaders layout-nrow="2"}
 ![Agujas huecas, para ser cargadas con semillas de radio de varias longitudes y actividades (y espaciadores para separar el tren) fueron ideadas en Londres en 1942 para permitir una carga no homogénea de radio.](img/Afterloader.jpg){#fig-afterloader}
 
 ![El *after-loader* remoto de un canal y una posición de Walstam (1962).](img/remoteafterloader.jpg){#fig-remoteafterloader}
 
-Evolución de los dispositivos de carga diferida
+Evolución de los dispositivos de carga diferida. Imagen tomada de la publicación de Aronowitz[@aronowitz2015]
 :::
 
 La llegada de los dispositivos de carga diferida remotos ([Figura @fig-remoteafterloader]) (RAL) a finales del siglo XX supuso avances significativos en la práctica de la BT. Dichos dispositivos remotos permitían la colocación de fuentes radiactivas a distancia en agujas o aplicadores, reduciendo todavía más las exposiciones a la radiación. Esta última innovación permitió el uso de fuentes de alta actividad para aplicaciones de alta tasa de dosis (HDR) y tasa de dosis pulsada (PDR). La BT de alta tasa de dosis mediante RAL se generalizó en la segunda mitad de los años ochenta del siglo XX con la aparición de ordenadores con una mayor capacidad de cálculo y memoria que a su vez posibilitaron la aparición de los primeros sistemas de planificación (TPS).
@@ -68,7 +68,7 @@ El punto B, otro punto utilizado en el Sistema de Manchester, representa los gan
 
 El sistema de Manchester consiste en una combinación de tubos intrauterinos y ovoides, que se insertan en la vagina y el útero de la paciente[@yordy2012]. La geometría de los aplicadores está diseñada de tal manera que el punto A recibe la misma dosis, independientemente de la combinación específica de tubos intrauterinos y ovoides utilizados. Esta característica hizo que el sistema de Manchester y sus aplicadores fueran más populares que los disponibles anteriormente y formó la base de los métodos modernos de aplicación de BT intracavitaria y especificación de dosis.
 
-![Diagrama esquemático de los puntos "A" y "B" en el sistema clásico de Manchester.](img/SistemaManchester.png){#fig-sistemamanchester}
+![Diagrama esquemático de los puntos "A" y "B" en el sistema clásico de Manchester.(Tomado de ICRU38[@ICRU38])](img/SistemaManchester.png){#fig-sistemamanchester}
 
 A diferencia de los sistemas aplicadores anteriores, los aplicadores Manchester son fijos y rígidos, lo que reduce la posibilidad de que el aplicador se deslice y cambie la distribución espacial de la dosis. El uso de aplicadores precargados y de carga diferida en el sistema de Manchester también ayudó a superar las limitaciones asociadas con el uso de aplicadores de radio peligrosos y tiempos de tratamiento prolongados.
 
@@ -80,7 +80,7 @@ Antes de la aparición de las imágenes en 3D, los sistemas de planificación y 
 
 El uso de imágenes en 3D para la planificación de la BT se introdujo por primera vez a mediados de la década de 1990 ([figura @fig-plato]), al generalizarse en los países desarrollados la planificación de tratamientos de radioterapia de haz externo (EBRT) en 3D sobre imágenes de tomografía computarizada (CT). Esto permitió realizar planes de tratamiento basados en volúmenes de manera relativamente rápida y sencilla. A raíz de esta innovación los avances en EBRT aparecieron los primeros TPSs de BT que integraban módulos de imágenes 3D. Se observó que estas secuencias tomográficas proporcionan más información anatómica y permiten evaluar mejor la definición del tumor, su relación con la anatomía circundante y los órganos en riesgo, así como la colocación de los aplicadores o catéteres de BT.
 
-![Planificación de tratamiento de BT calculado con PLATO (Nucletron, Veenendaal, Países Bajos).](img/Plato.png){#fig-plato}
+![Planificación de tratamiento de BT calculado con PLATO (Nucletron, Veenendaal, Países Bajos).() Tomado de Miyata et al.[@miyata2023]](img/Plato.png){#fig-plato}
 
 Inicialmente, las imágenes de CT proporcionaron mejores cálculos de dosis dentro de los tumores y los órganos de riesgo en comparación con la planificación de tratamiento mediante dos placas ortogonales de rayos X basada en película. Sin embargo, seguía teniendo limitaciones, como la sobre-estimación de los volúmenes tumorales [@onal2009a]. Dicha sobre-estimación está relacionada con la limitación del CT en la definición de los tejidos. Esa es precisamente una de las ventajas que ofrece la imagen por resonancia magnética nuclear (MRI). Otra de las ventajas de la mejor definición de los tejidos es la de permitir una planificación adaptativa, ya que el tumor retrocede con cada fracción administrada[@sagae2023].
 
@@ -160,7 +160,7 @@ Respecto a equipos de MR con campos principales mayores de 7 T como el MAGNETOM 
 
 El registro de imágenes consiste en alinear y superponer imágenes adquiridas por separado para crear una imagen fusionada que combine la información de ambas. Esta fusión permite combinar la información suministrada por cada uno de los grupos de imágenes iniciales. El registro más habitual que se realiza en la BT de cérvix es entre CT y MRI.
 
-![Registro de MRI y CT de la región pélvica](img/MRI_CT_register.png)
+![Registro de MRI y CT de la región pélvica(Tomado de Speight[@speight2019])](img/MRI_CT_register.png)
 
 Existen dos tipos principales de registro de imágenes: registro rígido y registro deformable. El registro rígido consiste en alinear las imágenes aplicando transformaciones de traslación, rotación y escalado. Asume que las estructuras anatómicas de las imágenes mantienen su forma y tamaño. El registro rígido se basa en la suposición de que las posiciones relativas de las estructuras permanecen constantes entre las imágenes de CT y MR.
 
@@ -182,9 +182,9 @@ Además, el registro manual de imágenes introduce la posibilidad de error human
 
 ### Importancia del tratamiento con BT. {#sec-braqnoopcional}
 
-Numerosos estudios destacan el papel fundamental de la BT intracavitaria en la consecución de resultados curativos para el cáncer de cuello de útero localmente avanzado, a menudo administrada tras radioterapia de haz externo (EBRT) con quimioterapia concurrente. Uno de estos estudios, realizado en el Centro Oncológico M. D. Anderson de la Universidad de Texas[@logsdon1999], exploró la influencia de los cambios en la política de tratamiento sobre los resultados de la radioterapia para la enfermedad en estadio IIIB FIGO[^1]. Demostró que las estrategias de tratamiento que ponían mayor énfasis en la radioterapia intracavitaria arrojaban los mejores resultados. Además, las directrices de la *American Brachytherapy Society* (ABS)[@viswanathan2012; @viswanathan2012a] así como la The Groupe Européen de Curiethérapie (GEC) and the European SocieTy for Radiotherapy & Oncology (ESTRO)[@dimopoulos2012] recomiendan que la BT debe incluirse como componente de la radioterapia definitiva para el carcinoma cervical, ya que disminuye las recidivas y las complicaciones cuando se utiliza junto con la EBRT.
+Numerosos estudios destacan el papel fundamental de la BT intracavitaria en la consecución de resultados curativos para el cáncer de cuello de útero localmente avanzado, a menudo administrada tras radioterapia de haz externo (EBRT) con quimioterapia concurrente. Uno de estos estudios, realizado en el Centro Oncológico M. D. Anderson de la Universidad de Texas[@logsdon1999], exploró la influencia de los cambios en la política de tratamiento sobre los resultados de la radioterapia para la enfermedad en estadio IIIB FIGO[^introduction-1]. Demostró que las estrategias de tratamiento que ponían mayor énfasis en la radioterapia intracavitaria arrojaban los mejores resultados. Además, las directrices de la *American Brachytherapy Society* (ABS)[@viswanathan2012; @viswanathan2012a] así como la The Groupe Européen de Curiethérapie (GEC) and the European SocieTy for Radiotherapy & Oncology (ESTRO)[@dimopoulos2012] recomiendan que la BT debe incluirse como componente de la radioterapia definitiva para el carcinoma cervical, ya que disminuye las recidivas y las complicaciones cuando se utiliza junto con la EBRT.
 
-[^1]: El carcinoma de células escamosas de cuello uterino en estadio IIIB de FIGO representa un estadio avanzado de cáncer de cuello uterino en el que el tumor se ha extendido a la pared pélvica, causando invasión parametrial y/o hidronefrosis o riñón no funcional.
+[^introduction-1]: El carcinoma de células escamosas de cuello uterino en estadio IIIB de FIGO representa un estadio avanzado de cáncer de cuello uterino en el que el tumor se ha extendido a la pared pélvica, causando invasión parametrial y/o hidronefrosis o riñón no funcional.
 
 ::: callout-note
 La clasificación de los estadíos del cáncer de cérvix más utilizada es la de la FIGO (Fédération Internationale de Gynécologie et d’Obstétrique), pudiendose encontrar dicha clasificación en ICRU89[@ICRU89]
@@ -271,7 +271,7 @@ El estudio publicado por Möller et al.[@möller2020] proporcionó información 
 
 Los resultados mostrados por el estudio clínico EMBRACE-I[@pötter2021], que fue el primer estudio prospectivo a gran escala sobre IGABT basada en RM para el cáncer de cuello de útero localmente avanzado. El estudio mostró una elevada tasa de control pélvico y supervivencia global con una morbilidad grave limitada, aportando así pruebas científicas significativas sobre la seguridad y eficacia de la IGABT.
 
-Estos estudios, junto con otras series mono institucionales y estudios de cohortes retrospectivos, contribuyeron a crear la base de pruebas científicas para la IGABT en el tratamiento del carcinoma cervicouterino[@tan2018;@horeweg2019;@sturdza2022]. Los resultados de estos estudios respaldaron colectivamente el uso de IGABT y proporcionaron datos clínicos y de toxicidad para demostrar su seguridad y eficacia.
+Estos estudios, junto con otras series mono institucionales y estudios de cohortes retrospectivos, contribuyeron a crear la base de pruebas científicas para la IGABT en el tratamiento del carcinoma cervicouterino[@tan2018; @horeweg2019; @sturdza2022]. Los resultados de estos estudios respaldaron colectivamente el uso de IGABT y proporcionaron datos clínicos y de toxicidad para demostrar su seguridad y eficacia.
 
 ### El estudio EMBRACE
 
@@ -396,7 +396,7 @@ El grupo de trabajo GEC-ESTRO (GYN GEC-ESTRO) introdujo varias métricas para in
 
 Como se expuso en la [sección @sec-esquemadetratamiento], el esquema habitual de tratamiento incluye varias sesiones de EBRT con fracciones de 1.8-2 Gy. Dicho fraccionamiento es muy diferente de los que se utilizan para las fracciones de BT. Ello hace necesario utilizar equivalentes biológicos que nos permitan sumar la dosis de las diferentes fases del tratamiento.
 
-Para gestionar la suma de dosis de las fracciones de EBRT y BT, se recomienda calcular unas dosis biológicamente equivalentes. La suma de estas dosis representa la dosis total biológicamente ponderada aplicada al volumen de interés, como la dosis mínima recibida por 2 cm3 de recto, el GTV o el CTV-HR.
+Para gestionar la suma de dosis de las fracciones de EBRT y BT, se recomienda calcular unas dosis biológicamente equivalentes. La suma de estas dosis representa la dosis total biológicamente ponderada aplicada al volumen de interés, como la dosis mínima recibida por 2 cc de recto, el GTV o el CTV-HR.
 
 Como recomienda la ICRU89[@ICRU89] el equivalente seleccionado es la dosis efectiva en 2Gy por fracción (EQD2). El EQD2 tiene en cuenta la variación en la sensibilidad a la radiación de diferentes tejidos y células tumorales, utilizando una relación alfa/beta (α/β) como medida de radiosensibilidad de los diferentes tejidos. El valor de α/β normalmente se elige en función del tipo de tumor que se está tratando. En el caso del cáncer de cuello uterino, habitualmente se utiliza una relación α/β de 10 para el tumor y un α/β de 3 Gy para el tejido sano. El EQD2 permite una comparación de diferentes esquemas de fraccionamiento y ayuda a optimizar los planes de tratamiento de radiación para lograr los resultados clínicos deseados. También según las recomendaciones del ICRU89, es la elección para adecuada para la prescripción de dosis y para los informes de la dosis recibida por el tumor y por los órganos de riesgo.
 
