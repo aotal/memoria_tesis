@@ -50,7 +50,7 @@ La inclusión del aplicador Benidorm en la biblioteca de Oncentra sugiere la pos
 
 Por otro lado, la idea de las bolas de vitamina A como marcadores expuesta en la publicación de Richart et al.[@richart2015] va a ser explorada en trabajos posteriores. En la publicación de Otal et al.[@otal2017] se describe la inclusión en el modelo de la biblioteca de aplicadores del TPS Sagiplan (Eckert & Ziegler BEBIG, Berlin, Alemania) de tres marcadores esféricos de vitamina A. La posición precisa de las esferas con respecto a la geometría del aplicador es conocida ya que se diseñaron unos soportes para dichas esferas que se añadieron al modelo ([figura @fig-viena1]). Dichos soportes se fabricaron con el uso de una impresora 3D hechas de ácido poliláctido (PLA). La colocación de los accesorios en el aplicador es sencilla y no afecta la integridad ni otras características del producto. Las esferas son visibles en la MRI y permiten el posicionamiento del aplicador sobre la imagen ([figura @fig-viena2]).
 
-::: {#fig-viena layout-ncol="2"}
+::: {#fig-viena layout-nrow="2"}
 ![Soportes para las bolas de vitamina A montados sobre el aplicador](img/viena1.png){#fig-viena1}
 
 ![Detalle de las esferas sobre la imagen en Sagiplan](img/viena2.png){#fig-viena2}
@@ -68,7 +68,7 @@ Se aplicó el método expuesto a 14 pacientes con caracter retrospectivo. Las di
 
 El método descrito en Otal et al.[@otal2019_plastic] es de uso exclusivo para aplicadores plásticos, ya que las *dummies* del canal son visibles en la MRI. No así para aplicadores metálicos en donde una *dummy* de ese tipo no es viable. En el trabajo de Otal et al.[@otal2019_metal], se propone un método diferente adaptado a los aplicadores metálicos, concretamente en el aplicador Fletcher (Mick, Eckert&Ziegler, Germany). Dicho método se basa en obtener medidas de distancias en el aplicador ya implantado y mediante esta parametrización obtener un modelo virtual para la biblioteca del aplicador completo y tratarlo como si fuese rígido, al igual que se hizo para el aplicador Utrecht ([figura @fig-fletcher]).
 
-::: {#fig-fletcher layout-ncol="2"}
+::: {#fig-fletcher layout-nrow="2"}
 ![Detalle de los parámetros de distancia sobre un modelo de CAD](img/fletcher2.png){#fig-fletcher1}
 
 ![Aplicador sobre la imagen desde la biblioteca de aplicadores de Sagiplan](img/fletcher1.png){#fig-fletcher2}
@@ -91,5 +91,3 @@ Herramienta en 3DSlicer para la reconstrucción del aplicador Utrecht
 La herramienta desarrollada es ajena a la biblioteca de aplicadores de Oncentra, ya que contiene los modelos tridimensionales del aplicador en ella y por tanto es posible introducirlo en una versión de Oncentra sin la licencia de la biblioteca, la cual no viene incluída con el paquete básico. La salida que aporta son las coordenadas de cada punto de parada de la fuente para todos los canales del aplicador, tanto los intracavitarios como los intersticiales. Dichos valores se pueden introducir en el planificador a mano, lo cual es bastante tedioso y con peligro de cometer errores de transcripción o diseñar algún procedimiento de exportación de ficheros que permita al planificador importarlo de manera automática. El procedimiento completo de reconstrucción se puede visionar en la plataforma de vídeos [Youtube](https://youtu.be/kv827vIsAZM). Además de como herramienta de reconstrucción, también puede ser utilizada como herramienta de anotación para que los ficheros resultantes puedan ser útiles como datos para el entrenamiento de algoritmos de inteligencia artificial que posibiliten el desarrollo de soluciones de autoreconstrucción.
 
 El desarrollo de todas las innovaciones expuestas previamente unidas a la inquietud sobre las carencias de los TPSs actuales de un grupo de profesionales, físicos médicos y oncólogos radioterápicos, con sólida experiencia en el tratamiento de tumores de cérvix en BT intersticial con MRI exclusiva, fueron el germen de la publicación Otal et al.[@otal2022]
-
-

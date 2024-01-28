@@ -32,6 +32,9 @@ format:
     documentclass: scrreprt
     lof: true
     lot: true
+    include-in-header: 
+      text: |
+        \usepackage{tocbibind}
   docx:
     reference-doc: val.docx
     toc: true
