@@ -10,7 +10,7 @@ La aplicación Java desarrollada presenta una interfaz de usuario amigable, como
 
 ![Detalle de la aplicación desarrollada para la configuración del TB](img/Preplan1.png){#fig-preplan1 fig-align="center"}
 
-![Filas 1 y 2 plan virtual antes del implante. Filas 3 y 4 el implante final](img/Preplan2.jpg){#fig-preplan2 fig-align="center"}
+![Filas 1 y 2 plan virtual antes del implante. Filas 3 y 4 el implante final](img/Preplan2.jpg){#fig-preplan2 fig-align="center" width="600"}
 
 ## Review on Treatment Planning Systems for Cervix Brachytherapy (Interventional Radiotherapy): Some Desirable and Convenient Practical Aspects to Be Implemented from Radiation Oncologist and Medical Physics Perspectives (Otal2022 publicado en julio 2022)
 

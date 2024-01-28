@@ -32,9 +32,23 @@ format:
     documentclass: scrreprt
     lof: true
     lot: true
+    geometry:
+      - top=30mm
+      - bottom=25mm
     include-in-header: 
       text: |
-        \usepackage{tocbibind}
+            \usepackage{tocbibind}
+            \usepackage{graphicx}
+            \usepackage{fancyhdr}
+            \pagestyle{fancy}
+            \fancyhf{} % Limpiar todos los campos de encabezado y pie de página
+            \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+            \renewcommand{\headrulewidth}{1pt} % Eliminar la línea de separación del encabezado % Configuración del encabezado izquierdo con la imagen
+            \fancyhead[L]{\vfill \includegraphics[width=3cm]{header_s.png}}
+            \fancyhead[R]{\vfill \leftmark}
+            \cfoot{\includegraphics[width=20cm]{footer.png}}
+
+
   docx:
     reference-doc: val.docx
     toc: true

@@ -49,16 +49,16 @@ Cáncer de cérvix por paises en 2020 ([Global Cancer Observatory](https://gco.i
 El origen de los sistemas de implantación (dispositivos utilizados para administrar y colocar fuentes radiactivas dentro de un tumor o en sus proximidades), se remonta a comienzos del siglo XX, cuando se introdujeron por primera vez fuentes radiactivas implantadas manualmente en los tumores [@introd2012]. En aquel entonces, este enfoque implicaba una exposición no deseada a la radiación para los médicos y otros profesionales de la salud. Sin embargo, a mediados del siglo XX, se comenzaron a utilizar técnicas de carga diferida (*after-loaders*) [@aronowitz2015] ([Figura @fig-afterloader]), en las cuales las agujas huecas o los aplicadores se colocan en el volumen del tumor insertando posteriormente las fuentes radiactivas en dichos dispositivos, con lo que la exposición a la radiación del personal sanitario se redujo de manera importante.
 
 ::: {#fig-afterloaders layout-nrow="2"}
-![Agujas huecas, para ser cargadas con semillas de radio de varias longitudes y actividades (y espaciadores para separar el tren) fueron ideadas en Londres en 1942 para permitir una carga no homogénea de radio.](img/Afterloader.jpg){#fig-afterloader}
+![Agujas huecas, para ser cargadas con semillas de radio de varias longitudes y actividades (y espaciadores para separar el tren) fueron ideadas en Londres en 1942 para permitir una carga no homogénea de radio.](img/Afterloader.jpg){#fig-afterloader width="500"}
 
-![El *after-loader* remoto de un canal y una posición de Walstam (1962).](img/remoteafterloader.jpg){#fig-remoteafterloader}
+![El *after-loader* remoto de un canal y una posición de Walstam (1962).](img/remoteafterloader.jpg){#fig-remoteafterloader width="350"}
 
-Evolución de los dispositivos de carga diferida. Imagen tomada de la publicación de Aronowitz[@aronowitz2015]
+Evolución de los dispositivos de carga diferida. (Imagen tomada de la publicación de Aronowitz[@aronowitz2015])
 :::
 
 La llegada de los dispositivos de carga diferida remotos ([Figura @fig-remoteafterloader]) (RAL) a finales del siglo XX supuso avances significativos en la práctica de la BT. Dichos dispositivos remotos permitían la colocación de fuentes radiactivas a distancia en agujas o aplicadores, reduciendo todavía más las exposiciones a la radiación. Esta última innovación permitió el uso de fuentes de alta actividad para aplicaciones de alta tasa de dosis (HDR) y tasa de dosis pulsada (PDR). La BT de alta tasa de dosis mediante RAL se generalizó en la segunda mitad de los años ochenta del siglo XX con la aparición de ordenadores con una mayor capacidad de cálculo y memoria que a su vez posibilitaron la aparición de los primeros sistemas de planificación (TPS).
 
-### EL Sistema de Manchester
+### El Sistema de Manchester
 
 El sistema de Manchester se desarrolló para la planificación de los tratamientos de cáncer de cérvix en los años 30 del siglo XX [@tod1938; @tod1953; @goodwin1968]. Su objetivo era estandarizar la dosimetría y el tratamiento en diferentes pacientes mediante la definición de puntos de referencia específicos.
 
@@ -68,7 +68,7 @@ El punto B, otro punto utilizado en el Sistema de Manchester, representa los gan
 
 El sistema de Manchester consiste en una combinación de tubos intrauterinos y ovoides, que se insertan en la vagina y el útero de la paciente[@yordy2012]. La geometría de los aplicadores está diseñada de tal manera que el punto A recibe la misma dosis, independientemente de la combinación específica de tubos intrauterinos y ovoides utilizados. Esta característica hizo que el sistema de Manchester y sus aplicadores fueran más populares que los disponibles anteriormente y formó la base de los métodos modernos de aplicación de BT intracavitaria y especificación de dosis.
 
-![Diagrama esquemático de los puntos "A" y "B" en el sistema clásico de Manchester.(Tomado de ICRU38[@ICRU38])](img/SistemaManchester.png){#fig-sistemamanchester}
+![Diagrama esquemático de los puntos "A" y "B" en el sistema clásico de Manchester.(Tomado de ICRU38[@ICRU38])](img/SistemaManchester.png){#fig-sistemamanchester width="300"}
 
 A diferencia de los sistemas aplicadores anteriores, los aplicadores Manchester son fijos y rígidos, lo que reduce la posibilidad de que el aplicador se deslice y cambie la distribución espacial de la dosis. El uso de aplicadores precargados y de carga diferida en el sistema de Manchester también ayudó a superar las limitaciones asociadas con el uso de aplicadores de radio peligrosos y tiempos de tratamiento prolongados.
 
@@ -80,7 +80,7 @@ Antes de la aparición de las imágenes en 3D, los sistemas de planificación y 
 
 El uso de imágenes en 3D para la planificación de la BT se introdujo por primera vez a mediados de la década de 1990 ([figura @fig-plato]), al generalizarse en los países desarrollados la planificación de tratamientos de radioterapia de haz externo (EBRT) en 3D sobre imágenes de tomografía computarizada (CT). Esto permitió realizar planes de tratamiento basados en volúmenes de manera relativamente rápida y sencilla. A raíz de esta innovación los avances en EBRT aparecieron los primeros TPSs de BT que integraban módulos de imágenes 3D. Se observó que estas secuencias tomográficas proporcionan más información anatómica y permiten evaluar mejor la definición del tumor, su relación con la anatomía circundante y los órganos en riesgo, así como la colocación de los aplicadores o catéteres de BT.
 
-![Planificación de tratamiento de BT calculado con PLATO (Nucletron, Veenendaal, Países Bajos).() Tomado de Miyata et al.[@miyata2023]](img/Plato.png){#fig-plato}
+![Planificación de tratamiento de BT calculado con PLATO (Nucletron, Veenendaal, Países Bajos).(Tomado de Miyata et al.[@miyata2023])](img/Plato.png){#fig-plato}
 
 Inicialmente, las imágenes de CT proporcionaron mejores cálculos de dosis dentro de los tumores y los órganos de riesgo en comparación con la planificación de tratamiento mediante dos placas ortogonales de rayos X basada en película. Sin embargo, seguía teniendo limitaciones, como la sobre-estimación de los volúmenes tumorales [@onal2009a]. Dicha sobre-estimación está relacionada con la limitación del CT en la definición de los tejidos. Esa es precisamente una de las ventajas que ofrece la imagen por resonancia magnética nuclear (MRI). Otra de las ventajas de la mejor definición de los tejidos es la de permitir una planificación adaptativa, ya que el tumor retrocede con cada fracción administrada[@sagae2023].
 
@@ -222,7 +222,7 @@ En 2011 aparecieron sendas publicaciones de la ABS[@viswanathan2012; @viswanatha
 
 En cuanto a los esquemas de tratamiento más habituales en EEUU según la ABS se muestran en la [tabla @tbl-ABSreportdosis].
 
-::: {#tbl-ABSreportdosis layout-ncol="2"}
+::: {#tbl-ABSreportdosis layout-nrow="2"}
 | Dosis EBRT            | Dosis por Fracción | Total de Fracciones |
 |-----------------------|--------------------|---------------------|
 | 45 Gy / 25 fracciones | 5.5 Gy             | 5                   |
