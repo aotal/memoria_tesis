@@ -9,9 +9,14 @@ execute:
   echo: false
 jupyter: python3
 book:
-  favicon: LogoUni.png
+  favicon: logouni.png
   title: Soluciones de reconstrucción mediante MRI
-  author: Antonio Otal Palacín
+  subtitle: A ver si ahora sí
+  author: 
+    - name: "Antonio Otal Palacín"
+    - orcid: "0000-0002-4677-535X"
+  date: "01 June 2026"
+  date-format: "MMMM YYYY"
   chapters:
     - siglas.qmd
     - index.qmd
@@ -35,6 +40,8 @@ format:
     link-citations: true
     lof: true
     lot: true
+    template-partials:
+      - before-body.tex
     geometry:
       - top=35mm
       - bottom=35mm
