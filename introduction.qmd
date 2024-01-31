@@ -26,7 +26,7 @@ Según Hoskin et al.[@clinic2012] Los inconvenientes de la BT comparada con la E
 
 Los tumores ginecológicos son cánceres que se desarrollan en el aparato reproductor femenino. Son varios los tipos de cáncer ginecológico que pueden aparecer como el de cuello de útero, endometrio (uterino), ovario, vulva, vagina y trompas de Falopio.
 
--   **Cáncer de cuello uterino**: También llamado de cérvix, es el cáncer ginecológico más tratado en todo el mundo. La incidencia del cáncer de cérvix es alta en los países en vías de desarrollo y en partes de Asia y África [@jemal2008]. El cáncer de cuello uterino es un problema importante en todo el mundo y es el tercer cáncer más frecuente en mujeres ([figura @fig-viena2] tomado de Singh et al.[@singh2023]). La prevalencia de la infección por el virus del papiloma humano (HPV) está estrechamente relacionada con la incidencia del cáncer cervicouterino. En adelante y salvo se diga lo contrario, el texto se centrará en este tipo de cáncer.
+-   **Cáncer de cuello uterino**: También llamado de cérvix, es el cáncer ginecológico más tratado en todo el mundo. La incidencia del cáncer de cérvix es alta en los países en vías de desarrollo y en partes de Asia y África [@jemal2008]. El cáncer de cuello uterino es un problema importante en todo el mundo y es el tercer cáncer más frecuente en mujeres ([figura @fig-incidenciaCC]). La prevalencia de la infección por el virus del papiloma humano (HPV) está estrechamente relacionada con la incidencia del cáncer cervicouterino. En adelante y salvo se diga lo contrario, el texto se centrará en este tipo de cáncer.
 
 -   **Cáncer de endometrio (uterino)**: La BT también puede utilizarse como opción de tratamiento para el cáncer de endometrio. Puede emplearse como tratamiento primario o como terapia adyuvante tras la cirugía. El objetivo de la BT endometrial es administrar una dosis elevada de radiación al lecho tumoral y reducir el riesgo de recidiva local.
 
@@ -41,7 +41,7 @@ Los tumores ginecológicos son cánceres que se desarrollan en el aparato reprod
 
 ![Mortalidad provocada por el cáncer de cérvix por edad](img/EstadisticaCCervix_B.jpg){#fig-incidenciaCC2}
 
-Cáncer de cérvix por paises en 2020 ([Global Cancer Observatory](https://gco.iarc.fr/))
+Cáncer de cérvix por paises en 2020. Datos del ([Global Cancer Observatory](https://gco.iarc.fr/)) (tomado de Singh et al.[@singh2023])
 :::
 
 ### Evolución de los sistemas de implantación

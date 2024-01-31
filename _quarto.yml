@@ -30,11 +30,20 @@ format:
       - cosmo
   pdf:
     documentclass: scrreprt
+    pdf-engine: xelatex
+    link-bibliography: true
+    link-citations: true
     lof: true
     lot: true
     geometry:
-      - top=30mm
-      - bottom=25mm
+      - top=35mm
+      - bottom=35mm
+      - heightrounded
+    hyperrefoptions:
+      - linktoc=all
+      - pdfwindowui
+      - pdfview=FitBH
+      - pdfstartview=FitB
     include-in-header: 
       text: |
             \usepackage{tocbibind}
@@ -46,7 +55,8 @@ format:
             \renewcommand{\headrulewidth}{1pt} % Eliminar la línea de separación del encabezado % Configuración del encabezado izquierdo con la imagen
             \fancyhead[L]{\vfill \includegraphics[width=3cm]{header_s.png}}
             \fancyhead[R]{\vfill \leftmark}
-            \cfoot{\includegraphics[width=20cm]{footer.png}}
+            \lfoot{\includegraphics[width=15cm]{footer.png}}
+            \rfoot{\thepage}
 
 
   docx:
