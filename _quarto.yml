@@ -10,13 +10,13 @@ execute:
 jupyter: python3
 book:
   favicon: logouni.png
-  title: Soluciones de reconstrucción mediante MRI
-  subtitle: A ver si ahora sí
+  title: Soluciones para la reconstrucción de aplicadores ginecológicos en braquiterapia sobre imágenes de resonancia magnética nuclear
   author: 
     - name: "Antonio Otal Palacín"
-    - orcid: "0000-0002-4677-535X"
-  date: "01 June 2026"
+      orcid: "0000-0002-4677-535X"
+      programa-doctorado: Programa de doctorado en Física código 3126
   date-format: "MMMM YYYY"
+  date: Mayo 2024
   chapters:
     - siglas.qmd
     - index.qmd

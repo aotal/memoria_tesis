@@ -1,30 +1,39 @@
 $if(has-frontmatter)$
 \frontmatter
-\centering\includegraphics[width=0.3\textwidth]{logouni}
 $endif$
 $if(title)$
-\cleardoublepage
 \thispagestyle{empty}
-{\centering
-\hbox{}\vskip 0cm plus 1fill
-{\Huge\bfseries $title$ \par}
+\centering
+\vspace*{-1cm} % Ajusta el valor negativo según tus necesidades para acercar la línea a la imagen
+\includegraphics[width=0.3\textwidth]{logouni} % Ajusta el ancho según tus necesidades
+\vfill
+{\Large\bfseries Facultat de Fisica \par}
+{\Large\bfseries Departament de Física Atòmica, Molecular i Nuclear \par}
+{\Large\bfseries Programa de doctorado en Física código 3126 \par}
+{\textcolor{blue}{\Huge\bfseries $title$} \par}
 $if(subtitle)$
 \vspace{3ex}
 {\Large\bfseries $subtitle$ \par}
 $endif$
-\vspace{12ex}
-$for(author)$
-    {\Large\bfseries $author.name$ \par}
-    \vspace{3ex}
-    {\Large ORCID: $author.orcid$ \par}
-    \vskip 0cm plus 2fill
-    {\bfseries\large Doctor of Philosophy \par}
-    \vspace{3ex}
-    {\bfseries\large $date$ \par}
-    \vspace{12ex}
+\vspace{3ex}
+$for(by-author)$
+{\Large\bfseries Tesis Doctoral \par}
+{\Large Presentada por: \par}
+{\Large\bfseries $by-author.name.literal$ \par}
+{\Large Dirigida por: \par}
+\vspace{3ex}
 $endfor$%
-\vspace{12ex}
-{\small Submitted in total fulfilment of the requirements
-of the degree of Doctor of Philosophy \par}
-}
+\begin{minipage}[t]{0.4\textwidth}
+    \centering
+    {\Large\bfseries Prof. Javier Vijande Asenjo \par}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \centering
+    {\Large\bfseries Dr José Pérez Calatayud \par}
+\end{minipage}
+
+\vfill % Rellena el espacio vertical hasta el final de la página
+
+{\bfseries\large Mayo 2024 \par}
 $endif$
