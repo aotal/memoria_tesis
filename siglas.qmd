@@ -37,6 +37,7 @@
 | SBRT     | *Stereotactic Body Radiation Therapy*                 |
 | TG       | *Task group*                                     |
 | TPS      | *Treatment planning system*             |
+| VMAT     | *Volumetric modulated arc therapy*             |
 | WG-DCAB  | *Working Group on Model-Based Dose Calculation Algorithms in Brachytherapy* |
 | xml      | *Extensible Markup Language*                           |
 
