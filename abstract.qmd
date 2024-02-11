@@ -1,0 +1,11 @@
+# Abstract {.unnumbered}
+
+Numerous studies highlight the essential role of intracavitary brachytherapy in achieving curative outcomes for locally advanced cervical cancer, often administered following external beam radiation therapy with concurrent chemotherapy. Furthermore, excluding brachytherapy from cervical cancer treatment can lead to a decrease in both specific and overall survival.
+
+On the other hand, magnetic resonance imaging (MRI) is the preferred imaging modality for cervical brachytherapy due to its better soft tissue definition than computed tomography (CT), allowing for improved visualization of the cervix. Additionally, as the tumor reduces with each administered fraction, this definition is crucial for effective adaptive planning.
+
+However, while MRI enables better visualization of anatomical structures, the same cannot be said for the channels of intracavitary gynecological applicators, both plastic, and titanium, with the challenge being even more significant in the case of the interstitial part found in some applicators. One reconstruction method involves libraries of applicators, 3D models of such applicators overlaid onto the sequence of images, whether from MRI or CT. Traditionally, reconstruction using applicator libraries is limited to rigid applicators and excludes the interstitial part.
+
+This work demonstrates that applicator libraries can be expanded to the interstitial part of intracavitary applicators with such a component. Furthermore, by using these models, it is possible to create virtual plans before implantation that optimize the configuration of the interstitial part of the applicator. Lastly, a review has been conducted on the various methodologies used by all commercially available Treatment Planning Systems (TPS) to address the main planning problems in cervical brachytherapy based solely on MRI with interstitial component treatment. Additionally, some practical aspects that are desirable or convenient to implement in future versions of TPS are outlined from the perspectives of the radiation oncologist and the medical physicist.
+
+{{< pagebreak >}}

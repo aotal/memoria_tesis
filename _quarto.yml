@@ -13,13 +13,15 @@ book:
   title: Soluciones para la reconstrucción de aplicadores ginecológicos en braquiterapia sobre imágenes de resonancia magnética nuclear
   author: 
     - name: "Antonio Otal Palacín"
-      orcid: "0000-0002-4677-535X"
+      orcid: "0000-0003-2704-7995"
       programa-doctorado: Programa de doctorado en Física código 3126
   date-format: "MMMM YYYY"
   date: Mayo 2024
+  downloads: [pdf, epub]
   chapters:
-    - siglas.qmd
     - index.qmd
+    - abstract.qmd
+    - siglas.qmd
     - introduction.qmd
     - m&m.qmd
     - results.qmd
@@ -27,15 +29,17 @@ book:
     - discusion.qmd
     - conclusions.qmd
     - references.qmd
+  
 bibliography: referencias.bib
 format:
   html:
-    cover-image: LogoUni.png
+    cover-image: logouni.png
     theme:
       - cosmo
   pdf:
     documentclass: scrreprt
     pdf-engine: xelatex
+    papersize: A4
     link-bibliography: true
     link-citations: true
     lof: true
@@ -44,6 +48,7 @@ format:
       - before-body.tex
     geometry:
       - top=35mm
+      - left=20mm
       - bottom=35mm
       - heightrounded
     hyperrefoptions:

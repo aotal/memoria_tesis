@@ -1,9 +1,11 @@
-# Abstract {.unnumbered}
+# Resumen {.unnumbered}
 
 Numerosos estudios destacan el papel fundamental de la braquiterapia intracavitaria en la consecución de resultados curativos para el cáncer de cuello de útero localmente avanzado, a menudo administrada tras radioterapia de haz externo con quimioterapia concurrente. Es más, excluir la braquiterapia del tratamiento del cáncer de cuello uterino puede provocar una disminución de la supervivencia tanto específica como global.
 
 Por otro lado, la resonancia magnética nuclear (MRI) es la modalidad de imagen preferida para la braquiterapia de cérvix por la mejor definición de los tejidos blandos que la tomomografía computerizada (CT), permitiendo una mejor visualización del cérvix. Además, al reducirse en cada fracción administrada el tumor, dicha definición es crucial para una planificación adaptativa eficaz.
 
-Pero así como la MRI posibilita una mejor visualización de estructuras anatómicas, no ocurre lo mismo con los canales de los aplicadores ginecológicos intracavitarios, tanto de plástico como de metal compatible MRI.   
+Pero así como la MRI posibilita una mejor visualización de estructuras anatómicas, no ocurre lo mismo con los canales de los aplicadores ginecológicos intracavitarios, tanto en los de plástico como los de titanio, siendo el reto todavía más difícil en e, caso de la parte intersticial con la que cuentan algunos aplicadores. Una de los métodos de reconstrucción es la basada en bibliotecas de aplicadores, modelos 3D de dichos aplicadores que colocan sobre la secuencia de imágenes, bien sea de MRI o de CT. Tradicinalmente, la reconstrucción mediante bibliotecas de aplicadores está limitada a aplicadores rígidos y excluye la parte intersticial.
+
+Este trabajo intenta demostrar que se puede ampliar el uso de bibliotecas de aplicadores a la parte intersticial de aplicadores intracavitarios que dispongan de dicha parte. Además, utilizando los citados modelos es posible crear planes virtuales previos al implante que optimicen la configuracion de la parte intersticial del aplicador. Por último se ha hecho una revisión de las diferentes metodologías utilizadas por todos los TPS disponibles comercialmente para resolver los principales problemas de planificación en una BT de cérvix basada exclusivamente en RM con tratamiento de componentes intersticiales. Además, se esbozan algunos aspectos prácticos deseables o convenientes de implementar en futuras versiones de TPS desde las perspectivas del oncólogo radioterapeuta y del físico médico. 
 
 {{< pagebreak >}}
