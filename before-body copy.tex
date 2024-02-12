@@ -1,0 +1,39 @@
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+$if(title)$
+\thispagestyle{empty}
+\centering
+\vspace*{-1cm} % Ajusta el valor negativo según tus necesidades para acercar la línea a la imagen
+\includegraphics[width=0.3\textwidth]{logouni} % Ajusta el ancho según tus necesidades
+\vfill
+{\Large\bfseries Facultat de Fisica \par}
+{\Large\bfseries Departament de Física Atòmica, Molecular i Nuclear \par}
+{\Large\bfseries Programa de doctorado en Física código 3126 \par}
+{\textcolor{blue}{\Huge\bfseries $title$} \par}
+$if(subtitle)$
+\vspace{3ex}
+{\Large\bfseries $subtitle$ \par}
+$endif$
+\vspace{3ex}
+$for(by-author)$
+{\Large\bfseries Tesis Doctoral \par}
+{\Large Presentada por: \par}
+{\Large\bfseries $by-author.name.literal$ \par}
+{\Large Dirigida por: \par}
+\vspace{3ex}
+$endfor$%
+\begin{minipage}[t]{0.4\textwidth}
+    \centering
+    {\Large\bfseries Prof. Javier Vijande Asenjo \par}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \centering
+    {\Large\bfseries Dr José Pérez Calatayud \par}
+\end{minipage}
+
+\vfill % Rellena el espacio vertical hasta el final de la página
+
+{\bfseries\large Mayo 2024 \par}
+$endif$

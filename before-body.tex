@@ -5,11 +5,11 @@ $if(title)$
 \thispagestyle{empty}
 \centering
 \vspace*{-1cm} % Ajusta el valor negativo según tus necesidades para acercar la línea a la imagen
-\includegraphics[width=0.3\textwidth]{logouni} % Ajusta el ancho según tus necesidades
+\includegraphics[width=0.8\textwidth]{logouni} % Ajusta el ancho según tus necesidades
 \vfill
 {\Large\bfseries Facultat de Fisica \par}
 {\Large\bfseries Departament de Física Atòmica, Molecular i Nuclear \par}
-{\Large\bfseries Programa de doctorado en Física código 3126 \par}
+{\Large\bfseries Programa de doctorado en Física: Código 3126 \par}
 {\textcolor{blue}{\Huge\bfseries $title$} \par}
 $if(subtitle)$
 \vspace{3ex}
@@ -30,10 +30,21 @@ $endfor$%
 \hfill
 \begin{minipage}[t]{0.4\textwidth}
     \centering
-    {\Large\bfseries Dr José Pérez Calatayud \par}
+    {\Large\bfseries Dr. José Pérez Calatayud \par}
 \end{minipage}
 
 \vfill % Rellena el espacio vertical hasta el final de la página
 
 {\bfseries\large Mayo 2024 \par}
+\raggedright
 $endif$
+
+%----------
+%	DEDICATION
+%----------	
+% If you do not wish to add a dedication to your thesis, do not include this page.
+\newpage
+\thispagestyle{empty}
+\begin{flushright}
+A Leo, Lorenzo y Ascen.
+\end{flushright}
