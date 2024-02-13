@@ -50,6 +50,7 @@ format:
       - top=35mm
       - left=20mm
       - bottom=35mm
+      - headsep=10mm
       - heightrounded
     hyperrefoptions:
       - linktoc=all
