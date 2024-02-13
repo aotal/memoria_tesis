@@ -1,16 +1,25 @@
 # Agradecimientos {.unnumbered}
 
 - Ascen, Lorenzo y Leonardo.
-- Papá y Mamá
+- ~~Papá y Mamá~~
 - Gente de Pamplona (Miquelez y Pellejero)
-- Obijuan y los freaks
+- ~~Obijuan y los freaks~~
 - Gente de Benidorm
 - Gente de Lleida (Àngel)
 - ~~Pepe y Javier~~
-- Facundo y Sergio
-- La gente de los artículos
+~~- Facundo y Sergio~~
+~~La gente de los artículos~~
 
 Mucho tiempo ha pasado desde finales de 2016, fecha en que comenzó este trabajo y ha sido tanta la gente que ha colaborado directa o indirectamente en él que seguramente hará que me olvide de algunos. Por eso, gracias a todos y disculpas a los que me deje en el tintero.
 
-En primer lugar, quiero agradecer a mis directores de tesis, el Dr. José Pérez Calatayud y el Prof. Javier Vijande Asenjo la paciencia y los ánimos para continuar que nunca han dejado de regalarme durante este viaje. Sus valiosísimos consejos y su guía son los soportes de el trabajo que se presenta.         
+En primer lugar, quiero agradecer a mis directores de tesis, el Dr. José Pérez Calatayud y el Prof. Javier Vijande Asenjo la paciencia y los ánimos para continuar que nunca han dejado de regalarme durante este viaje. Sus valiosísimos consejos y su guía son los elementos en los que se sostiene la investigación presentada.         
 
+Quiero dar las gracias a los desarrolladores de software y hardware libre por su inestimable y desinteresada ayuda y en especial al Dr. Juan González Gómez, más conocido en la red como Obijuan. El descubrimiento de sus tutoriales de FreeCAD supusieron un antes y un después en el desarrollo de este proyecto.   
+
+Un recuerdo muy especial a mis padres, Sole y Jesús. Lamento mucho no que hayan podido compartir conmigo el momento de presentar el presente trabajo y estoy seguro de que hubiesen disfrutado mucho de verme concluir este trabajo.
+
+Agradezco también mucho a el Dr. Sergio Alberto Lozares Cordero y al Prof. Facundo Ballester Pallarés el que me animasen cada uno por su lado a tomar la decisión de ejercer la profesión de radiofísico hospitalario.
+
+Quiero expresar mi profunda gratitud a los co-autores firmantes de los artículos derivados de esta investigación por su colaboración y esfuerzo conjunto en la producción de dichas publicaciones.
+
+Gracias a mis compañeros de la Clínica Benidorm en especial a la Dra. Silvia Rodríguez
