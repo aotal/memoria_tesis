@@ -25,7 +25,6 @@
 | IMRT     | *Intensity-modulated radiation therapy*                  |
 | IROC     | *Imaging and radiation oncology core*                |
 | MBDCA    | *Model-based dose calculation algorithms*              |
-| MR       | *Magnetic resonance*                         |
 | MRI      | *Magnetic resonance imaging*              |
 | MUPIT    | *A multiple-site perineal applicator*                  |
 | OAR      | *Organ at risk*                                    |
