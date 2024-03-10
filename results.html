@@ -262,10 +262,29 @@ div.csl-indent {
 <figcaption class="figure-caption">Figura&nbsp;3.1: Detalle de la aplicación desarrollada para la configuración del TB</figcaption>
 </figure>
 </div>
-<div id="fig-preplan2" class="quarto-figure quarto-figure-center anchored">
+<div id="fig-preplan2" class="quarto-layout-panel" data-fig-align="center" width="400">
 <figure class="figure">
-<p><img src="img/Preplan2.jpg" class="img-fluid figure-img" width="600"></p>
-<figcaption class="figure-caption">Figura&nbsp;3.2: Filas 1 y 2 plan virtual antes del implante. Filas 3 y 4 el implante final</figcaption>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 100.0%;justify-content: center;">
+<div id="fig-preplan2_1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="img/Preplan2_1.jpg" class="img-fluid figure-img" data-ref-parent="fig-preplan2"></p>
+<figcaption class="figure-caption">(a) Plan virtual sobre la paciente en una imagen pre-implante. La simulación se hace con el cilindro colocado para que la deformación en el cérvix sea equivalente a la del día del implante.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 100.0%;justify-content: center;">
+<div id="fig-preplan2_2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="img/Preplan2_2.jpg" class="img-fluid figure-img" data-ref-parent="fig-preplan2"></p>
+<figcaption class="figure-caption">(b) Plan real el día del implante. En contraposición a la imagen anterior aquí ya se observan los canales negros de las agujas.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figura&nbsp;3.2: Plan virtual vs plan real</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -290,12 +309,12 @@ div.csl-indent {
 <section id="sec-a4" class="level3" data-number="3.3.4">
 <h3 data-number="3.3.4" class="anchored" data-anchor-id="sec-a4"><span class="header-section-number">3.3.4</span> A4—Reconstrucción de catéteres. Bibliotecas de la componente intracavitaria</h3>
 <p>Todos los TPS analizados tienen acceso a bibliotecas virtuales de aplicadores intracavitarios para la reconstrucción de catéteres. Como se discutió anteriormente, es útil para facilitar y reducir la incertidumbre en la fase de reconstrucción. La DR es una alternativa a este tipo de reconstrucción y la única solución para aplicadores no rígidos, especialmente para la parte intersticial, disponible comercialmente. Sin embargo, tomando el ejemplo de la reconstrucción de un aplicador de anillo que incluye un tándem, ambas partes deben tratarse como dos elementos diferentes de la biblioteca de aplicadores. Por otra parte, el tándem está unido al anillo, por lo que no son estrictamente independientes y pueden ofrecer restricciones geométricas adicionales que podrían usarse para mejorar su reconstrucción. Sería deseable desarrollar más esta idea.</p>
-<p>Todos los especialistas mencionan la intención de mejorar el algoritmo de colocación automática en los conjuntos de imágenes de resonancia magnética porque reconocieron la incertidumbre inherente en todos los casos. Los TPSs ya incorporan dichas herramientas, pero sólo son precisas cuando se utilizan en imágenes de CT. Hrinivich et al.<span class="citation" data-cites="hrinivich2019"><sup><a href="references.html#ref-hrinivich2019" role="doc-biblioref">7</a></sup></span> han desarrollado un método de auto-reconstrucción del anillo y del tándem utilizando imágenes de resonancia magnética ponderadas en T2 con un algoritmo basado en el registro del modelo de superficie tridimensional, optimizado maximizando el gradiente de intensidad de la imagen normal a la superficie del modelo.</p>
+<p>Todos los especialistas mencionan la intención de mejorar el algoritmo de posicionamiento automático de los canales de la fuente en la MRI porque reconocieron la incertidumbre inherente en todos los casos. Los TPSs ya incorporan dichas herramientas, pero sólo son precisas cuando se utilizan en imágenes de CT. Hrinivich et al.<span class="citation" data-cites="hrinivich2019"><sup><a href="references.html#ref-hrinivich2019" role="doc-biblioref">7</a></sup></span> han desarrollado un método de auto-reconstrucción del anillo y del tándem utilizando imágenes de resonancia magnética ponderadas en T2 con un algoritmo basado en el registro del modelo de superficie tridimensional, optimizado maximizando el gradiente de intensidad de la imagen normal a la superficie del modelo.</p>
 </section>
 <section id="sec-a5" class="level3" data-number="3.3.5">
 <h3 data-number="3.3.5" class="anchored" data-anchor-id="sec-a5"><span class="header-section-number">3.3.5</span> A5—Reconstrucción de agujas. Parte intersticial</h3>
 <p>En el caso de la reconstrucción de la parte intersticial, los TPS permiten reconstruir las agujas a través de la zona negra que dejan las agujas de plástico y el desplazamiento entre la punta y la primera posición de parada. Sin embargo, en algunos casos el área negra no se ve con suficiente claridad para realizar dicha reconstrucción de manera eficiente.</p>
-<p>En la misma línea, tal y como se ha comentado para la parte intracavitaria, el recorrido de la aguja no es del todo independiente del resto del aplicador. Richart et al.<span class="citation" data-cites="richart2015"><sup><a href="references.html#ref-richart2015" role="doc-biblioref">8</a></sup></span> sugieren un método para reconstruir las agujas en el aplicador de Utrecht basado en la longitud insertada de cada aguja según lo informado por el oncólogo radioterápico en el momento de la inserción. Esta distancia se determina utilizando una regla grabada en la herramienta de inserción (ver <a href="m&amp;m.html#fig-utrecht_tool2">figura&nbsp;<span>2.1 (b)</span></a>). En otras palabras, la distancia entre el orificio de salida del aplicador y la punta de la aguja es la distancia denominada <em>free length</em>.</p>
+<p>En la misma línea, tal y como se ha comentado para la parte intracavitaria, el recorrido de la aguja no es del todo independiente del resto del aplicador. Richart et al.<span class="citation" data-cites="richart2015"><sup><a href="references.html#ref-richart2015" role="doc-biblioref">8</a></sup></span> sugieren un método para reconstruir las agujas en el aplicador de Utrecht basado en la longitud insertada de cada aguja según lo informado por el ORT en el momento de la inserción. Esta distancia se determina utilizando una regla grabada en la herramienta de inserción (ver <a href="m&amp;m.html#fig-utrecht_tool2">figura&nbsp;<span>2.1 (b)</span></a>). En otras palabras, la distancia entre el orificio de salida del aplicador y la punta de la aguja es la distancia denominada <em>free length</em>.</p>
 <p>Tomando el concepto de <em>free length</em>, Otal et al.<span class="citation" data-cites="otal2017"><sup><a href="references.html#ref-otal2017" role="doc-biblioref">9</a></sup></span> desarrollaron un método para incluir el componente intersticial como un elemento de la biblioteca de aplicadores. En tal modelo, las agujas salen de los agujeros del ovoide. Tienen una longitud igual a la <em>free length</em> y a la dirección de la cavidad en el ovoide. Una vez colocada la primera parte, se colocan las agujas sobre la zona negra, realizando rotaciones alrededor del orificio de salida, manteniendo el punto de salida del ovoide invariante.</p>
 <p>Paralelamente a las soluciones basadas en bibliotecas de aplicadores, algunos grupos continúan trabajando en métodos de reconstrucción directa. Aunque el diámetro de la aguja es un desafío para el desarrollo de <em>dummies</em>, ya se están desarrollando posibles soluciones. Shaaer et al.<span class="citation" data-cites="shaaer2020"><sup><a href="references.html#ref-shaaer2020" role="doc-biblioref">10</a></sup></span> han probado una <em>dummy</em> para resonancia magnética destinada a la componente intersticial. En una publicación posterior, con la ayuda de esos marcadores, el mismo grupo realizó una segmentación automática del catéter utilizando una red neuronal convolucional utilizando el modelo U-Net, realizando una reconstrucción con aguja después de un post procesado de la segmentación previa<span class="citation" data-cites="shaaer2021"><sup><a href="references.html#ref-shaaer2021" role="doc-biblioref">11</a></sup></span>.</p>
 </section>
