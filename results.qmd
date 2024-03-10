@@ -10,7 +10,13 @@ La aplicación Java desarrollada presenta una interfaz de usuario amigable, como
 
 ![Detalle de la aplicación desarrollada para la configuración del TB](img/Preplan1.png){#fig-preplan1 fig-align="center"}
 
-![Filas 1 y 2 plan virtual antes del implante. Filas 3 y 4 el implante final](img/Preplan2.jpg){#fig-preplan2 fig-align="center" width="600"}
+::: {#fig-preplan2 layout-nrow="2" fig-align="center" width="400"}
+![Plan virtual sobre la paciente en una imagen pre-implante. La simulación se hace con el cilindro colocado para que la deformación en el cérvix sea equivalente a la del día del implante.](img/Preplan2_1.jpg){#fig-preplan2_1}
+
+![Plan real el día del implante. En contraposición a la imagen anterior aquí ya se observan los canales negros de las agujas.](img/Preplan2_2.jpg){#fig-preplan2_2}
+
+Plan virtual vs plan real
+:::
 
 ## Review on Treatment Planning Systems for Cervix Brachytherapy (Interventional Radiotherapy): Some Desirable and Convenient Practical Aspects to Be Implemented from Radiation Oncologist and Medical Physics Perspectives (Otal2022 publicado en julio 2022)
 
@@ -38,13 +44,13 @@ Ninguno de los TPSs permite retirar el anillo u los ovoides de la MRI. En el cas
 
 Todos los TPS analizados tienen acceso a bibliotecas virtuales de aplicadores intracavitarios para la reconstrucción de catéteres. Como se discutió anteriormente, es útil para facilitar y reducir la incertidumbre en la fase de reconstrucción. La DR es una alternativa a este tipo de reconstrucción y la única solución para aplicadores no rígidos, especialmente para la parte intersticial, disponible comercialmente. Sin embargo, tomando el ejemplo de la reconstrucción de un aplicador de anillo que incluye un tándem, ambas partes deben tratarse como dos elementos diferentes de la biblioteca de aplicadores. Por otra parte, el tándem está unido al anillo, por lo que no son estrictamente independientes y pueden ofrecer restricciones geométricas adicionales que podrían usarse para mejorar su reconstrucción. Sería deseable desarrollar más esta idea.
 
-Todos los especialistas mencionan la intención de mejorar el algoritmo de colocación automática en los conjuntos de imágenes de resonancia magnética porque reconocieron la incertidumbre inherente en todos los casos. Los TPSs ya incorporan dichas herramientas, pero sólo son precisas cuando se utilizan en imágenes de CT. Hrinivich et al.[@hrinivich2019] han desarrollado un método de auto-reconstrucción del anillo y del tándem utilizando imágenes de resonancia magnética ponderadas en T2 con un algoritmo basado en el registro del modelo de superficie tridimensional, optimizado maximizando el gradiente de intensidad de la imagen normal a la superficie del modelo.
+Todos los especialistas mencionan la intención de mejorar el algoritmo de posicionamiento automático de los canales de la fuente en la MRI porque reconocieron la incertidumbre inherente en todos los casos. Los TPSs ya incorporan dichas herramientas, pero sólo son precisas cuando se utilizan en imágenes de CT. Hrinivich et al.[@hrinivich2019] han desarrollado un método de auto-reconstrucción del anillo y del tándem utilizando imágenes de resonancia magnética ponderadas en T2 con un algoritmo basado en el registro del modelo de superficie tridimensional, optimizado maximizando el gradiente de intensidad de la imagen normal a la superficie del modelo.
 
 ### A5---Reconstrucción de agujas. Parte intersticial {#sec-a5}
 
 En el caso de la reconstrucción de la parte intersticial, los TPS permiten reconstruir las agujas a través de la zona negra que dejan las agujas de plástico y el desplazamiento entre la punta y la primera posición de parada. Sin embargo, en algunos casos el área negra no se ve con suficiente claridad para realizar dicha reconstrucción de manera eficiente.
 
-En la misma línea, tal y como se ha comentado para la parte intracavitaria, el recorrido de la aguja no es del todo independiente del resto del aplicador. Richart et al.[@richart2015] sugieren un método para reconstruir las agujas en el aplicador de Utrecht basado en la longitud insertada de cada aguja según lo informado por el oncólogo radioterápico en el momento de la inserción. Esta distancia se determina utilizando una regla grabada en la herramienta de inserción (ver [figura @fig-utrecht_tool2]). En otras palabras, la distancia entre el orificio de salida del aplicador y la punta de la aguja es la distancia denominada *free length*.
+En la misma línea, tal y como se ha comentado para la parte intracavitaria, el recorrido de la aguja no es del todo independiente del resto del aplicador. Richart et al.[@richart2015] sugieren un método para reconstruir las agujas en el aplicador de Utrecht basado en la longitud insertada de cada aguja según lo informado por el  ORT en el momento de la inserción. Esta distancia se determina utilizando una regla grabada en la herramienta de inserción (ver [figura @fig-utrecht_tool2]). En otras palabras, la distancia entre el orificio de salida del aplicador y la punta de la aguja es la distancia denominada *free length*.
 
 Tomando el concepto de *free length*, Otal et al.[@otal2017] desarrollaron un método para incluir el componente intersticial como un elemento de la biblioteca de aplicadores. En tal modelo, las agujas salen de los agujeros del ovoide. Tienen una longitud igual a la *free length* y a la dirección de la cavidad en el ovoide. Una vez colocada la primera parte, se colocan las agujas sobre la zona negra, realizando rotaciones alrededor del orificio de salida, manteniendo el punto de salida del ovoide invariante.
 

@@ -19,15 +19,16 @@
 | GTV      | *Gross tumor volume*                         |
 | GWG      | *Gynecologic working group*                            |
 | HDR      | *High dose rate brachytherapy*                  |
-| HPV      | *Human papillomavirus*                            |
 | ICRU     | *International Commission on Radiation Units and Measurements* |
 | IGABT    | *Image-guided adaptive brachytherapy*         |
 | IMRT     | *Intensity-modulated radiation therapy*                  |
 | IROC     | *Imaging and radiation oncology core*                |
 | MBDCA    | *Model-based dose calculation algorithms*              |
+| MP    | *Medical physicist*              |
 | MRI      | *Magnetic resonance imaging*              |
 | MUPIT    | *A multiple-site perineal applicator*                  |
 | OAR      | *Organ at risk*                                    |
+| ORT      | Oncólogo radioterápico                                    |
 | PDR      | *Pulsed dose rate brachytherapy*                       |
 | PET/CT   | *Positron-Emission Tomography/Computed Tomography* |
 | PTV      | *Planning Target Volume*                       |
@@ -36,6 +37,7 @@
 | SBRT     | *Stereotactic Body Radiation Therapy*                 |
 | TG       | *Task group*                                     |
 | TPS      | *Treatment planning system*             |
+| TRUS      | *Trans-rectal ultrasound*             |
 | VMAT     | *Volumetric modulated arc therapy*             |
 | WG-DCAB  | *Working Group on Model-Based Dose Calculation Algorithms in Brachytherapy* |
 | xml      | *Extensible Markup Language*                           |
