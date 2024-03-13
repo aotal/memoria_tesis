@@ -1,0 +1,141 @@
+---
+title: "Untitled"
+format: html
+---
+
+# Artículos
+
+- Development and clinical implementation of a new template for MRI-based
+intracavitary/interstitial gynecologic brachytherapy for locally advanced cervical cancer:
+From CT-based MUPIT to the MRI compatible Template Benidorm. Ten years of experience. October 2016. Journal of Contemporary Brachytherapy 8(5). DOI:10.5114/jcb.2016.63187
+
+- A method to incorporate interstitial components into the TPS gynecologic rigid applicator library. February 2017. Journal of Contemporary Brachytherapy 9(1). DOI:10.5114/jcb.2017.65290
+
+- Pre-plan technique feasibility in multi-interstitial/endocavitary perineal gynecological brachytherapy October 2017. Journal of Contemporary Brachytherapy 5(5):472-476. DOI:10.5114/jcb.2017.70710
+
+- Review of strategies for MRI based reconstruction of endocavitary and interstitial applicators in brachytherapy of cervical cancer. December 2018 Reports of Practical Oncology & Radiotherapy .Volume 23, Issue 6, Pages 547-561.DOI: 10.1016/j.rpor.2018.06.005
+
+
+
+# Pósters y comunicaciones en congresos internacionales
+
+EP-2001: Radical salvage brachytherapy (BT) for local recurrences after previous
+radiation treatment. April 2016. Póster. European Society for Radiotherapy and Oncology(ESTRO) meeting DOI:10 1016/S0167-8140(16)33252-2
+
+- EP-1338: Delay Haematuria after prostatic radiotherapy: do it mean always radiation cystitis? April 2016.Póster. European Society for Radiotherapy and Oncology(ESTRO) meeting DOI:10.1016/S0167-8140(16)32588-9
+
+- Pre-Plan Technique Feasibility in Multi-Interstitial Gynecological Brachytherapy. May 2016. Póster International Brachytherapy Meeting DOI:10.1016/j.brachy.2016.04.158
+
+- Library Development of Interstitial Gynecological Brachytherapy Utrecht and Benidorm Template to Improve Treatment Planning Reconstruction May 2016. Póster. International Brachytherapy Meeting DOI 10.1016/j.brachy 2016.04.291
+
+- Interstitial Brachytherapy in Locally Advanced Cervical Cancer: From MUPIT to Full Compatible MRI Mixed Intracavitary/Interstitial Template. 10 Years of Experience. May 2016. Póster. International Brachytherapy Meeting. DOI 10.1016/j.brachy.2016.04.193
+
+- SU-F-T-47: MRI T2 Exclusive Based Planning Using the Endocavitary/interstitial Gynecological Benidorm Applicator: A Proposed TPS Library and Preplan Efficient Methodology June 2016. Póster. The American Association of Physicist in Medicine (AAPM) Annual Meeting DOI:10.1118/1.4956182
+
+- PA-029: Nuevo método de reconstrucción de aplicadores en braquiterapia, en CT y MRI, utilizando accesorios mediante una impresora 3D. Septiembre 2016. Póster. 13º Congreso Argentino de Física Médica y 7º Congreso Latinoamericano de Física Médica Premio al mejor póster del congreso. 
+
+PA-030: Método propuesto para el modelado de aplicadores en el TPS Sagiplan. Septiembre 2016. Comunicación Oral. 13º Congreso Argentino de Física Médica y 7º Congreso Latinoamericano de Física Médica.
+
+- Twice vs Single Applications in High Dose Rate Brachytherapy (HDR) Boost. Same Results in High Risk Prostate Cancer Patients? May 2017. Póster. American Brachytherapy Society Meeting DOI:10.1016/j.brachy.2017.04.22
+
+- Acute Toxicity in Low Risk Prostate Patients: Low Dose Rate vs High Dose Rate Brachytherapy Monotherapy. May 2017. Póster. American Brachytherapy Society Meeting DOI:10.1016/j.brachy.2017.04.214
+
+- The Role of Interstitial Brachytherapy in Gynecologic Malignancies. The Importance of MRI Compatible Applicators in Volume Definition and Treatment Planning. May 2017. Póster. American Brachytherapy Society Meeting DOI:10.1016/j.brachy.2017.04.105
+
+- Single Radiation Therapy (EBRT) vs Combined Treatment (EBRT + BT) in Intermediate and High Risk Prostate Cancer. Are We Sure That Exclusive EBRT Is a Valid Approach Treatment Mode? May 2017. Póster. American Brachytherapy Society Meeting DOI:10.1016/j.brachy.2017.04.114
+
+- Systematic Checking of the Location of Brachytherapy Applicators in the Treatment of the Vaginal Cuff: Necessity to Guarantee Treatment Success. May 2017. Póster. American Brachytherapy Society Meeting DOI:10.1016/j.brachy.2017.04.129
+
+- EP-1775: Acute toxicity in early cancer prostate patients: low dose rate vs high dose
+rate monotherapy May 2017. Póster. European Society for Radiotherapy and Oncology(ESTRO) meeting DOI:10.1016 S0167-8140(17)32137-0 
+
+- EP-1795: A novel MRI markers system in applicator reconstruction for brachytherapy. May 2017. Póster. European Society for Radiotherapy and Oncology(ESTRO) meeting DOI:10.1016/S0167-8140(17)32157-6
+
+- A Tool for Automatic Depth Prescription in Surface Skin Brachytherapy. Aug 2017. Póster.The American Association of Physicist in Medicine (AAPM) Annual Meeting. http://www.aapm.org/meetings/2017AM/PRAbs.asp?mid=127&amp;aid=36440
+
+- Proposed solution to improve the protection of rectum in VMAT prostate treatments Agosto 2018. Póster. Abstracts from the 2nd European Congress of Medical Physics https://doi.org/10.1016/j.ejmp.2018.06.484
+
+- Characterization of a Gynaecological Titanium Applicator for Direct Reconstruction on MRI Julio 2019. Póster American Association of Physicist in Medicine (AAPM) 2019. 61º Annual Meeting
+
+- Novel Semi-Automatic Reconstruction Method for Plastic Gynaecological Applicators Julio 2019. Póster
+American Association of Physicist in Medicine (AAPM) 2019. 61º Annual Meeting
+
+# Pósters y comunicaciones en congresos nacionales
+
+- Incorporación de la componente intersticial en cérvix en las librerías de aplicadores de
+Oncentra. Junio 2017. 5º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR). Pag 280. Comunicación Oral
+
+- Técnica Pre-Plan con el aplicador ginecológico Benidorm. Junio 2017. 5º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR).Pag 1025. Póster finalista a premio
+
+- Modelado de aplicadores completos en el sistema de planificación Sagiplan utilizando FreeCAD.Junio 2017.5º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR). Pag. 1017. Póster
+
+- Accesorios creados con impresora 3D en la reconstrucción de aplicadores en RM en braquiterapia. Junio 2017. 5º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR). Pag 1019. Póster
+
+- Desarrollo de una aplicación para la determinación de puntos distales en braquiterapia de piel Junio 2017. 5º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR). Pag 1027. Póster
+
+- Ejemplos de procedimientos creados en el sistema de scripting de Varian. Junio 2017. 5º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR). Pag 1129. Póster
+
+- Nuevo método semi-automático de reconstrucción de aplicadores ginecológicos plásticos mediante librerías de aplicadores (Primer premio póster) Junio 2019 6º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR) Comunicación Póster. (https://plataforma.congresosefmsepr.es/event/1/contributions/114/)
+
+- Nuevo método en braquiterapia para la reconstrucción directa de aplicadores ginecológicos de titanio en resonancia magnética nuclear Junio 2019 6º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR) Comunicación Oral. (https://plataforma.congresosefmsepr.es/event/1/contributions/145/)
+
+- Control de la estabilidad del GAP dinámico de un colimador multilámina (MLC) para su uso en técnicas moduladas de radioterapia con una matriz de cámaras de ionización. Junio 2019 6º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR)Comunicación Póster. (https://plataforma.congresosefmsepr.es/event/1/contributions/496/)
+
+- Búsqueda de un procedimiento alternativo para ajustar la función de transferencia de un sistema de imagen Junio 2019  6º Congreso conjunto de la Sociedad Española de Física Médica (SEFM) y de la Sociedad Española de Protección Radiológica(SEPR) Comunicación Póster. (https://plataforma.congresosefmsepr.es/event/1/contributions/668/)
+
+# Asistencia a congresos y jornadas
+
+- 2016 World Congress of Brachytherapy. San Francisco (USA) 26-29 Jun 2016
+
+- 13º Congreso Argentino de Física Médica y 7º Congreso Latinoamericano de Física
+Médica. Villa Carlos Paz (Rep. Argentina). 4-7 Septiembre 2016
+
+- 5º Congreso Conjunto de las Sociedades Españolas de Física Médica (SEFM) y Protección Radiológica (SEPR). Girona. 13-16 Jun 2017
+
+- 1st ESTRO Physics Workshop. Science in Development. Glasgow (Scotland). 17-18 Nov 2017
+
+- 2018 6º Congreso Conjunto. 22 Sociedad Española de Física Médica (SEFM), 17 Sociedad Española de Protección Radiológica (SEPR). Burgos 2019
+
+# Cursos
+
+- I Jornada Usuarios Nomex. The Dosimetry School PTW . Pamplona, 30 noviembre-1 diciembre 2018.
+
+- IGRT & Motion Management starting. Varian Advanced Imaging Clinical School. Wirral (Liverpool, UK). 27-29 Junio 2019
+
+- INTELIGENCIA ARTIFICIAL. Sociedad Española de Física Médica (16h)
+
+- CÓMO REDACTAR UN ARTÍCULO CIENTÍFICO. Fundación Dr. Antoni Esteve (12h)
+
+# Seminarios de alumnos
+
+- 09/11/2020: Ricardo Cepedello, Classifications of radiative neutrino mass models.
+
+- 13/11/2020: Maria de la Luz Jurado, Shell evolution of neutron-deficient Xe isotopes: Octupole and Quadrupole Correlations above 100Sn.
+
+- 19/11/2020: Nafis Rezwan Khan Chowdhury, Neutrinos beneath the waves.
+
+- 29/03/2021: Fernando Romero López, Scattering amplitudes from lattice QCD.
+
+- 26/03/2021: Antonio Ferreiro, The cosmological constant (problem) and the accelerated expansion of the Universe.
+
+- 13/05/2021: Akun Liang, High-pressure structural and vibrational, study of metal oidates, from experiments and density-functional theory.
+
+- 13/05/2021: Daniel Diaz, Experimental and theoretical study of Zn2V2O7.
+
+- 23/06/2021: Abraham Loredo, Broadband tuning of scalar and vector four wave mixing in optofluidic-filled MOFs.
+
+- 25/06/2021: Sergio Lozares, Clinical applications of electronic brachytherapy.
+
+- 01/07/2021: José de Jesús Aguilera Verdugo, Causal structures of scattering amplitudes within Loop-Tree Duality formalism.
+
+- 06/07/2021: Clara Remón Alepuz, Radiative decays at LHCb.
+
+- 27/01/2022: Victor Babiano Suarez, High resolution 80Se(n,ɣ) cross section measurement and i-TED detector development. 
+
+- 23/02/2022: Ivan Sayago Galvan, Search for Higgs boson pair production in the bbγγ final state with the full Run 2 dataset by ATLAS.
+
+- 06/07/2023: **Antonio Otal Palacín**, Applicator reconstruction in gynecological brachytherapy on MRI.
+
+
+
+
