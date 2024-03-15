@@ -1,9 +1,32 @@
 ---
-title: "Untitled"
-format: html
+title: "Documento de actividades"
+author: "Antonio Otal Palacín"
+csl: medical_physics.csl
+lang: es
+format:
+    pdf:
+        pdf-engine: xelatex
+        papersize: A4
+        toc: true
+        geometry:
+            - top=35mm
+            - left=20mm
+            - bottom=35mm
+            - headsep=10mm
+            - heightrounded
+bibliography: referencias.bib
 ---
 
 # Artículos
+
+::: {#refs}
+
+---
+nocite: |
+  @otal2017, @otal2019_metal
+---
+
+:::
 
 - Development and clinical implementation of a new template for MRI-based
 intracavitary/interstitial gynecologic brachytherapy for locally advanced cervical cancer:
