@@ -15,7 +15,7 @@ book:
     - name: "Antonio Otal Palacín"
       orcid: "0000-0003-2704-7995"
   date-format: "MMMM YYYY"
-  date: Mayo 2024
+  date: Marzo 2024
   downloads: [pdf, epub]
   chapters:
     - index.qmd
@@ -39,6 +39,7 @@ format:
     documentclass: scrreprt
     pdf-engine: xelatex
     papersize: A4
+    fontsize: 12pt
     link-bibliography: true
     link-citations: true
     lof: true

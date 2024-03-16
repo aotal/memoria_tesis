@@ -4,13 +4,18 @@ $endif$
 $if(title)$
 \thispagestyle{empty}
 \centering
-\vspace*{-1cm} % Ajusta el valor negativo según tus necesidades para acercar la línea a la imagen
-\includegraphics[width=0.8\textwidth]{logouni} % Ajusta el ancho según tus necesidades
-\vfill
+\vspace*{-2cm} % Ajusta el valor negativo según tus necesidades para acercar la línea a la imagen
+\includegraphics[width=0.3\textwidth]{escudouv} % Ajusta el ancho según tus necesidades
+
+
 {\Large\bfseries Facultat de Fisica \par}
 {\Large\bfseries Departament de Física Atòmica, Molecular i Nuclear \par}
 {\Large\bfseries Programa de doctorado en Física: Código 3126 \par}
+
+\vspace*{1cm}
 {\textcolor{blue}{\Huge\bfseries $title$} \par}
+
+\vspace*{5mm}
 $if(subtitle)$
 \vspace{3ex}
 {\Large\bfseries $subtitle$ \par}
@@ -18,24 +23,26 @@ $endif$
 \vspace{3ex}
 $for(by-author)$
 {\Large\bfseries Tesis Doctoral \par}
-{\Large Presentada por: \par}
-{\Large\bfseries $by-author.name.literal$ \par}
-{\Large Dirigida por: \par}
+{\large Presentada por: \par}
+{\large $by-author.name.literal$ \par}
+{\large Dirigida por: \par}
 \vspace{3ex}
 $endfor$%
 \begin{minipage}[t]{0.4\textwidth}
     \centering
-    {\Large\bfseries Prof. Javier Vijande Asenjo \par}
+    {\large Prof. Javier Vijande Asenjo \par}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.4\textwidth}
     \centering
-    {\Large\bfseries Dr. José Pérez Calatayud \par}
+    {\large Dr. José Pérez Calatayud \par}
 \end{minipage}
 
+
+\vspace*{4cm}
+{\large Marzo 2024 \par}
 \vfill % Rellena el espacio vertical hasta el final de la página
 
-{\bfseries\large Mayo 2024 \par}
 \raggedright
 $endif$
 
@@ -71,7 +78,7 @@ sido realizado bajo su dirección.
 
 \vspace{3ex}
 
-València, Mayo de 2024
+València, Marzo de 2024
 
 \vspace{25ex}
 
