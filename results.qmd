@@ -1,10 +1,10 @@
 # Resultados
 
-## A method to incorporate interstitial components into the TPS gynecologic rigid applicator library (Otal2017 publicado en febrero de 2017) {#sec-resultadosotal2017}
+## A method to incorporate interstitial components into the TPS gynecologic rigid applicator library (Febrero de 2017) {#sec-resultadosotal2017}
 
 El método se ha aplicado a 25 pacientes. Mediante este trabajo se ha puesto de manifiesto que la generación de diferentes disposiciones de agujas puede adaptarse a muchas circunstancias clínicas (número de agujas, profundidades de inserción, etc.). Con el TB, como se explicó anteriormente, se ha desarrollado una aplicación específica para configurar las agujas, tanto su presencia como la profundidad a la que se insertan. La figura 5 muestra ambos aplicadores después de su implementación en el sistema Oncentra. La Figura 6 ilustra la reconstrucción del aplicador Utrecht y del TB en imágenes de MRI T2. Este procedimiento de reconstrucción es eficiente y reduce la incertidumbre. Además, toda la reconstrucción y planificación se realiza con una única secuencia de MRI T2, que como se ha mencionado anteriormente es la modalidad de imagen recomendada como óptima para el contorneo [@viswanathan2012; @haie-meder2005; @potter2006; @dimopoulos2012].
 
-## Pre-plan technique feasibility in multi-interstitial/endocavitary perineal gynecological brachytherapy (Rodriguez2017 publicado en octubre 2017)
+## Pre-plan technique feasibility in multi-interstitial/endocavitary perineal gynecological brachytherapy (Octubre de 2017) {#sec-resultadosrodriguez2017}
 
 La aplicación Java desarrollada presenta una interfaz de usuario amigable, como se muestra en la [figura @fig-preplan1]. El usuario puede seleccionar de manera intuitiva las agujas (tanto rectas como divergentes) y la medida que proporciona el oncólogo radioterápico de la longitud libre y por tanto de la profundidad implantada. Con esta información se genera un modelo adaptado para la biblioteca de aplicadores de las agujas y profundidades elegidas. Este modelo se superpone a la MRI previa al implante. Una vez seleccionado el número virtual específico de agujas y profundidades, se realiza un plan virtual en Oncentra TPS y se optimiza según los objetivos de cobertura de los volúmenes a tratar y de la protección de los OAR. La [figura @fig-preplan2] muestra un caso de pre-plan virtual de MRI y su planificación ya con el implante hecho. En el plan virtual, la plantilla se reconstruye utilizando la biblioteca del trabajo descrito en la [sección @sec-resultadosotal2017].
 
@@ -18,7 +18,7 @@ La aplicación Java desarrollada presenta una interfaz de usuario amigable, como
 Plan virtual vs plan real
 :::
 
-## Review on Treatment Planning Systems for Cervix Brachytherapy (Interventional Radiotherapy): Some Desirable and Convenient Practical Aspects to Be Implemented from Radiation Oncologist and Medical Physics Perspectives (Otal2022 publicado en julio 2022)
+## Review on Treatment Planning Systems for Cervix Brachytherapy (Interventional Radiotherapy): Some Desirable and Convenient Practical Aspects to Be Implemented from Radiation Oncologist and Medical Physics Perspectives (Julio de 2022) {#sec-resultadosotal2022}
 
 Después de que los especialistas presentaran las demostraciones, respondieron las preguntas planteadas por los autores. Sus respuestas al cuestionario se resumen en esta sección siguiendo el esquema descrito en la sección Materiales y Métodos, junto con los comentarios de los autores.
 
