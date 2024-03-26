@@ -50,6 +50,7 @@ format:
     geometry:
       - top=35mm
       - left=20mm
+      - right=20mm
       - bottom=35mm
       - headsep=10mm
       - heightrounded
@@ -60,6 +61,7 @@ format:
       - pdfstartview=FitB
     include-in-header: 
       text: |
+            \usepackage{ragged2e}
             \usepackage{tocbibind}
             \usepackage{graphicx}
             \usepackage{fancyhdr}

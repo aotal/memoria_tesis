@@ -1,6 +1,6 @@
 # Material y métodos
 
-## A method to incorporate interstitial components into the TPS gynecologic rigid applicator library (Otal2017 publicado en febrero de 2017)
+## A method to incorporate interstitial components into the TPS gynecologic rigid applicator library (Febrero de 2017)
 
 ### Aplicadores, adquisición de imágenes de resonancia magnética y planificador de braquiterapia (TPS) {#sec-appimagestps}
 
@@ -50,7 +50,7 @@ En el caso del aplicador de Utrecht, el proceso de reconstrucción de la MRI T2 
 
 La modelización correcta de la componente intracavitaria nos da la localización de los puntos de salida de las agujas, es decir, los puntos de salida en la superficie del ovoide. Combinando esta información con la longitud libre, nos permite conocer la posición completa de la aguja. En el caso del TB, una vez hecha la elección de las agujas, se introduce la configuración de las agujas y los datos de la longitud libre en una aplicación java programada por los autores para generar archivos xml y posteriormente se importa en la biblioteca de aplicadores.
 
-## Pre-plan technique feasibility in multi-interstitial/endocavitary perineal gynecological brachytherapy (Rodriguez2017 publicado en octubre 2017)
+## Pre-plan technique feasibility in multi-interstitial/endocavitary perineal gynecological brachytherapy (Octubre 2017)
 
 La descripción del aplicador Benidorm, el procedimiento de adquisición y el modelado en la biblioteca de aplicadores de Oncentra ya se describió en la [sección @sec-appimagestps].
 
@@ -62,7 +62,7 @@ El procedimiento de pre-planificación implementado es el siguiente:
 
 3.  Con esta información, el ORT procede al implante y, posteriormente, se realiza una MRI post-implante, en la que se establece el contorno, las agujas más la reconstrucción en tándem, y la optimización.
 
-## Review on Treatment Planning Systems for Cervix Brachytherapy (Interventional Radiotherapy): Some Desirable and Convenient Practical Aspects to Be Implemented from Radiation Oncologist and Medical Physics Perspectives (Otal2022 publicado en julio 2022)
+## Review on Treatment Planning Systems for Cervix Brachytherapy (Interventional Radiotherapy): Some Desirable and Convenient Practical Aspects to Be Implemented from Radiation Oncologist and Medical Physics Perspectives (Julio 2022)
 
 Los autores de esta revisión son ORT y MP con amplia experiencia en tratamientos de braquiterapia HDR de cérvix con componente intersticial basados en MRI, representantes de los centros españoles con mayor número de implantes realizados. Los tres TPS analizados fueron Brachyvision v16.0 de Varian (Varian Medical Systems, Palo Alto, CA, USA), Oncentra v4.6.2 de Elekta (Elekta AB, Estocolmo, Suecia), y Sagiplan v2.2 de BEBIG (Eckert & Ziegler BEBIG GmbH, Berlín, Alemania). La mayoría de los autores son usuarios de Oncentra Brachy, con un solo usuario de Brachyvision; no hay usuarios de Sagiplan. Al ser un grupo multidisciplinar se impone el especificar la contribución de cada uno de los autores, apareciendo está en el artículo original.
 
@@ -116,7 +116,7 @@ Una alternativa a esta modalidad de reconstrucción es el uso de bibliotecas de 
 
 ### Q5---Reconstrucción de agujas. Parte intersticial {#sec-q5}
 
-Como se ha comentado en [@sec-q4], el uso de bibliotecas de aplicadores solamente es útil en el caso de aplicadores rígidos y, por tanto, el uso de bibliotecas de aplicadores no es, en principio, posible para la parte intersticial. Así pues, la reconstrucción directa es la única forma de realizar dicha reconstrucción. A diferencia del caso de las agujas en las imágenes de CT, la identificación de las trayectorias y las puntas de las agujas sigue siendo una cuestión pendiente en la MRI.
+Como se ha comentado en la [sección @sec-q4], el uso de bibliotecas de aplicadores solamente es útil en el caso de aplicadores rígidos y, por tanto, el uso de bibliotecas de aplicadores no es, en principio, posible para la parte intersticial. Así pues, la reconstrucción directa es la única forma de realizar dicha reconstrucción. A diferencia del caso de las agujas en las imágenes de CT, la identificación de las trayectorias y las puntas de las agujas sigue siendo una cuestión pendiente en la MRI.
 
 ### Q6---Interpolación de imágenes {#sec-q6}
 
@@ -130,7 +130,7 @@ Independientemente del método, la optimización se basa en un proceso iterativo
 
 ### Q8---Uso del EQD2 para evaluar el tratamiento con la parte de radioterapia externa. Restricciones óptimas y obligatorias {#sec-q8}
 
-Como se mencionó en [@sec-q7], el parámetro más utilizado para combinar el efecto biológico de las fracciones EBRT y BT es EQD2. Por lo tanto, las restricciones obligatorias y óptimas deben expresarse utilizando esa magnitud. Si los TPS pueden combinar las dosis de las diferentes fracciones de forma ágil, se podría detectar un exceso o falta de dosis en la fase EBRT y compensar durante la fase BT. Además, para la definición del volumen objetivo clínico de riesgo intermedio (CTV-IR), es necesario transferir el GTV pre-EBRT a la MRI del tratamiento con BT (ICRU 89) [@ICRU89].
+Como se mencionó en la [sección @sec-q7], el parámetro más utilizado para combinar el efecto biológico de las fracciones EBRT y BT es EQD2. Por lo tanto, las restricciones obligatorias y óptimas deben expresarse utilizando esa magnitud. Si los TPS pueden combinar las dosis de las diferentes fracciones de forma ágil, se podría detectar un exceso o falta de dosis en la fase EBRT y compensar durante la fase BT. Además, para la definición del volumen objetivo clínico de riesgo intermedio (CTV-IR), es necesario transferir el GTV pre-EBRT a la MRI del tratamiento con BT (ICRU 89) [@ICRU89].
 
 ### Q9---Bloqueo de pesos {#sec-q9}
 
