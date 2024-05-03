@@ -4,13 +4,11 @@ $endif$
 $if(title)$
 \thispagestyle{empty}
 \centering
-\vspace*{-2cm} % Ajusta el valor negativo según tus necesidades para acercar la línea a la imagen
+\vspace*{-3cm} % Ajusta el valor negativo según tus necesidades para acercar la línea a la imagen
 \includegraphics[width=0.3\textwidth]{escudouv} % Ajusta el ancho según tus necesidades
 
 
 {\Large\bfseries Facultat de Fisica \par}
-{\Large\bfseries Departament de Física Atòmica, Molecular i Nuclear \par}
-{\Large\bfseries Programa de doctorado en Física: Código 3126 \par}
 
 \vspace*{1cm}
 {\textcolor{blue}{\Huge\bfseries $title$} \par}
@@ -26,7 +24,7 @@ $for(by-author)$
 {\large Presentada por: \par}
 {\large $by-author.name.literal$ \par}
 {\large Dirigida por: \par}
-\vspace{3ex}
+\vspace{5ex}
 $endfor$%
 \begin{minipage}[t]{0.4\textwidth}
     \centering
@@ -39,10 +37,9 @@ $endfor$%
 \end{minipage}
 
 
-\vspace*{4cm}
+\vspace*{2cm}
 {\large Marzo 2024 \par}
 \vfill % Rellena el espacio vertical hasta el final de la página
-
 \raggedright
 $endif$
 
@@ -52,10 +49,15 @@ $endif$
 \begin{flushright}
 \end{flushright}
 
+\newpage
+\thispagestyle{empty}
+\begin{flushright}
+\end{flushright}
 
 %\hypertarget{Certificado}{%
 %\chapter*{Certificado}\label{certificado}}
 %\addcontentsline{toc}{chapter}{Certificado}
+\vspace*{-3cm}
 \includegraphics[width=0.2\textwidth]{logouni} % Ajusta el ancho según tus necesidades
 
 \vspace{4ex}
@@ -89,7 +91,7 @@ que así conste, en cumplimiento de la legislación vigente, firman el presente 
 
 València, Marzo de 2024
 
-\vspace{25ex}
+\vspace{5ex}
 
 \begin{minipage}[t]{0.4\textwidth}
     \centering
@@ -154,8 +156,5 @@ Un recuerdo muy especial a mis padres, Sole y Jesús. Lamento mucho que no hayan
 Y sobre todo quiero dar las gracias a mis dos hijos, Lorenzo y Leonardo, por ser como son y sorprenderme todos los días. Y a Ascen, la luz que siempre brilla a mi lado.
 
 \end{flushright}
-\newpage
-\thispagestyle{empty}
-\begin{flushright}
-\end{flushright}
+
 \justify

@@ -10,7 +10,7 @@ execute:
 jupyter: python3
 book:
   favicon: logouni.png
-  title: Soluciones para la reconstrucción de aplicadores ginecológicos en braquiterapia sobre imágenes de resonancia magnética nuclear
+  title: Soluciones para la reconstrucción de aplicadores ginecológicos en braquiterapia sobre MRI
   author: 
     - name: "Antonio Otal Palacín"
       orcid: "0000-0003-2704-7995"
@@ -24,7 +24,6 @@ book:
     - introduction.qmd
     - m&m.qmd
     - results.qmd
-    - papers.qmd
     - discusion.qmd
     - conclusions.qmd
     - references.qmd
@@ -36,10 +35,10 @@ format:
     theme:
       - cosmo
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook
     pdf-engine: xelatex
-    papersize: A4
     fontsize: 12pt
+    interlinespace: 1.5
     link-bibliography: true
     link-citations: true
     lof: true
@@ -48,6 +47,8 @@ format:
       - before-body.tex
       - dedication.tex
     geometry:
+      - paperwidth=17cm
+      - paperheight=24cm
       - top=35mm
       - left=20mm
       - right=20mm
@@ -69,10 +70,8 @@ format:
             \fancyhf{} % Limpiar todos los campos de encabezado y pie de página
             \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
             \renewcommand{\headrulewidth}{1pt} % Eliminar la línea de separación del encabezado % Configuración del encabezado izquierdo con la imagen
-            \fancyhead[L]{\vfill \includegraphics[width=3cm]{header_s.png}}
             \fancyhead[R]{\vfill \leftmark}
-            \lfoot{\includegraphics[width=15cm]{footer.png}}
-            \rfoot{\thepage}
+            \cfoot{\thepage}            
 
 
   docx:

@@ -11,9 +11,9 @@ La aplicación Java desarrollada presenta una interfaz de usuario amigable, como
 ![Detalle de la aplicación desarrollada para la configuración del TB](img/Preplan1.png){#fig-preplan1 fig-align="center"}
 
 ::: {#fig-preplan2 layout-nrow="2" fig-align="center"}
-![Plan virtual sobre la paciente en una imagen pre-implante. La simulación se hace con el cilindro colocado para que la deformación en el cérvix sea equivalente a la del día del implante.](img/Preplan2_1.jpg){#fig-preplan2_1 width="500"}
+![Plan virtual sobre la paciente en una imagen pre-implante. La simulación se hace con el cilindro colocado para que la deformación en el cérvix sea equivalente a la del día del implante.](img/Preplan2_1.jpg){#fig-preplan2_1 width="400"}
 
-![Plan real el día del implante. En contraposición a la imagen anterior aquí ya se observan los canales negros de las agujas.](img/Preplan2_2.jpg){#fig-preplan2_2 width="500"}
+![Plan real el día del implante. En contraposición a la imagen anterior aquí ya se observan los canales negros de las agujas.](img/Preplan2_2.jpg){#fig-preplan2_2 width="400"}
 
 Plan virtual vs plan real
 :::
