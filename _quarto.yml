@@ -37,7 +37,7 @@ format:
   pdf:
     documentclass: scrbook
     pdf-engine: xelatex
-    fontsize: 12pt
+    fontsize: 11pt
     interlinespace: 1.5
     link-bibliography: true
     link-citations: true
@@ -49,12 +49,6 @@ format:
     geometry:
       - paperwidth=17cm
       - paperheight=24cm
-      - top=35mm
-      - left=20mm
-      - right=20mm
-      - bottom=35mm
-      - headsep=10mm
-      - heightrounded
     hyperrefoptions:
       - linktoc=all
       - pdfwindowui
@@ -68,10 +62,35 @@ format:
             \usepackage{fancyhdr}
             \pagestyle{fancy}
             \fancyhf{} % Limpiar todos los campos de encabezado y pie de página
-            \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
-            \renewcommand{\headrulewidth}{1pt} % Eliminar la línea de separación del encabezado % Configuración del encabezado izquierdo con la imagen
-            \fancyhead[R]{\vfill \leftmark}
+            \renewcommand{\chaptermark}[1]{\markboth{\MakeLowercase{\MakeUppercase{#1}}}{}} 
+            \fancyhead[R]{\MakeUppercase{\leftmark}}
             \cfoot{\thepage}            
+  titlepage-pdf:
+    coverpage: great-wave
+    coverpage-bg-image: "img/EscudoUV.png"
+    coverpage-title: ""
+    coverpage-footer: ""
+    titlepage-geometry:
+      - paperwidth=17cm
+      - paperheight=24cm
+    coverpage-theme:
+      page-html-color: "F6D5A8"
+      title-fontsize: 13
+      title-fontfamily: "LibreBodoni-Regular.otf"
+      title-bottom: "9.7cm"
+      title-left: "205mm"
+      header-style: "none"
+      author-style: "none"
+      footer-fontfamily: "LibreBodoni-Regular.otf"
+      footer-fontsize: 20
+      footer-align: "left"
+      footer-bottom: "20cm"
+      date-style: "none"
+      bg-image-opacity: 0.2
+      bg-image-size: "0.8\\paperwidth"
+      bg-image-left: "0.1\\paperwidth"
+      bg-image-bottom: "52mm"
+
 
 
   docx:

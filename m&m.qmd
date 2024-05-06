@@ -42,7 +42,7 @@ Una obtenidos los puntos de salida, el siguiente paso es crear un archivo corres
 
 El proceso de modelado para el TB fue diferente. Dado que en la base de datos de Oncentra sólo se incluían los tubos intrauterinos del conjunto de aplicadores vaginales, se utilizó FreeCAD para crear un nuevo modelo 3D del *template*. Con este programa, fue convertido el diseño real a un archivo vectorial se modelaron las agujas de titanio con un proceso análogo al descrito en [la sección @sec-apputrecht], los 4 cilindros (45 mm, 80 mm, 100 mm y 135 mm) y las placas perineales con las esferas de vitamina A ([figura @fig-tbfreecad]). Mediante este paso se obtiene la información necesaria sobre el *skin* del aplicador, y se encuentran los datos necesarios para obtener las posiciones relativas de todas las partes que configuran el aplicador, de forma que se puedan crear los conectores. Toda esta información permite la creación de los diferentes archivos y sus enlaces utilizando técnicas descritas en [la sección @sec-apputrecht].
 
-![Modelo del aplicador Benidorm en FreeCAD](img/TB_freecad.png){#fig-tbfreecad}
+![Modelo del aplicador Benidorm en FreeCAD](img/TB_freecad.png){#fig-tbfreecad width="400"}
 
 ### Procedimiento de reconstrucción {#sec-MM-reconstruction}
 

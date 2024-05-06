@@ -1,0 +1,102 @@
+project:
+  type: book
+number-sections: true
+number-depth: 4
+csl: medical_physics.csl
+lang: es
+link-citations: true
+execute:
+  echo: false
+jupyter: python3
+book:
+  favicon: logouni.png
+  title: Soluciones para la reconstrucción de aplicadores ginecológicos en braquiterapia sobre MRI
+  author: 
+    - name: "Antonio Otal Palacín"
+      orcid: "0000-0003-2704-7995"
+  date-format: "MMMM YYYY"
+  date: Marzo 2024
+  downloads: [pdf, epub]
+  chapters:
+    - index.qmd
+    - abstract.qmd
+    - siglas.qmd
+    - introduction.qmd
+    - m&m.qmd
+    - results.qmd
+    - discusion.qmd
+    - conclusions.qmd
+    - references.qmd
+  
+bibliography: referencias.bib
+format:
+  html:
+    cover-image: logouni.png
+    theme:
+      - cosmo
+  pdf:
+    documentclass: scrbook
+    pdf-engine: xelatex
+    fontsize: 11pt
+    interlinespace: 1.5
+    link-bibliography: true
+    link-citations: true
+    lof: true
+    lot: true
+    template-partials:
+      - before-body.tex
+      - dedication.tex
+    geometry:
+      - paperwidth=17cm
+      - paperheight=24cm
+    hyperrefoptions:
+      - linktoc=all
+      - pdfwindowui
+      - pdfview=FitBH
+      - pdfstartview=FitB
+    include-in-header: 
+      text: |
+            \usepackage{ragged2e}
+            \usepackage{tocbibind}
+            \usepackage{graphicx}
+            \usepackage{fancyhdr}
+            \pagestyle{fancy}
+            \fancyhf{} % Limpiar todos los campos de encabezado y pie de página
+            \renewcommand{\chaptermark}[1]{\markboth{\MakeLowercase{\MakeUppercase{#1}}}{}} 
+            \fancyhead[R]{\MakeUppercase{\leftmark}}
+            \cfoot{\thepage}            
+  titlepage-pdf:
+    coverpage: great-wave
+    coverpage-bg-image: "img/EscudoUV.png"
+    coverpage-title: "Soluciones para la reconstrucción de aplicadores ginecológicos en braquiterapia sobre MRI"
+    coverpage-footer: ""
+    titlepage-geometry:
+      - paperwidth=17cm
+      - paperheight=24cm
+    coverpage-theme:
+      page-html-color: "F6D5A8"
+      title-fontsize: 13
+      title-fontfamily: "LibreBodoni-Regular.otf"
+      title-bottom: "9.7cm"
+      title-left: "205mm"
+      header-style: "none"
+      author-style: "none"
+      footer-fontfamily: "LibreBodoni-Regular.otf"
+      footer-fontsize: 20
+      footer-align: "left"
+      footer-bottom: "20cm"
+      date-style: "none"
+      bg-image-fading: "north"
+      bg-image-opacity: 1.0
+      bg-image-size: "1cm"
+      bg-image-left: "1cm"
+      bg-image-rotate: "270"
+      bg-image-bottom: "10cm"
+
+
+
+  docx:
+    reference-doc: val.docx
+    toc: true
+  epub:
+    toc: true
