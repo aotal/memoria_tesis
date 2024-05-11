@@ -49,6 +49,12 @@ format:
     geometry:
       - paperwidth=17cm
       - paperheight=24cm
+      - top=35mm
+      - left=20mm
+      - right=20mm
+      - bottom=35mm
+      - headsep=10mm
+      - heightrounded
     hyperrefoptions:
       - linktoc=all
       - pdfwindowui
@@ -67,18 +73,15 @@ format:
             \cfoot{\thepage}            
   titlepage-pdf:
     coverpage: great-wave
-    coverpage-bg-image: "img/EscudoUV.png"
-    coverpage-title: ""
-    coverpage-footer: ""
-    titlepage-geometry:
-      - paperwidth=17cm
-      - paperheight=24cm
+    coverpage-bg-image: "img/remoteafterloader.jpg"
+    coverpage-title: "Soluciones para la reconstrucción de aplicadores ginecológicos en braquiterapia sobre MRI"
+    coverpage-footer: "Antonio Otal Palacín"
     coverpage-theme:
       page-html-color: "F6D5A8"
-      title-fontsize: 13
+      title-fontsize: 25
       title-fontfamily: "LibreBodoni-Regular.otf"
-      title-bottom: "9.7cm"
-      title-left: "205mm"
+      title-bottom: "20cm"
+      title-align: "left"
       header-style: "none"
       author-style: "none"
       footer-fontfamily: "LibreBodoni-Regular.otf"
@@ -86,10 +89,8 @@ format:
       footer-align: "left"
       footer-bottom: "20cm"
       date-style: "none"
-      bg-image-opacity: 0.2
-      bg-image-size: "0.8\\paperwidth"
-      bg-image-left: "0.1\\paperwidth"
-      bg-image-bottom: "52mm"
+      bg-image-opacity: 1.0
+      bg-image-size: "1.0\\paperwidth"
 
 
 
