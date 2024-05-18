@@ -1,8 +1,61 @@
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+$if(title)$
+\thispagestyle{empty}
+\centering
+\vspace*{-2cm} % Ajusta el valor negativo según tus necesidades para acercar la línea a la imagen
+\includegraphics[width=0.3\textwidth]{escudouv} % Ajusta el ancho según tus necesidades
+
+
+{\Large\bfseries Facultat de Fisica \par}
+{\Large\bfseries Departament de Física Atòmica, Molecular i Nuclear \par}
+{\Large\bfseries Programa de doctorado en Física: Código 3126 \par}
+
+\vspace*{1cm}
+{\textcolor{blue}{\Huge\bfseries $title$} \par}
+
+\vspace*{5mm}
+$if(subtitle)$
+\vspace{3ex}
+{\Large\bfseries $subtitle$ \par}
+$endif$
+\vspace{3ex}
+$for(by-author)$
+{\Large\bfseries Tesis Doctoral \par}
+{\large Presentada por: \par}
+{\large $by-author.name.literal$ \par}
+{\large Dirigida por: \par}
+\vspace{3ex}
+$endfor$%
+\begin{minipage}[t]{0.4\textwidth}
+    \centering
+    {\large Prof. Javier Vijande Asenjo \par}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \centering
+    {\large Dr. José Pérez Calatayud \par}
+\end{minipage}
+
+
+\vspace*{4cm}
+{\large Marzo 2024 \par}
+\vfill % Rellena el espacio vertical hasta el final de la página
+
+\raggedright
+$endif$
+
+
+\newpage
+\thispagestyle{empty}
+\begin{flushright}
+\end{flushright}
+
+
 %\hypertarget{Certificado}{%
 %\chapter*{Certificado}\label{certificado}}
 %\addcontentsline{toc}{chapter}{Certificado}
-\thispagestyle{empty}
-\vspace*{-1cm}
 \includegraphics[width=0.2\textwidth]{logouni} % Ajusta el ancho según tus necesidades
 
 \vspace{4ex}
@@ -30,12 +83,24 @@ sido realizada bajo su dirección en la Universidad de Valencia por Antonio Otal
 Universitat de València una vez cursados los estudios en el Doctorado en Física. Y para
 que así conste, en cumplimiento de la legislación vigente, firman el presente certificado.
 
-\vspace{5ex}
+\vspace{3ex}
 
 \justify
 
 València, Marzo de 2024
-\vfill % Rellena el espacio vertical hasta el final de la página
+
+\vspace{25ex}
+
+\begin{minipage}[t]{0.4\textwidth}
+    \centering
+    {\large Prof. Javier Vijande Asenjo \par}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \centering
+    {\large Dr. José Pérez Calatayud \par}
+\end{minipage}
+\raggedright
 
 
 \newpage
@@ -65,7 +130,7 @@ València, Marzo de 2024
 \chapter*{Agradecimientos}\label{agradecimientos}}
 \addcontentsline{toc}{chapter}{Agradecimientos}
 
-\markboth{Agradecimentos}{agradecimientos}
+\markboth{Agradecimientos}{agradecimientos}
 
 \justify
 Mucho tiempo ha pasado desde finales de 2016, fecha en que comenzó este trabajo y ha sido tanta la gente que ha colaborado directa o indirectamente en él que seguramente hará que me olvide de algunos. Por eso, gracias a todos y disculpas a los que me deje en el tintero.
@@ -89,5 +154,8 @@ Un recuerdo muy especial a mis padres, Sole y Jesús. Lamento mucho que no hayan
 Y sobre todo quiero dar las gracias a mis dos hijos, Lorenzo y Leonardo, por ser como son y sorprenderme todos los días. Y a Ascen, la luz que siempre brilla a mi lado.
 
 \end{flushright}
-
+\newpage
+\thispagestyle{empty}
+\begin{flushright}
+\end{flushright}
 \justify
